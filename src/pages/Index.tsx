@@ -41,7 +41,7 @@ const Home = () => {
               transition={{ duration: 0.6 }}
               className="inline-block bg-genmi-50 text-genmi-600 px-4 py-1.5 rounded-full text-sm font-medium mb-6"
             >
-             Generative AI for Genomics and Medical Imaging (GenMI)
+            Advancing Personalized, Preventive, and Predictive Medicine Through Cutting-Edge Research
             </motion.div>
 
             <motion.h1
@@ -50,8 +50,8 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl md:text-6xl font-display font-medium leading-tight mb-6"
             >
-              Advancing Personalized, Preventive, and Predictive Medicine Through{' '}
-              <span className="text-gradient">Generative AI</span>
+             Generative AI for Genomics and Medical Imaging{' '}
+              <span className="text-gradient">GenMI</span>
             </motion.h1>
 
             <motion.p
