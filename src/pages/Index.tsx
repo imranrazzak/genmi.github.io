@@ -41,7 +41,7 @@ const Home = () => {
               transition={{ duration: 0.6 }}
               className="inline-block bg-genmi-50 text-genmi-600 px-4 py-1.5 rounded-full text-sm font-medium mb-6"
             >
-              Generative AI for Medical Innovation
+             Generative AI for Genomics and Medical Imaging (GenMI)
             </motion.div>
 
             <motion.h1
@@ -50,7 +50,7 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl md:text-6xl font-display font-medium leading-tight mb-6"
             >
-              Advancing Healthcare Through{' '}
+              Advancing Personalized, Preventive, and Predictive Medicine Through{' '}
               <span className="text-gradient">Generative AI</span>
             </motion.h1>
 
@@ -60,7 +60,12 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-muted-foreground text-lg mb-8"
             >
-              The GenMI Research Group explores groundbreaking applications of generative AI in genomics and medical imaging to revolutionize healthcare diagnostics and treatment.
+  GenMI focuses on human-centered AI, combining multiomics, biomedical imaging, visualization, and information technologies to develop innovative clinical applications that advance patient health and well-being.
+Our research addresses critical healthcare challenges by developing foundational theories in information technologies and computer science to advance Personalized, Preventive, and Predictive Medicine. We leverage expertise in machine learning, computer vision, data science, artificial intelligence, bioinformatics, information visualization, and behavioral informatics.
+To gain comprehensive insights into disease entities, we integrate multi-layered data, including single-cell RNA sequencing, methylomics, and medical imaging. In close collaboration with clinicians at Charité, we develop clinical decision support systems for cancer treatment and solutions for routine clinical tasks, such as the automated annotation of radiological images.
+Through partnerships with leading industry players—such as major hospitals and healthcare companies—we translate cutting-edge research into real-world applications, spanning algorithm development, prototype creation, and commercialization.
+Breakthroughs in these fields lead to significant advancements in precision and personalized medicine, improving patient care and healthcare infrastructure. Our innovations enhance multimedia patient record systems, advanced computer-assisted surgery, AI-driven treatment planning, and telehealth solutions for remote patient monitoring, ultimately increasing healthcare accessibility, efficiency, and outcomes.
+
             </motion.p>
 
             <motion.div
