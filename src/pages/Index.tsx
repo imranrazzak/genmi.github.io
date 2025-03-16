@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -7,11 +6,12 @@ import NewsCard from '@/components/NewsCard';
 import { ArrowRight, BookOpen, Brain, ImagePlus, Dna, Microscope, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-
 const Home = () => {
   // Animation variants
   const containerVariants = {
-    hidden: { opacity: 0 },
+    hidden: {
+      opacity: 0
+    },
     visible: {
       opacity: 1,
       transition: {
@@ -19,71 +19,77 @@ const Home = () => {
       }
     }
   };
-
   const itemVariants = {
-    hidden: { opacity: 0, y: 20 },
+    hidden: {
+      opacity: 0,
+      y: 20
+    },
     visible: {
       opacity: 1,
       y: 0,
-      transition: { duration: 0.5 }
+      transition: {
+        duration: 0.5
+      }
     }
   };
-
-  return (
-    <Layout>
+  return <Layout>
       {/* Hero Section */}
-      <section className="pt-20 pb-20 md:pb-28 px-6">
+      <section className="pt-20 pb-20 md:pb-28 px-6 rounded-lg">
         <div className="container mx-auto">
-          <div className="max-w-4xl mx-auto text-center">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              className="inline-block bg-genmi-50 text-genmi-600 px-4 py-1.5 rounded-full text-sm font-medium mb-6"
-            >
+          <div className="max-w-4xl mx-auto text-center bg-slate-50">
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            duration: 0.6
+          }} className="inline-block bg-genmi-50 text-genmi-600 px-4 py-1.5 rounded-full text-sm font-medium mb-6">
             Advancing Personalized, Preventive, and Predictive Medicine Through Cutting-Edge Research
             </motion.div>
 
-            <motion.h1
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-4xl md:text-6xl font-display font-medium leading-tight mb-6"
-            >
+            <motion.h1 initial={{
+            opacity: 0,
+            y: 20
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            duration: 0.6,
+            delay: 0.1
+          }} className="text-4xl md:text-6xl font-display font-medium leading-tight mb-6">
              Generative AI for Genomics and Medical Imaging{' '}
               <span className="text-gradient">(GenMI)</span>
             </motion.h1>
 
-            <motion.p
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-muted-foreground text-lg mb-8"
-            >
-GenMI focuses on human-centered AI, combining multiomics, biomedical imaging, visualization, and information technologies to develop innovative clinical applications that advance patient health and well-being.
-Our research addresses critical healthcare challenges by developing foundational theories in information technologies and computer science to advance Personalized, Preventive, and Predictive Medicine. We leverage expertise in machine learning, computer vision, data science, artificial intelligence, bioinformatics, information visualization, and behavioral informatics.
-To gain comprehensive insights into disease entities, we integrate multi-layered data, including single-cell RNA sequencing, methylomics, and medical imaging. In close collaboration with clinicians at Charité, we develop clinical decision support systems for cancer treatment and solutions for routine clinical tasks, such as the automated annotation of radiological images.
-Through partnerships with leading industry players—such as major hospitals and healthcare companies—we translate cutting-edge research into real-world applications, spanning algorithm development, prototype creation, and commercialization.
-Breakthroughs in these fields lead to significant advancements in precision and personalized medicine, improving patient care and healthcare infrastructure. Our innovations enhance multimedia patient record systems, advanced computer-assisted surgery, AI-driven treatment planning, and telehealth solutions for remote patient monitoring, ultimately increasing healthcare accessibility, efficiency, and outcomes.
+            <motion.p initial={{
+            opacity: 0,
+            y: 20
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            duration: 0.6,
+            delay: 0.2
+          }} className="mb-8 mx-0 text-base font-normal text-slate-950">GenMI focuses on human-centered AI, combining multiomics, biomedical imaging, visualization, and information technologies to develop innovative clinical applications that advance patient health and well-being. 
+Our research addresses critical healthcare challenges by developing foundational theories in information technologies and computer science to advance Personalized, Preventive, and Predictive Medicine. We leverage expertise in machine learning, computer vision, data science, artificial intelligence, bioinformatics, information visualization, and behavioral informatics. 
+To gain comprehensive insights into disease entities, we integrate multi-layered data, including single-cell RNA sequencing, methylomics, and medical imaging. In close collaboration with clinicians at Charité, we develop clinical decision support systems for cancer treatment and solutions for routine clinical tasks, such as the automated annotation of radiological images. Through partnerships with leading industry players—such as major hospitals and healthcare companies—we translate cutting-edge research into real-world applications, spanning algorithm development, prototype creation, and commercialization. Breakthroughs in these fields lead to significant advancements in precision and personalized medicine, improving patient care and healthcare infrastructure. Our innovations enhance multimedia patient record systems, advanced computer-assisted surgery, AI-driven treatment planning, and telehealth solutions for remote patient monitoring, ultimately increasing healthcare accessibility, efficiency, and outcomes.</motion.p>
 
-            </motion.p>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="flex flex-col sm:flex-row items-center justify-center gap-4"
-            >
-              <Link
-                to="/projects"
-                className="bg-genmi-600 text-white rounded-full px-6 py-3 font-medium hover:bg-genmi-700 transition-colors"
-              >
+            <motion.div initial={{
+            opacity: 0,
+            y: 20
+          }} animate={{
+            opacity: 1,
+            y: 0
+          }} transition={{
+            duration: 0.6,
+            delay: 0.3
+          }} className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link to="/projects" className="bg-genmi-600 text-white rounded-full px-6 py-3 font-medium hover:bg-genmi-700 transition-colors">
                 Explore Our Projects
               </Link>
-              <Link
-                to="/about"
-                className="text-foreground rounded-full px-6 py-3 font-medium border border-border hover:bg-background/80 transition-colors"
-              >
+              <Link to="/about" className="text-foreground rounded-full px-6 py-3 font-medium border border-border hover:bg-background/80 transition-colors">
                 Learn About Us
               </Link>
             </motion.div>
@@ -94,23 +100,12 @@ Breakthroughs in these fields lead to significant advancements in precision and 
       {/* Research Areas Section */}
       <section className="py-20 bg-genmi-50/50">
         <div className="container mx-auto px-6">
-          <SectionTitle
-            subtext="Our Focus"
-            title="Key Research Areas"
-            center={true}
-          />
+          <SectionTitle subtext="Our Focus" title="Key Research Areas" center={true} />
 
-          <motion.div
-            variants={containerVariants}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true }}
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12"
-          >
-            <motion.div
-              variants={itemVariants}
-              className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow"
-            >
+          <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{
+          once: true
+        }} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Dna className="w-6 h-6" />
               </div>
@@ -120,10 +115,7 @@ Breakthroughs in these fields lead to significant advancements in precision and 
               </p>
             </motion.div>
 
-            <motion.div
-              variants={itemVariants}
-              className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow"
-            >
+            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <ImagePlus className="w-6 h-6" />
               </div>
@@ -133,10 +125,7 @@ Breakthroughs in these fields lead to significant advancements in precision and 
               </p>
             </motion.div>
 
-            <motion.div
-              variants={itemVariants}
-              className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow"
-            >
+            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Microscope className="w-6 h-6" />
               </div>
@@ -146,10 +135,7 @@ Breakthroughs in these fields lead to significant advancements in precision and 
               </p>
             </motion.div>
 
-            <motion.div
-              variants={itemVariants}
-              className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow"
-            >
+            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Brain className="w-6 h-6" />
               </div>
@@ -159,10 +145,7 @@ Breakthroughs in these fields lead to significant advancements in precision and 
               </p>
             </motion.div>
 
-            <motion.div
-              variants={itemVariants}
-              className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow"
-            >
+            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <BookOpen className="w-6 h-6" />
               </div>
@@ -172,10 +155,7 @@ Breakthroughs in these fields lead to significant advancements in precision and 
               </p>
             </motion.div>
 
-            <motion.div
-              variants={itemVariants}
-              className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow"
-            >
+            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Users className="w-6 h-6" />
               </div>
@@ -192,41 +172,16 @@ Breakthroughs in these fields lead to significant advancements in precision and 
       <section className="py-20">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
-            <SectionTitle
-              subtext="Featured Work"
-              title="Our Latest Projects"
-              className="md:mb-0"
-            />
-            <Link
-              to="/projects"
-              className="inline-flex items-center text-genmi-600 hover:text-genmi-800 font-medium transition-colors"
-            >
+            <SectionTitle subtext="Featured Work" title="Our Latest Projects" className="md:mb-0" />
+            <Link to="/projects" className="inline-flex items-center text-genmi-600 hover:text-genmi-800 font-medium transition-colors">
               View all projects <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <FeaturedCard
-              title="GenomeGPT"
-              description="A generative AI model for predicting gene expression patterns and genetic variations."
-              imageUrl="https://images.unsplash.com/photo-1542992015-3b760b0b5c19?auto=format&fit=crop&q=80"
-              link="/projects/genome-gpt"
-              index={0}
-            />
-            <FeaturedCard
-              title="MedSynthImager"
-              description="Generating synthetic medical images to enhance diagnostic model training with limited real-world data."
-              imageUrl="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80"
-              link="/projects/medsynthimager"
-              index={1}
-            />
-            <FeaturedCard
-              title="PathoDiffusion"
-              description="Using diffusion models to enhance pathology images and highlight abnormalities."
-              imageUrl="https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&q=80"
-              link="/projects/pathodiffusion"
-              index={2}
-            />
+            <FeaturedCard title="GenomeGPT" description="A generative AI model for predicting gene expression patterns and genetic variations." imageUrl="https://images.unsplash.com/photo-1542992015-3b760b0b5c19?auto=format&fit=crop&q=80" link="/projects/genome-gpt" index={0} />
+            <FeaturedCard title="MedSynthImager" description="Generating synthetic medical images to enhance diagnostic model training with limited real-world data." imageUrl="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80" link="/projects/medsynthimager" index={1} />
+            <FeaturedCard title="PathoDiffusion" description="Using diffusion models to enhance pathology images and highlight abnormalities." imageUrl="https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&q=80" link="/projects/pathodiffusion" index={2} />
           </div>
         </div>
       </section>
@@ -235,43 +190,16 @@ Breakthroughs in these fields lead to significant advancements in precision and 
       <section className="py-20 bg-genmi-50/50">
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-12">
-            <SectionTitle
-              subtext="News & Updates"
-              title="Latest Announcements"
-              className="md:mb-0"
-            />
-            <Link
-              to="/news"
-              className="inline-flex items-center text-genmi-600 hover:text-genmi-800 font-medium transition-colors"
-            >
+            <SectionTitle subtext="News & Updates" title="Latest Announcements" className="md:mb-0" />
+            <Link to="/news" className="inline-flex items-center text-genmi-600 hover:text-genmi-800 font-medium transition-colors">
               View all news <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <NewsCard
-              id="1"
-              title="GenMI Receives $2.5M Grant for Medical Imaging AI Research"
-              summary="Our research group has been awarded a significant grant to advance our work in AI-enhanced medical imaging technologies."
-              date="2023-05-15"
-              imageUrl="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80"
-              featured={true}
-              index={0}
-            />
-            <NewsCard
-              id="2"
-              title="New Publication in Nature Biotechnology"
-              summary="Our team's groundbreaking work on genomic sequence prediction using transformer models has been published in a leading journal."
-              date="2023-04-02"
-              index={1}
-            />
-            <NewsCard
-              id="3"
-              title="Collaboration with University Medical Center"
-              summary="GenMI has partnered with University Medical Center to implement AI tools for radiology diagnostics."
-              date="2023-03-18"
-              index={2}
-            />
+            <NewsCard id="1" title="GenMI Receives $2.5M Grant for Medical Imaging AI Research" summary="Our research group has been awarded a significant grant to advance our work in AI-enhanced medical imaging technologies." date="2023-05-15" imageUrl="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80" featured={true} index={0} />
+            <NewsCard id="2" title="New Publication in Nature Biotechnology" summary="Our team's groundbreaking work on genomic sequence prediction using transformer models has been published in a leading journal." date="2023-04-02" index={1} />
+            <NewsCard id="3" title="Collaboration with University Medical Center" summary="GenMI has partnered with University Medical Center to implement AI tools for radiology diagnostics." date="2023-03-18" index={2} />
           </div>
         </div>
       </section>
@@ -284,17 +212,12 @@ Breakthroughs in these fields lead to significant advancements in precision and 
             <p className="max-w-2xl mx-auto mb-8 text-white/90">
               We're always looking for research collaborators, industry partners, and talented individuals to join our mission of advancing healthcare through AI.
             </p>
-            <Link
-              to="/about"
-              className="inline-block bg-white text-genmi-600 rounded-full px-8 py-3 font-medium hover:bg-opacity-95 transition-colors"
-            >
+            <Link to="/about" className="inline-block bg-white text-genmi-600 rounded-full px-8 py-3 font-medium hover:bg-opacity-95 transition-colors">
               Get in Touch
             </Link>
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Home;
