@@ -22,13 +22,13 @@ const Team = () => {
   // Sample team data
   const facultyMembers = [
     {
-      name: "Dr. Sarah Chen",
-      role: "Principal Investigator",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500",
-      bio: "Dr. Chen specializes in deep learning for medical image analysis with over 15 years of expertise in computer vision and healthcare AI applications.",
+      name: "Imran Razzak",
+      role: "Associate Professor",
+      image: "https://image.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500",
+      bio: "Imran specializes in deep learning for medical image analysis with over 15 years of expertise in computer vision and healthcare AI applications.",
       links: {
-        email: "sarah.chen@genmi-research.org",
-        website: "https://example.com",
+        email: "imran.razzak@mbzuai.ac.ae",
+        website: "https://imranrazzak.github.io/",
         linkedin: "https://linkedin.com",
         github: "https://github.com"
       }
