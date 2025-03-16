@@ -133,7 +133,7 @@ To gain comprehensive insights into disease entities, we integrate multi-layered
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Microscope className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Disease Detection</h3>
+              <h3 className="text-xl font-medium mb-3">Early Disease Detection</h3>
               <p className="text-muted-foreground">
                 Building advanced AI systems for early detection and diagnosis of diseases using both genomic and imaging data.
               </p>
