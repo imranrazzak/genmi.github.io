@@ -51,7 +51,7 @@ const Home = () => {
               className="text-4xl md:text-6xl font-display font-medium leading-tight mb-6"
             >
              Generative AI for Genomics and Medical Imaging{' '}
-              <span className="text-gradient">GenMI</span>
+              <span className="text-gradient">(GenMI)</span>
             </motion.h1>
 
             <motion.p
@@ -60,7 +60,7 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-muted-foreground text-lg mb-8"
             >
-  GenMI focuses on human-centered AI, combining multiomics, biomedical imaging, visualization, and information technologies to develop innovative clinical applications that advance patient health and well-being.
+GenMI focuses on human-centered AI, combining multiomics, biomedical imaging, visualization, and information technologies to develop innovative clinical applications that advance patient health and well-being.
 Our research addresses critical healthcare challenges by developing foundational theories in information technologies and computer science to advance Personalized, Preventive, and Predictive Medicine. We leverage expertise in machine learning, computer vision, data science, artificial intelligence, bioinformatics, information visualization, and behavioral informatics.
 To gain comprehensive insights into disease entities, we integrate multi-layered data, including single-cell RNA sequencing, methylomics, and medical imaging. In close collaboration with clinicians at Charité, we develop clinical decision support systems for cancer treatment and solutions for routine clinical tasks, such as the automated annotation of radiological images.
 Through partnerships with leading industry players—such as major hospitals and healthcare companies—we translate cutting-edge research into real-world applications, spanning algorithm development, prototype creation, and commercialization.
@@ -153,7 +153,7 @@ Breakthroughs in these fields lead to significant advancements in precision and 
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Brain className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Synthetic Data Generation</h3>
+              <h3 className="text-xl font-medium mb-3">Embodied Health</h3>
               <p className="text-muted-foreground">
                 Creating realistic synthetic medical datasets to enhance model training and overcome data privacy and scarcity challenges.
               </p>
