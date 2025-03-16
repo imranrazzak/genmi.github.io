@@ -15,6 +15,7 @@ interface TeamMemberCardProps {
     github?: string;
   };
   index?: number;
+  onClick?: () => void;
 }
 
 const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
@@ -23,7 +24,8 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
   image,
   bio,
   links,
-  index = 0
+  index = 0,
+  onClick
 }) => {
   return (
     <motion.div 
@@ -31,7 +33,8 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.4, delay: index * 0.1 }}
-      className="bg-white rounded-2xl shadow-sm border border-border overflow-hidden hover:shadow-md transition-shadow duration-300"
+      className="bg-white rounded-2xl shadow-sm border border-border overflow-hidden hover:shadow-md transition-shadow duration-300 cursor-pointer"
+      onClick={onClick}
     >
       <div className="aspect-[1/1] w-full overflow-hidden">
         <img 
@@ -52,6 +55,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
                 href={`mailto:${links.email}`} 
                 aria-label={`Email ${name}`}
                 className="text-muted-foreground hover:text-genmi-600 transition-colors"
+                onClick={(e) => e.stopPropagation()} // Prevent card click when clicking on icon
               >
                 <Mail className="w-5 h-5" />
               </a>
@@ -63,6 +67,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
                 rel="noopener noreferrer"
                 aria-label={`${name}'s website`}
                 className="text-muted-foreground hover:text-genmi-600 transition-colors"
+                onClick={(e) => e.stopPropagation()} // Prevent card click when clicking on icon
               >
                 <ExternalLink className="w-5 h-5" />
               </a>
@@ -74,6 +79,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
                 rel="noopener noreferrer"
                 aria-label={`${name}'s LinkedIn profile`}
                 className="text-muted-foreground hover:text-genmi-600 transition-colors"
+                onClick={(e) => e.stopPropagation()} // Prevent card click when clicking on icon
               >
                 <Linkedin className="w-5 h-5" />
               </a>
@@ -85,6 +91,7 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
                 rel="noopener noreferrer"
                 aria-label={`${name}'s GitHub profile`}
                 className="text-muted-foreground hover:text-genmi-600 transition-colors"
+                onClick={(e) => e.stopPropagation()} // Prevent card click when clicking on icon
               >
                 <Github className="w-5 h-5" />
               </a>

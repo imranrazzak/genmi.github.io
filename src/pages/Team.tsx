@@ -1,11 +1,24 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import TeamMemberCard from '@/components/TeamMemberCard';
+import TeamMemberModal from '@/components/TeamMemberModal';
 import { motion } from 'framer-motion';
 
 const Team = () => {
+  const [selectedMember, setSelectedMember] = useState<any>(null);
+  const [modalOpen, setModalOpen] = useState(false);
+
+  const openMemberDetail = (member: any) => {
+    setSelectedMember(member);
+    setModalOpen(true);
+  };
+
+  const closeMemberDetail = () => {
+    setModalOpen(false);
+  };
+
   // Sample team data
   const facultyMembers = [
     {
@@ -151,6 +164,7 @@ const Team = () => {
                 bio={member.bio}
                 links={member.links}
                 index={index}
+                onClick={() => openMemberDetail(member)}
               />
             ))}
           </div>
@@ -174,6 +188,7 @@ const Team = () => {
                 bio={member.bio}
                 links={member.links}
                 index={index}
+                onClick={() => openMemberDetail(member)}
               />
             ))}
           </div>
@@ -197,6 +212,7 @@ const Team = () => {
                 bio={member.bio}
                 links={member.links}
                 index={index}
+                onClick={() => openMemberDetail(member)}
               />
             ))}
           </div>
@@ -227,6 +243,13 @@ const Team = () => {
           </div>
         </div>
       </section>
+
+      {/* Team Member Modal */}
+      <TeamMemberModal 
+        isOpen={modalOpen}
+        onClose={closeMemberDetail}
+        member={selectedMember}
+      />
     </Layout>
   );
 };
