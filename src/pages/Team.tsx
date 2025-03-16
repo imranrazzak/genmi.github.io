@@ -33,34 +33,34 @@ const Team = () => {
         github: "https://github.com"
       }
     },
-    {
-      name: "Dr. Marcus Johnson",
-      role: "Co-Principal Investigator",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
-      bio: "Dr. Johnson leads our genomics research with a background in computational biology and machine learning for genetic sequence analysis.",
-      links: {
-        email: "marcus.johnson@genmi-research.org",
-        website: "https://example.com",
-        linkedin: "https://linkedin.com"
-      }
-    },
-    {
-      name: "Dr. Priya Sharma",
-      role: "Associate Professor",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
-      bio: "Dr. Sharma focuses on explainable AI for healthcare and the development of clinical decision support systems.",
-      links: {
-        email: "priya.sharma@genmi-research.org",
-        linkedin: "https://linkedin.com",
-        github: "https://github.com"
-      }
-    }
+    // {
+    //   name: "Dr. Marcus Johnson",
+    //   role: "Co-Principal Investigator",
+    //   image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
+    //   bio: "Dr. Johnson leads our genomics research with a background in computational biology and machine learning for genetic sequence analysis.",
+    //   links: {
+    //     email: "marcus.johnson@genmi-research.org",
+    //     website: "https://example.com",
+    //     linkedin: "https://linkedin.com"
+    //   }
+    // },
+    // {
+    //   name: "Dr. Priya Sharma",
+    //   role: "Associate Professor",
+    //   image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
+    //   bio: "Dr. Sharma focuses on explainable AI for healthcare and the development of clinical decision support systems.",
+    //   links: {
+    //     email: "priya.sharma@genmi-research.org",
+    //     linkedin: "https://linkedin.com",
+    //     github: "https://github.com"
+    //   }
+    // }
   ];
 
   const postdocs = [
     {
-      name: "Dr. James Wilson",
-      role: "Postdoctoral Researcher",
+      name: "Felong Tang",
+      role: "Research Associate",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
       bio: "Specializing in generative models for synthetic medical data generation and privacy-preserving machine learning.",
       links: {
@@ -69,7 +69,7 @@ const Team = () => {
       }
     },
     {
-      name: "Dr. Aisha Rahman",
+      name: "Yulong Lu",
       role: "Postdoctoral Researcher",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
       bio: "Working on transformer models for genomic sequence prediction and gene expression analysis.",
@@ -77,12 +77,19 @@ const Team = () => {
         email: "aisha.rahman@genmi-research.org",
         linkedin: "https://linkedin.com"
       }
-    }
-  ];
-
-  const gradStudents = [
-    {
-      name: "Alex Winters",
+    },
+      {
+      name: "Ming Xu",
+      role: "Postdoctoral Researcher",
+      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
+      bio: "Working on transformer models for genomic sequence prediction and gene expression analysis.",
+      links: {
+        email: "aisha.rahman@genmi-research.org",
+        linkedin: "https://linkedin.com"
+      }
+    },
+     {
+      name: "Tony Alex",
       role: "PhD Candidate",
       image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=500",
       bio: "Researching diffusion models for medical image enhancement and anomaly detection in radiology.",
@@ -92,7 +99,31 @@ const Team = () => {
       }
     },
     {
-      name: "Maya Patel",
+      name: "Jiahong Wu",
+      role: "PhD Candidate",
+      image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&q=80&w=500",
+      bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
+      links: {
+        email: "maya.patel@genmi-research.org",
+        linkedin: "https://linkedin.com"
+      }
+    }
+  
+  ];
+
+  const gradStudents = [
+    {
+      name: "Tony Alex",
+      role: "PhD Candidate",
+      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching diffusion models for medical image enhancement and anomaly detection in radiology.",
+      links: {
+        email: "alex.winters@genmi-research.org",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Jiahong Wu",
       role: "PhD Candidate",
       image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&q=80&w=500",
       bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
@@ -101,6 +132,7 @@ const Team = () => {
         linkedin: "https://linkedin.com"
       }
     },
+    
     {
       name: "Carlos Rodriguez",
       role: "PhD Student",
