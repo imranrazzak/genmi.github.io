@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -19,7 +18,6 @@ const Team = () => {
     setModalOpen(false);
   };
 
-  // Sample team data
   const facultyMembers = [
     {
       name: "Imran Razzak",
@@ -32,29 +30,7 @@ const Team = () => {
         linkedin: "https://linkedin.com",
         github: "https://github.com"
       }
-    },
-    // {
-    //   name: "Dr. Marcus Johnson",
-    //   role: "Co-Principal Investigator",
-    //   image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
-    //   bio: "Dr. Johnson leads our genomics research with a background in computational biology and machine learning for genetic sequence analysis.",
-    //   links: {
-    //     email: "marcus.johnson@genmi-research.org",
-    //     website: "https://example.com",
-    //     linkedin: "https://linkedin.com"
-    //   }
-    // },
-    // {
-    //   name: "Dr. Priya Sharma",
-    //   role: "Associate Professor",
-    //   image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
-    //   bio: "Dr. Sharma focuses on explainable AI for healthcare and the development of clinical decision support systems.",
-    //   links: {
-    //     email: "priya.sharma@genmi-research.org",
-    //     linkedin: "https://linkedin.com",
-    //     github: "https://github.com"
-    //   }
-    // }
+    }
   ];
 
   const postdocs = [
@@ -70,9 +46,9 @@ const Team = () => {
     },
     {
       name: "Yulong Lu",
-      role: "Postdoctoral Researcher",
+      role: "Research Associate",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
-      bio: "Working on transformer models for genomic sequence prediction and gene expression analysis.",
+      bio: "Specializing in multiomics for genetic variation and biomarker discovery, integrating genomics, transcriptomics, and proteomics to uncover disease mechanisms and therapeutic targets.",
       links: {
         email: "aisha.rahman@genmi-research.org",
         linkedin: "https://linkedin.com"
@@ -156,7 +132,6 @@ const Team = () => {
 
   return (
     <Layout>
-      {/* Hero Section */}
       <section className="pt-20 pb-16 px-6">
         <div className="container mx-auto">
           <motion.div
@@ -178,7 +153,6 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Faculty Section */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <SectionTitle
@@ -202,7 +176,6 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Post-Docs Section */}
       <section className="py-16 px-6 bg-genmi-50/50">
         <div className="container mx-auto">
           <SectionTitle
@@ -226,7 +199,6 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Graduate Students Section */}
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <SectionTitle
@@ -250,7 +222,6 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Join Us Section */}
       <section className="py-20 px-6">
         <div className="container mx-auto">
           <div className="bg-white border border-border rounded-3xl p-10 md:p-16 text-center max-w-4xl mx-auto">
@@ -275,7 +246,6 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Team Member Modal */}
       <TeamMemberModal 
         isOpen={modalOpen}
         onClose={closeMemberDetail}
