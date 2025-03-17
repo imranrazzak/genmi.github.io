@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -24,7 +23,7 @@ const Team = () => {
     {
       name: "Imran Razzak",
       role: "Associate Professor",
-      image: "https://image.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/137aa101-1315-4d99-a774-655614ab111e.png",
       bio: "Imran specializes in deep learning for medical image analysis with over 15 years of expertise in computer vision and healthcare AI applications.",
       links: {
         email: "imran.razzak@mbzuai.ac.ae",
@@ -78,7 +77,7 @@ const Team = () => {
         linkedin: "https://linkedin.com"
       }
     },
-      {
+    {
       name: "Ming Xu",
       role: "Postdoctoral Researcher",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
@@ -88,7 +87,7 @@ const Team = () => {
         linkedin: "https://linkedin.com"
       }
     },
-     {
+    {
       name: "Tony Alex",
       role: "PhD Candidate",
       image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=500",
@@ -108,7 +107,6 @@ const Team = () => {
         linkedin: "https://linkedin.com"
       }
     }
-  
   ];
 
   const gradStudents = [
