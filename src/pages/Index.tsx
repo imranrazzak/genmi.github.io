@@ -45,7 +45,7 @@ const Home = () => {
             y: 0
           }} transition={{
             duration: 0.6
-          }} className="inline-block bg-genmi-50 text-genmi-600 px-4 py-1.5 rounded-full text-sm font-medium mb-6">
+          }} className="inline-block bg-genmi-50 text-genmi-600 px-4 rounded-full text-sm font-medium mb-6 py-[8px]">
             Advancing Personalized, Preventive, and Predictive Medicine Through Cutting-Edge Research
             </motion.div>
 
