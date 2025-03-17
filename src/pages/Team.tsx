@@ -24,7 +24,7 @@ const Team = () => {
       name: "Imran Razzak",
       role: "Associate Professor",
       image: "/lovable-uploads/137aa101-1315-4d99-a774-655614ab111e.png",
-      bio: "Imran specializes in deep learning for medical image analysis with over 15 years of expertise in computer vision and healthcare AI applications.",
+      bio: "Imran specializes in human-centered AI with a patent-driven approach, focusing on early diagnosis. With over 15 years of expertise in computer vision, natural language processing, and healthcare AI applications, he brings deep technical and industry knowledge to the field.",
       links: {
         email: "imran.razzak@mbzuai.ac.ae",
         website: "https://imranrazzak.github.io/",
