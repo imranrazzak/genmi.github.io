@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -61,7 +62,7 @@ const Team = () => {
       name: "Felong Tang",
       role: "Research Associate",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
-      bio: "Specializing in generative models for synthetic medical data generation and privacy-preserving machine learning.",
+      bio: "Specializing in generative models for medical data and multimodal vision-language models.",
       links: {
         email: "james.wilson@genmi-research.org",
         github: "https://github.com"
