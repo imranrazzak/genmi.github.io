@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -56,9 +57,9 @@ const Team = () => {
     },
     {
       name: "Ming Xu",
-      role: "Postdoctoral Researcher",
+      role: "Research Associate",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
-      bio: "Working on transformer models for genomic sequence prediction and gene expression analysis.",
+      bio: "Expertise in Robotics, Optimization, Control Theory, Machine Learning, and Computer Vision, developing intelligent systems for automation and real-world applications.",
       links: {
         email: "aisha.rahman@genmi-research.org",
         linkedin: "https://linkedin.com"
