@@ -1,8 +1,11 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, MapPin, Phone } from 'lucide-react';
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+
   return <footer className="bg-white border-t border-border py-12 px-6 md:px-10">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
@@ -34,7 +37,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-medium">Contact</h3>
             <div className="space-y-2">
-              <a href="mailto:info@genmi-research.org" className="flex items-center space-x-2 text-muted-foreground hover:text-genmi-600 text-sm transition-colors">
+              <a href="mailto:info@genmi.ai" className="flex items-center space-x-2 text-muted-foreground hover:text-genmi-600 text-sm transition-colors">
                 <Mail className="w-4 h-4" />
                 <span>info@genmi.ai</span>
               </a>
@@ -44,7 +47,7 @@ const Footer = () => {
               </div>
               <div className="flex items-start space-x-2 text-muted-foreground text-sm">
                 <MapPin className="w-4 h-4 mt-0.5" />
-                <span>123 AI Research Blvd, Suite 400<br />Innovation City, IC 98765</span>
+                <span>Building B, MBZUAI, Masdar City - SE45 05 - Abu Dhabi</span>
               </div>
             </div>
           </div>
@@ -66,4 +69,5 @@ const Footer = () => {
       </div>
     </footer>;
 };
+
 export default Footer;
