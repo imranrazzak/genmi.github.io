@@ -1,9 +1,10 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import { motion } from 'framer-motion';
-import { MultiomicsDashboard } from '@/components/MultiomicsDashboard';
-import { MedicalImagingVisuals } from '@/components/MedicalImagingVisuals';
+import MultiomicsDashboard from '@/components/MultiomicsDashboard';
+import MedicalImagingVisuals from '@/components/MedicalImagingVisuals';
 import { 
   Brain, 
   HeartPulse, 
@@ -11,7 +12,10 @@ import {
   Dna, 
   Database, 
   LineChart,
-  TestTube
+  TestTube,
+  Building2,
+  GraduationCap,
+  Users
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 

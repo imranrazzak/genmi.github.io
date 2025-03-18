@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -57,7 +58,7 @@ const Team = () => {
     {
       name: "Ming Xu",
       role: "Research Associate",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png",
       bio: "Expertise in Robotics, Optimization, Control Theory, Machine Learning, and Computer Vision, developing intelligent systems for automation and real-world applications.",
       links: {
         email: "aisha.rahman@genmi-research.org",
