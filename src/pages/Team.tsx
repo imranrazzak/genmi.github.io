@@ -68,7 +68,7 @@ const Team = () => {
     {
       name: "Tony Alex",
       role: "PhD Candidate",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
       bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
       links: {
         email: "alex.winters@genmi-research.org",
@@ -91,7 +91,7 @@ const Team = () => {
     {
       name: "Tony Alex",
       role: "PhD Candidate",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
       bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
       links: {
         email: "alex.winters@genmi-research.org",
