@@ -202,7 +202,7 @@ const Team = () => {
       <section className="py-16 px-6">
         <div className="container mx-auto">
           <SectionTitle
-            subtext="Students"
+            subtext="Graduate Researchers"
             title="Graduate Researchers"
           />
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
