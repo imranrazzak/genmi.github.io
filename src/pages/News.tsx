@@ -90,9 +90,8 @@ const News = () => {
         className="container py-12 px-4 sm:px-6 lg:px-8"
       >
         <SectionTitle
-          subtitle="Stay Updated"
+          subtext="Stay Updated"
           title="Latest News & Announcements"
-          description="Discover the latest updates, achievements, and developments from our research team."
         />
 
         {/* Search Bar */}
@@ -125,6 +124,7 @@ const News = () => {
                   imageUrl={news.imageUrl}
                   index={index}
                   featured={news.featured}
+                  hot={news.hot}
                 />
               ))}
             </div>
