@@ -4,6 +4,7 @@ import SectionTitle from '@/components/SectionTitle';
 import TeamMemberCard from '@/components/TeamMemberCard';
 import TeamMemberModal from '@/components/TeamMemberModal';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Team = () => {
   const [selectedMember, setSelectedMember] = useState<any>(null);
@@ -235,12 +236,12 @@ const Team = () => {
               <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
                 We're always looking for talented researchers and students who are passionate about using AI to transform healthcare. Check our openings or reach out directly.
               </p>
-              <a
-                href="#"
+              <Link
+                to="/open-positions"
                 className="bg-genmi-600 text-white rounded-full px-8 py-3 font-medium hover:bg-genmi-700 transition-colors inline-block"
               >
                 View Open Positions
-              </a>
+              </Link>
             </motion.div>
           </div>
         </div>

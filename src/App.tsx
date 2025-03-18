@@ -10,6 +10,7 @@ import Publications from "./pages/Publications";
 import News from "./pages/News";
 import Activities from "./pages/Activities";
 import About from "./pages/About";
+import OpenPositions from "./pages/OpenPositions";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/news" element={<News />} />
           <Route path="/activities" element={<Activities />} />
           <Route path="/about" element={<About />} />
+          <Route path="/open-positions" element={<OpenPositions />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
