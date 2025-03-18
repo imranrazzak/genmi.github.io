@@ -48,7 +48,7 @@ const Team = () => {
     {
       name: "Yulong Lu",
       role: "Research Associate",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/95a23e84-b459-4fbb-bbe4-11e1d34b9cee.png",
       bio: "Specializing in multiomics for genetic variation and biomarker discovery, integrating genomics, transcriptomics, and proteomics to uncover disease mechanisms and therapeutic targets.",
       links: {
         email: "aisha.rahman@genmi-research.org",
