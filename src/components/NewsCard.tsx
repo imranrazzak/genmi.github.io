@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar } from 'lucide-react';
+import { Calendar, Flame } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 
@@ -13,6 +13,7 @@ interface NewsCardProps {
   imageUrl?: string;
   index?: number;
   featured?: boolean;
+  hot?: boolean;
 }
 
 const NewsCard: React.FC<NewsCardProps> = ({
@@ -22,7 +23,8 @@ const NewsCard: React.FC<NewsCardProps> = ({
   date,
   imageUrl,
   index = 0,
-  featured = false
+  featured = false,
+  hot = false
 }) => {
   const formattedDate = new Date(date).toLocaleDateString('en-US', {
     year: 'numeric',
@@ -38,7 +40,8 @@ const NewsCard: React.FC<NewsCardProps> = ({
       transition={{ duration: 0.4, delay: index * 0.1 }}
       className={cn(
         "group bg-white rounded-xl border border-border overflow-hidden hover:shadow-md transition-all duration-300",
-        featured && "md:col-span-2"
+        featured && "md:col-span-2",
+        hot && "ring-2 ring-red-500 ring-offset-2"
       )}
     >
       <div className={cn(
@@ -56,9 +59,17 @@ const NewsCard: React.FC<NewsCardProps> = ({
         )}
         
         <div className="p-6">
-          <div className="flex items-center text-sm text-muted-foreground mb-3">
-            <Calendar className="w-4 h-4 mr-2" />
-            {formattedDate}
+          <div className="flex items-center justify-between mb-3">
+            <div className="flex items-center text-sm text-muted-foreground">
+              <Calendar className="w-4 h-4 mr-2" />
+              {formattedDate}
+            </div>
+            {hot && (
+              <div className="flex items-center text-red-500 text-sm font-medium">
+                <Flame className="w-4 h-4 mr-1" />
+                Hot News
+              </div>
+            )}
           </div>
           
           <h3 className="text-xl font-medium mb-2 line-clamp-2">
