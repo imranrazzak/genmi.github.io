@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -76,9 +75,9 @@ const Team = () => {
       }
     },
     {
-      name: "Jiahong Wu",
+      name: "Jianghao Wu",
       role: "PhD Candidate",
-      image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
       bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
       links: {
         email: "maya.patel@genmi-research.org",
@@ -99,9 +98,9 @@ const Team = () => {
       }
     },
     {
-      name: "Jiahong Wu",
+      name: "Jianghao Wu",
       role: "PhD Candidate",
-      image: "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
       bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
       links: {
         email: "maya.patel@genmi-research.org",

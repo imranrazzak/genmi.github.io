@@ -1,97 +1,33 @@
 
 import React from 'react';
-import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
 
-interface SectionTitleProps {
-  subtext?: string;
-  subtitle?: string; // Added this for compatibility with existing code
+export interface SectionTitleProps {
+  subtext: string;
   title: string;
-  description?: string;
-  center?: boolean;
-  className?: string;
+  alignment?: 'left' | 'center';
 }
 
-const SectionTitle: React.FC<SectionTitleProps> = ({
-  subtext,
-  subtitle, // Use whichever is provided
-  title,
-  description,
-  center = false,
-  className
+const SectionTitle: React.FC<SectionTitleProps> = ({ 
+  subtext, 
+  title, 
+  alignment = 'center' 
 }) => {
-  // Use subtitle as fallback if subtext is not provided
-  const displayText = subtext || subtitle;
-  
   return (
-    <div className={cn("mb-12 space-y-2", center && "text-center", className)}>
-      {displayText && (
-        <motion.span 
-          initial={{
-            opacity: 0,
-            y: 10
-          }} 
-          whileInView={{
-            opacity: 1,
-            y: 0
-          }} 
-          viewport={{
-            once: true
-          }} 
-          transition={{
-            duration: 0.5,
-            delay: 0.1
-          }} 
-          className="inline-block text-sm font-medium bg-genmi-50 text-genmi-600 px-3 py-1 rounded-full"
-        >
-          {displayText}
-        </motion.span>
-      )}
-      
-      <motion.h2
-        initial={{
-          opacity: 0,
-          y: 10
-        }}
-        whileInView={{
-          opacity: 1,
-          y: 0
-        }}
-        viewport={{
-          once: true
-        }}
-        transition={{
-          duration: 0.5,
-          delay: 0.2
-        }}
-        className="text-3xl md:text-4xl font-bold tracking-tight"
-      >
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.5 }}
+      className={`mb-12 ${alignment === 'center' ? 'text-center' : 'text-left'}`}
+    >
+      <span className="inline-block bg-genmi-50 text-genmi-600 px-3 py-1 rounded-full text-sm font-medium mb-3">
+        {subtext}
+      </span>
+      <h2 className="text-3xl md:text-4xl font-display font-medium">
         {title}
-      </motion.h2>
-      
-      {description && (
-        <motion.p
-          initial={{
-            opacity: 0,
-            y: 10
-          }}
-          whileInView={{
-            opacity: 1,
-            y: 0
-          }}
-          viewport={{
-            once: true
-          }}
-          transition={{
-            duration: 0.5,
-            delay: 0.3
-          }}
-          className="text-muted-foreground text-lg max-w-3xl"
-        >
-          {description}
-        </motion.p>
-      )}
-    </div>
+      </h2>
+    </motion.div>
   );
 };
 
