@@ -1,19 +1,17 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
-import MultiomicsDashboard from '@/components/MultiomicsDashboard';
-import MedicalImagingVisuals from '@/components/MedicalImagingVisuals';
 import { motion } from 'framer-motion';
+import { MultiomicsDashboard } from '@/components/MultiomicsDashboard';
+import { MedicalImagingVisuals } from '@/components/MedicalImagingVisuals';
 import { 
-  HeartPulse, 
-  Dna, 
-  Image, 
   Brain, 
-  Building2, 
-  GraduationCap, 
-  Flask, 
-  Users 
+  HeartPulse, 
+  Microscope, 
+  Dna, 
+  Database, 
+  LineChart,
+  TestTube
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 

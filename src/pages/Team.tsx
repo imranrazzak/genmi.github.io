@@ -35,9 +35,9 @@ const Team = () => {
 
   const postdocs = [
     {
-      name: "Felong Tang",
+      name: "Feilong Tang",
       role: "Research Associate",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/2d853ee5-6a95-428b-969e-da913c38d778.png",
       bio: "Specializing in generative models for medical data and multimodal vision-language models.",
       links: {
         email: "james.wilson@genmi-research.org",
