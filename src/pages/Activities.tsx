@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import Layout from '@/components/Layout';
@@ -11,7 +10,7 @@ const activities = [
     id: "activity-1",
     title: "Team Lunch",
     description: "Monthly team lunch where we discuss research progress and celebrate achievements.",
-    imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+    imageUrl: "/lovable-uploads/f776e046-1db7-4e00-9319-82f135d32753.png"
   },
   {
     id: "activity-2",
@@ -100,6 +99,7 @@ const Activities = () => {
         <SectionTitle
           subtext="Lab Life"
           title="Our Activities"
+          alignment="center"
         />
         
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
