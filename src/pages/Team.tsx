@@ -58,7 +58,7 @@ const Team = () => {
       name: "Ming Xu",
       role: "Research Associate",
       image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=500",
-      bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
+      bio: "Expertise in Robotics, Optimization, Control Theory, Machine Learning, and Computer Vision, developing intelligent systems for automation and real-world applications.",
       links: {
         email: "aisha.rahman@genmi-research.org",
         linkedin: "https://linkedin.com"
@@ -68,7 +68,7 @@ const Team = () => {
       name: "Tony Alex",
       role: "PhD Candidate",
       image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=500",
-      bio: "Researching diffusion models for medical image enhancement and anomaly detection in radiology.",
+      bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
       links: {
         email: "alex.winters@genmi-research.org",
         github: "https://github.com"
@@ -91,7 +91,7 @@ const Team = () => {
       name: "Tony Alex",
       role: "PhD Candidate",
       image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=500",
-      bio: "Researching diffusion models for medical image enhancement and anomaly detection in radiology.",
+      bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
       links: {
         email: "alex.winters@genmi-research.org",
         github: "https://github.com"
