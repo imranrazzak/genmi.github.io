@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export interface SectionTitleProps {
-  subtext: string;
+  subtext?: string;
   title: string;
   alignment?: 'left' | 'center';
   className?: string;
@@ -23,9 +23,11 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
       transition={{ duration: 0.5 }}
       className={`mb-12 ${alignment === 'center' ? 'text-center' : 'text-left'} ${className}`}
     >
-      <span className="inline-block bg-genmi-50 text-genmi-600 px-3 py-1 rounded-full text-sm font-medium mb-3">
-        {subtext}
-      </span>
+      {subtext && (
+        <span className="inline-block bg-genmi-50 text-genmi-600 px-3 py-1 rounded-full text-sm font-medium mb-3">
+          {subtext}
+        </span>
+      )}
       <h2 className="text-3xl md:text-4xl font-display font-medium">
         {title}
       </h2>
