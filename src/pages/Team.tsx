@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -277,6 +278,36 @@ const Team = () => {
       links: {
         email: "m.umar@unsw.edu.au",
         github: "https://github.com"
+      }
+    },
+    {
+      name: "Qian Shenyang",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?auto=format&fit=crop&q=80&w=500",
+      bio: "Specializing in medical image segmentation using deep learning approaches for improved diagnostic accuracy.",
+      links: {
+        email: "q.shenyang@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "AbdulRehman Alalwai",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching explainable AI systems for healthcare to improve clinical decision support interpretability.",
+      links: {
+        email: "a.alalwai@unsw.edu.au",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Anmol Goyal",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?auto=format&fit=crop&q=80&w=500",
+      bio: "Developing advanced machine learning models for biomedical data analysis and personalized treatment planning.",
+      links: {
+        email: "a.goyal@unsw.edu.au",
+        linkedin: "https://linkedin.com"
       }
     }
   ];
