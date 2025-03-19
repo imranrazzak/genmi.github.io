@@ -218,6 +218,66 @@ const Team = () => {
         email: "d.lin@unsw.edu.au",
         github: "https://github.com"
       }
+    },
+    {
+      name: "Abdulrahman Alotaibi",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1584999734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching deep learning algorithms for medical image segmentation and disease classification.",
+      links: {
+        email: "a.alotaibi@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Karthin Bhat",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&q=80&w=500",
+      bio: "Focusing on natural language processing for medical text analysis and automated diagnosis assistance.",
+      links: {
+        email: "k.bhat@unsw.edu.au",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Ngoc Nguyen",
+      role: "PhD Student, Deakin University",
+      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=500",
+      bio: "Exploring the intersection of computer vision and healthcare for automated diagnostic systems.",
+      links: {
+        email: "ngoc.nguyen@deakin.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Abdullah Alsubhani",
+      role: "PhD Student, UTS",
+      image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&q=80&w=500",
+      bio: "Developing novel approaches for multimodal learning in healthcare applications.",
+      links: {
+        email: "abdullah.alsubhani@uts.edu.au",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Shen Lingzhi",
+      role: "PhD Student, Southampton University, UK",
+      image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?auto=format&fit=crop&q=80&w=500",
+      bio: "Investigating reinforcement learning techniques for personalized treatment recommendations.",
+      links: {
+        email: "s.lingzhi@soton.ac.uk",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Muhammad Umar",
+      role: "Master's Student, UNSW",
+      image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=500",
+      bio: "Working on machine learning approaches for medical time-series data analysis and prediction.",
+      links: {
+        email: "m.umar@unsw.edu.au",
+        github: "https://github.com"
+      }
     }
   ];
 
