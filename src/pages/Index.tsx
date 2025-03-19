@@ -6,6 +6,7 @@ import NewsCard from '@/components/NewsCard';
 import { ArrowRight, BookOpen, Brain, ImagePlus, Dna, Microscope, Users } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+
 const Home = () => {
   // Animation variants
   const containerVariants = {
@@ -107,7 +108,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
       {/* Research Areas Section */}
       <section className="py-20 bg-genmi-50/50">
         <div className="container mx-auto px-6">
-          <SectionTitle subtext="Our Focus" title="Key Research Areas" center={true} />
+          <SectionTitle subtext="Our Focus" title="Key Research Areas" alignment="center" />
 
           <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{
           once: true
@@ -124,11 +125,11 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
             <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-                <ImagePlus className="w-6 h-6" />
+                <Brain className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Medical Image Enhancement</h3>
+              <h3 className="text-xl font-medium mb-3">Medical Image Segmentation</h3>
               <p className="text-muted-foreground">
-                Creating AI models that improve the quality, resolution, and diagnostic value of medical imaging across multiple modalities.
+                Developing AI models that segment and analyze medical images to identify anatomical structures and anomalies with high precision.
               </p>
             </motion.div>
 
@@ -144,7 +145,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
             <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-                <Brain className="w-6 h-6" />
+                <ImagePlus className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-medium mb-3">Embodied Health</h3>
               <p className="text-muted-foreground">
@@ -227,4 +228,5 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
       </section>
     </Layout>;
 };
+
 export default Home;
