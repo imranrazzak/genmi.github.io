@@ -1,15 +1,25 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Flame, Search } from 'lucide-react';
+import { Flame, Search, Calendar } from 'lucide-react';
 import { Separator } from "@/components/ui/separator";
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import NewsCard from '@/components/NewsCard';
 import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
 
 // Sample news data
 const newsItems = [
+  {
+    id: "news-workshop",
+    title: "Call for Papers: The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25)",
+    summary: "Now we are calling for papers for The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25) at ACM Multimedia 2025 (CORE A*). We are happy to see another group of colleagues bid the 2nd workshop successfully, Chris Wei Zhou. We welcome submissions relevant to health and medicine topics using multimedia computing.",
+    date: "2023-05-20",
+    imageUrl: "/lovable-uploads/a9877056-877c-4ef0-8fd9-f2c4dd92d4a3.png",
+    featured: true,
+    hot: true
+  },
   {
     id: "news-1",
     title: "🔥 Our Paper Accepted in CVPR 2023",
@@ -130,6 +140,44 @@ const News = () => {
             </div>
           </div>
         )}
+
+        {/* Featured Workshop Section */}
+        <div className="mb-12">
+          <div className="bg-genmi-50 p-6 rounded-xl border border-genmi-100">
+            <div className="flex items-center gap-2 mb-4">
+              <Calendar className="text-genmi-600" size={24} />
+              <h2 className="text-2xl font-medium">Featured Workshop</h2>
+            </div>
+            
+            <div className="flex flex-col md:flex-row gap-6">
+              <div className="md:w-1/3">
+                <img 
+                  src="/lovable-uploads/a9877056-877c-4ef0-8fd9-f2c4dd92d4a3.png" 
+                  alt="ACM Multimedia 2025" 
+                  className="rounded-lg w-full"
+                />
+              </div>
+              <div className="md:w-2/3">
+                <h3 className="text-xl font-medium mb-2">The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25)</h3>
+                <p className="text-muted-foreground mb-4">
+                  Now we are calling for papers for The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25) at ACM Multimedia 2025 (CORE A*). We are happy to see another group of colleagues bid the 2nd workshop successfully, Chris Wei Zhou.
+                </p>
+                <p className="text-muted-foreground mb-4">
+                  We welcome submissions relevant to health and medicine topics using multimedia computing.
+                </p>
+                <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
+                  <Calendar className="w-4 h-4" />
+                  <span>October 27-31, 2025</span>
+                  <span className="mx-2">|</span>
+                  <span>Dublin, Ireland</span>
+                </div>
+                <Button variant="default" className="bg-genmi-600 hover:bg-genmi-700">
+                  Submit Your Paper
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
 
         {/* Separator */}
         <Separator className="my-12" />
