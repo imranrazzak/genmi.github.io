@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -64,13 +65,10 @@ const Team = () => {
         email: "aisha.rahman@genmi-research.org",
         linkedin: "https://linkedin.com"
       }
-    }
-  ];
-
-  const gradStudents = [
+    },
     {
       name: "Tony Alex",
-      role: "PhD Candidate",
+      role: "Research Associate",
       image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
       bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
       links: {
@@ -80,7 +78,7 @@ const Team = () => {
     },
     {
       name: "Jianghao Wu",
-      role: "PhD Candidate",
+      role: "Research Associate",
       image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
       bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
       links: {
@@ -88,7 +86,20 @@ const Team = () => {
         linkedin: "https://linkedin.com"
       }
     },
-    
+    {
+      name: "Sophia Martinez",
+      role: "Research Associate",
+      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=500",
+      bio: "Leading research in computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
+      links: {
+        email: "sophia.martinez@genmi-research.org",
+        linkedin: "https://linkedin.com",
+        github: "https://github.com"
+      }
+    }
+  ];
+
+  const gradStudents = [
     {
       name: "Carlos Rodriguez",
       role: "PhD Student",
