@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -73,13 +74,13 @@ const Home = () => {
           }} transition={{
             duration: 0.6,
             delay: 0.2
-          }} className="mb-8 mx-0 text-base font-normal text-slate-950 text-justify">GenMI focuses on human-centered AI, combining multiomics, biomedical imaging, visualization, and information technologies to develop innovative clinical applications that advance patient health and well-being.  
+          }} className="mb-8 mx-0 text-base font-normal text-slate-950 text-justify">GenMI focuses on human-centered AI, combining multiomics, biomedical imaging, visualization, and information technologies to develop innovative clinical applications that advance patient health and well-being.  
 
 
-Our research addresses critical healthcare challenges by developing foundational theories in information technologies and computer science to advance Personalized, Preventive, and Predictive Medicine. We leverage expertise in machine learning, computer vision, data science, artificial intelligence, bioinformatics, information visualization, and behavioral informatics.   To gain comprehensive insights into disease entities, we integrate multi-layered data, including single-cell RNA sequencing, methylomics, and medical imaging. In close collaboration with clinicians at Charité, we develop clinical decision support systems for cancer treatment and solutions for routine clinical tasks, such as the automated annotation of radiological images. 
+Our research addresses critical healthcare challenges by developing foundational theories in information technologies and computer science to advance Personalized, Preventive, and Predictive Medicine. We leverage expertise in machine learning, computer vision, data science, artificial intelligence, bioinformatics, information visualization, and behavioral informatics.   To gain comprehensive insights into disease entities, we integrate multi-layered data, including single-cell RNA sequencing, methylomics, and medical imaging. In close collaboration with clinicians at Charité, we develop clinical decision support systems for cancer treatment and solutions for routine clinical tasks, such as the automated annotation of radiological images. 
 
 
-Through partnerships with leading industry players—such as major hospitals and healthcare companies—we translate cutting-edge research into real-world applications, spanning algorithm development, prototype creation, and commercialization. Breakthroughs in these fields lead to significant advancements in precision and personalized medicine, improving patient care and healthcare infrastructure. 
+Through partnerships with leading industry players—such as major hospitals and healthcare companies—we translate cutting-edge research into real-world applications, spanning algorithm development, prototype creation, and commercialization. Breakthroughs in these fields lead to significant advancements in precision and personalized medicine, improving patient care and healthcare infrastructure. 
 
 
 Our innovations enhance multimedia patient record systems, advanced computer-assisted surgery, AI-driven treatment planning, and telehealth solutions for remote patient monitoring, ultimately increasing healthcare accessibility, efficiency, and outcomes.</motion.p>
@@ -126,9 +127,9 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
             <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-                <Dna className="w-6 h-6" />
+                <Brain className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Genomic Sequence Analysis</h3>
+              <h3 className="text-xl font-medium mb-3">Embodied AI</h3>
               <p className="text-muted-foreground">
                 Developing generative models to analyze genetic sequences and identify patterns associated with diseases and treatment responses.
               </p>
@@ -136,9 +137,9 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
             <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-                <Brain className="w-6 h-6" />
+                <Dna className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Medical Image Segmentation</h3>
+              <h3 className="text-xl font-medium mb-3">Genomic Sequence Analysis</h3>
               <p className="text-muted-foreground">
                 Developing AI models that segment and analyze medical images to identify anatomical structures and anomalies with high precision.
               </p>
