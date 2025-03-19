@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import FeaturedCard from '@/components/FeaturedCard';
 import NewsCard from '@/components/NewsCard';
-import { ArrowRight, BookOpen, Brain, ImagePlus, Dna, Microscope, Users } from 'lucide-react';
+import { ArrowRight, BookOpen, Brain, ImagePlus, Dna, Microscope, Users, MessageSquare } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
@@ -113,6 +113,17 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
           <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{
           once: true
         }} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+            {/* New Research Area: Multi-Modal Large Language Model */}
+            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
+              <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
+                <MessageSquare className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-medium mb-3">Multi-Modal Large Language Model</h3>
+              <p className="text-muted-foreground">
+                Developing advanced AI systems that integrate text, images, and structured data to enhance medical diagnosis and treatment planning.
+              </p>
+            </motion.div>
+
             <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Dna className="w-6 h-6" />
@@ -147,7 +158,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <ImagePlus className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Embodied Health</h3>
+              <h3 className="text-xl font-medium mb-3">Medical Image Segmentation</h3>
               <p className="text-muted-foreground">
                 Creating realistic synthetic medical datasets to enhance model training and overcome data privacy and scarcity challenges.
               </p>
@@ -160,16 +171,6 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               <h3 className="text-xl font-medium mb-3">Explainable AI</h3>
               <p className="text-muted-foreground">
                 Researching techniques to make AI models more interpretable for healthcare professionals, ensuring trust and clinical adoption.
-              </p>
-            </motion.div>
-
-            <motion.div variants={itemVariants} className="bg-white rounded-2xl p-8 border border-border hover:shadow-md transition-shadow">
-              <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
-                <Users className="w-6 h-6" />
-              </div>
-              <h3 className="text-xl font-medium mb-3">Clinical Translation</h3>
-              <p className="text-muted-foreground">
-                Collaborating with healthcare institutions to translate AI innovations into real-world clinical tools and applications.
               </p>
             </motion.div>
           </motion.div>
