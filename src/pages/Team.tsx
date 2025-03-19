@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -118,6 +117,106 @@ const Team = () => {
       links: {
         email: "lisa.chang@genmi-research.org",
         linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Ubaid Azam",
+      role: "PhD Student, Southampton University, UK",
+      image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching novel applications of deep learning for medical image analysis and diagnostic support systems.",
+      links: {
+        email: "u.azam@soton.ac.uk",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Inamullah Khan",
+      role: "PhD Student, Southampton University, UK",
+      image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=500",
+      bio: "Developing advanced machine learning models for biomedical signal processing and health monitoring systems.",
+      links: {
+        email: "i.khan@soton.ac.uk",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Ghadir Alasawi",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
+      bio: "Focusing on AI-driven approaches for early disease detection through multimodal biomedical data analysis.",
+      links: {
+        email: "g.alasawi@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Ruyi Zhang",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=500",
+      bio: "Investigating machine learning applications for genomic data interpretation and personalized treatment recommendations.",
+      links: {
+        email: "r.zhang@unsw.edu.au",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Arthur Chen",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching generative AI models for synthetic medical data generation with privacy preservation guarantees.",
+      links: {
+        email: "a.chen@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Ali Almutari",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=500",
+      bio: "Working on explainable AI frameworks for healthcare applications to improve clinical adoption and trust.",
+      links: {
+        email: "a.almutari@unsw.edu.au",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Abdulrahman",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
+      bio: "Developing reinforcement learning approaches for adaptive clinical decision support in complex disease management.",
+      links: {
+        email: "abdulrahman@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Abdulsalam",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching federated learning approaches for privacy-preserving medical data analysis across institutions.",
+      links: {
+        email: "abdulsalam@unsw.edu.au",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Sajid Javed",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500",
+      bio: "Exploring advanced computer vision techniques for medical imaging analysis and diagnostic support systems.",
+      links: {
+        email: "s.javed@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Dawn Lin",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1619946794135-5bc917a27793?auto=format&fit=crop&q=80&w=500",
+      bio: "Investigating natural language processing approaches for biomedical literature analysis and knowledge extraction.",
+      links: {
+        email: "d.lin@unsw.edu.au",
+        github: "https://github.com"
       }
     }
   ];
