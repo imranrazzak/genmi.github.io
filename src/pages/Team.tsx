@@ -88,7 +88,7 @@ const Team = () => {
     {
       name: "Zoey Yang",
       role: "Research Associate",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=500",
+      image: "/lovable-uploads/c9b6564c-333a-415c-be46-00fc7353a16b.png",
       bio: "Leading research in computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
       links: {
         email: "zoey.yang@genmi-research.org",
@@ -459,7 +459,6 @@ const Team = () => {
         </div>
       </section>
 
-      {/* Past Members Section */}
       <section className="py-16 px-6 bg-genmi-50/30">
         <div className="container mx-auto">
           <SectionTitle
