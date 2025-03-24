@@ -1,30 +1,20 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Users, Calendar, Beaker } from 'lucide-react';
+import { ArrowUpRight, Brain, HeartPulse, Watch, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
-import { 
-  Pagination, 
-  PaginationContent, 
-  PaginationEllipsis, 
-  PaginationItem, 
-  PaginationLink, 
-  PaginationNext, 
-  PaginationPrevious 
-} from '@/components/ui/pagination';
+import { Card } from '@/components/ui/card';
 
 interface ProjectProps {
   title: string;
   category: string;
   description: string;
   image: string;
+  icon: React.ReactNode;
   status: 'Active' | 'Completed' | 'Planning';
-  team: string[];
-  timeline: string;
   slug: string;
   index?: number;
 }
@@ -34,9 +24,8 @@ const ProjectCard: React.FC<ProjectProps> = ({
   category,
   description,
   image,
+  icon,
   status,
-  team,
-  timeline,
   slug,
   index = 0
 }) => {
@@ -46,7 +35,7 @@ const ProjectCard: React.FC<ProjectProps> = ({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="group h-full bg-white rounded-2xl border border-border overflow-hidden hover:shadow-md transition-all duration-300"
+      className="group bg-white rounded-2xl border border-border overflow-hidden hover:shadow-md transition-all duration-300 h-full flex flex-col"
     >
       <div className="aspect-video overflow-hidden">
         <img 
@@ -55,11 +44,16 @@ const ProjectCard: React.FC<ProjectProps> = ({
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
       </div>
-      <div className="p-6">
+      <div className="p-6 flex flex-col flex-grow">
         <div className="flex justify-between items-start mb-3">
-          <span className="bg-genmi-50 text-genmi-600 px-3 py-1 rounded-full text-xs font-medium">
-            {category}
-          </span>
+          <div className="flex items-center">
+            <span className="inline-flex justify-center items-center w-10 h-10 bg-genmi-50 text-genmi-600 rounded-full mr-3">
+              {icon}
+            </span>
+            <span className="bg-genmi-50 text-genmi-600 px-3 py-1 rounded-full text-xs font-medium">
+              {category}
+            </span>
+          </div>
           <span className={`px-3 py-1 rounded-full text-xs font-medium ${
             status === 'Active' ? 'bg-green-50 text-green-600' :
             status === 'Completed' ? 'bg-blue-50 text-blue-600' :
@@ -70,13 +64,13 @@ const ProjectCard: React.FC<ProjectProps> = ({
         </div>
         
         <h3 className="text-xl font-medium mb-3">{title}</h3>
-        <p className="text-muted-foreground text-sm mb-4">{description}</p>
+        <p className="text-muted-foreground text-sm mb-4 flex-grow">{description}</p>
         
         <Link
           to={`/projects/${slug}`}
           className="mt-5 inline-flex items-center text-sm font-medium text-genmi-600 hover:text-genmi-800 transition-colors"
         >
-          View Details
+          View Project Details
           <ArrowUpRight className="ml-1 h-4 w-4" />
         </Link>
       </div>
@@ -85,126 +79,44 @@ const ProjectCard: React.FC<ProjectProps> = ({
 };
 
 const Projects = () => {
-  // Updated projects data with 10 medical imaging projects
   const projects = [
     {
-      title: "AI-Powered Brain Tumor Detection",
-      category: "Medical Imaging",
-      description: "Advanced deep learning algorithms for automated detection and classification of brain tumors from MRI scans.",
+      title: "Advanced Medical Image Segmentation",
+      category: "Image Segmentation",
+      description: "Developing state-of-the-art deep learning models for automated segmentation of complex anatomical structures in multi-modal medical images. Our approach combines transformer architectures with traditional CNNs to achieve pixel-perfect delineation of organs, tumors, and pathological regions across CT, MRI, and ultrasound imaging.",
       image: "https://images.unsplash.com/photo-1559757175-7cb036e0159e?auto=format&fit=crop&q=80",
+      icon: <Brain className="h-5 w-5" />,
       status: "Active" as const,
-      team: ["Dr. Sarah Chen", "Dr. James Wilson", "Lisa Chang"],
-      timeline: "2022 - Present",
-      slug: "brain-tumor-detection"
+      slug: "medical-image-segmentation"
     },
     {
-      title: "Retinal Disease Classification",
-      category: "Medical Imaging",
-      description: "Machine learning system for early detection of diabetic retinopathy and other retinal conditions from fundus images.",
-      image: "https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80",
-      status: "Active" as const,
-      team: ["Dr. Maya Patel", "Dr. Marcus Johnson", "Alex Winters"],
-      timeline: "2023 - Present",
-      slug: "retinal-classification"
-    },
-    {
-      title: "Lung CT Analysis for COVID-19",
-      category: "Medical Imaging",
-      description: "AI-based tool for quantifying lung involvement in COVID-19 patients using chest CT scans.",
-      image: "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&q=80",
-      status: "Completed" as const,
-      team: ["Dr. Priya Sharma", "Carlos Rodriguez", "Dr. James Wilson"],
-      timeline: "2020 - 2022",
-      slug: "covid-ct-analysis"
-    },
-    {
-      title: "Cardiac MRI Segmentation",
-      category: "Medical Imaging",
-      description: "Automated segmentation of cardiac structures in MRI for precise quantification of heart function.",
+      title: "Genetic Variation in Cardiac Imaging",
+      category: "Cardiac Analysis",
+      description: "Investigating the relationship between genetic variants and cardiac morphology through advanced imaging analysis. This project combines genomic data with deep phenotyping from cardiac MRI to identify genetic determinants of heart structure and function, enabling personalized risk stratification and treatment planning.",
       image: "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?auto=format&fit=crop&q=80",
+      icon: <HeartPulse className="h-5 w-5" />,
       status: "Active" as const,
-      team: ["Dr. Sarah Chen", "Dr. Marcus Johnson"],
-      timeline: "2022 - Present",
-      slug: "cardiac-segmentation"
+      slug: "genetic-cardiac-variation"
     },
     {
-      title: "Skin Lesion Classification",
-      category: "Medical Imaging",
-      description: "Deep learning models for early detection of melanoma and other skin cancers from dermatological images.",
-      image: "https://images.unsplash.com/photo-1576766125323-b95e06c10525?auto=format&fit=crop&q=80",
+      title: "Wearable Sensors for Continuous Health Monitoring",
+      category: "Wearable Technology",
+      description: "Creating an integrated system of wearable sensors and AI algorithms for real-time health monitoring and early disease detection. Our platform combines data from multiple sensor modalities with deep learning to track vital signs, activity patterns, and physiological parameters, enabling proactive healthcare interventions.",
+      image: "https://images.unsplash.com/photo-1557825835-70d97c4aa567?auto=format&fit=crop&q=80",
+      icon: <Watch className="h-5 w-5" />,
       status: "Active" as const,
-      team: ["Dr. James Wilson", "Maya Patel", "Lisa Chang"],
-      timeline: "2023 - Present",
-      slug: "skin-lesion-detection"
+      slug: "wearable-sensors"
     },
     {
-      title: "Dental X-ray Analysis",
-      category: "Medical Imaging",
-      description: "AI system for detecting dental caries, periodontal diseases, and other conditions from dental radiographs.",
-      image: "https://images.unsplash.com/photo-1606811971618-4479a7997d8b?auto=format&fit=crop&q=80",
-      status: "Planning" as const,
-      team: ["Dr. Aisha Rahman", "Dr. Marcus Johnson", "Carlos Rodriguez"],
-      timeline: "2024 - Future",
-      slug: "dental-xray-analysis"
-    },
-    {
-      title: "Fetal Ultrasound Monitoring",
-      category: "Medical Imaging",
-      description: "Real-time AI analysis of fetal ultrasound for early detection of developmental abnormalities.",
-      image: "https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&q=80",
+      title: "Longitudinal Medical Image Analysis",
+      category: "Temporal Analysis",
+      description: "Pioneering techniques for analyzing medical images across time to track disease progression and treatment response. Our approach leverages recurrent neural networks and temporal attention mechanisms to detect subtle changes in imaging biomarkers over time, providing clinicians with powerful tools for monitoring chronic conditions.",
+      image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80",
+      icon: <Clock className="h-5 w-5" />,
       status: "Active" as const,
-      team: ["Dr. Priya Sharma", "Dr. Sarah Chen"],
-      timeline: "2022 - Present",
-      slug: "fetal-ultrasound"
-    },
-    {
-      title: "Bone Fracture Detection",
-      category: "Medical Imaging",
-      description: "Machine learning algorithms for automated detection of bone fractures in X-ray images with high precision.",
-      image: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&q=80",
-      status: "Completed" as const,
-      team: ["Dr. Marcus Johnson", "Alex Winters", "Lisa Chang"],
-      timeline: "2021 - 2023",
-      slug: "fracture-detection"
-    },
-    {
-      title: "Mammography Enhancement",
-      category: "Medical Imaging",
-      description: "AI-based enhancement and analysis of mammograms for improved breast cancer screening accuracy.",
-      image: "https://images.unsplash.com/photo-1579154204845-1e39c9c69d8c?auto=format&fit=crop&q=80",
-      status: "Active" as const,
-      team: ["Dr. James Wilson", "Dr. Aisha Rahman", "Maya Patel"],
-      timeline: "2023 - Present",
-      slug: "mammography-ai"
-    },
-    {
-      title: "Histopathology Analysis",
-      category: "Medical Imaging",
-      description: "Deep learning for automated analysis of histopathology slides for cancer detection and grading.",
-      image: "https://images.unsplash.com/photo-1582560475093-ba66accbc7f0?auto=format&fit=crop&q=80",
-      status: "Active" as const,
-      team: ["Dr. Sarah Chen", "Carlos Rodriguez", "Dr. Priya Sharma"],
-      timeline: "2022 - Present",
-      slug: "histopathology-ai"
+      slug: "longitudinal-image-analysis"
     }
   ];
-
-  const [activeFilter, setActiveFilter] = React.useState<string>('All');
-  const [currentPage, setCurrentPage] = useState(1);
-  const projectsPerPage = 6;
-  
-  // Get categories from projects
-  const allCategories = ['All', ...new Set(projects.map(project => project.category))];
-  
-  const filteredProjects = activeFilter === 'All' 
-    ? projects 
-    : projects.filter(project => project.category === activeFilter);
-
-  // Calculate pagination
-  const indexOfLastProject = currentPage * projectsPerPage;
-  const indexOfFirstProject = indexOfLastProject - projectsPerPage;
-  const currentProjects = filteredProjects.slice(indexOfFirstProject, indexOfLastProject);
-  const totalPages = Math.ceil(filteredProjects.length / projectsPerPage);
 
   return (
     <Layout>
@@ -230,10 +142,10 @@ const Projects = () => {
         </div>
       </section>
 
-      {/* Projects Grid - Modified to have 2 projects per row */}
+      {/* Projects Grid */}
       <section className="py-12 px-6">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
             {projects.map((project, index) => (
               <ProjectCard 
                 key={project.slug}
