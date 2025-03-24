@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -87,12 +86,12 @@ const Team = () => {
       }
     },
     {
-      name: "Sophia Martinez",
+      name: "Zoey Yang",
       role: "Research Associate",
-      image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=500",
+      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=500",
       bio: "Leading research in computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
       links: {
-        email: "sophia.martinez@genmi-research.org",
+        email: "zoey.yang@genmi-research.org",
         linkedin: "https://linkedin.com",
         github: "https://github.com"
       }
