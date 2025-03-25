@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Flame, Search, Calendar } from 'lucide-react';
@@ -12,19 +11,10 @@ import { Button } from "@/components/ui/button";
 // Sample news data
 const newsItems = [
   {
-    id: "news-workshop",
-    title: "Call for Papers: The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25)",
-    summary: "Now we are calling for papers for The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25) at ACM Multimedia 2025 (CORE A*). We are happy to see another group of colleagues bid the 2nd workshop successfully, Chris Wei Zhou. We welcome submissions relevant to health and medicine topics using multimedia computing.",
-    date: "2023-05-20",
-    imageUrl: "/lovable-uploads/a9877056-877c-4ef0-8fd9-f2c4dd92d4a3.png",
-    featured: true,
-    hot: true
-  },
-  {
     id: "news-1",
     title: "🔥 Our Paper Accepted in CVPR 2023",
     summary: "We're excited to announce that our research on 'Deep Learning Approaches for Medical Image Segmentation' has been accepted for presentation at CVPR 2023, one of the premier computer vision conferences worldwide.",
-    date: "2023-05-15",
+    date: "10 March 2025",
     imageUrl: "/placeholder.svg",
     featured: true,
     hot: true
