@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Flame, Search, Calendar } from 'lucide-react';
@@ -12,8 +13,8 @@ import { Button } from "@/components/ui/button";
 const newsItems = [
   {
     id: "news-1",
-    title: "🔥 Our Paper Accepted in CVPR 2023",
-    summary: "We're excited to announce that our research on 'Deep Learning Approaches for Medical Image Segmentation' has been accepted for presentation at CVPR 2023, one of the premier computer vision conferences worldwide.",
+    title: "🔥 1 Paper Accepted in CVPR 2025",
+    summary: "We're excited to announce that our research on 'Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding' has been accepted for presentation at CVPR 2025, one of the premier computer vision conferences worldwide.",
     date: "10 March 2025",
     imageUrl: "/placeholder.svg",
     featured: true,
