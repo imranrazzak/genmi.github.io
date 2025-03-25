@@ -167,7 +167,7 @@ const News = () => {
                 </p>
                 <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
                   <Calendar className="w-4 h-4" />
-                  <span>October 27-31, 2025</span>
+                  <span>10 March 2024</span>
                   <span className="mx-2">|</span>
                   <span>Dublin, Ireland</span>
                 </div>
