@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Flame, Search, Calendar } from 'lucide-react';
@@ -22,9 +21,9 @@ const newsItems = [
   },
   {
     id: "news-2",
-    title: "🔥 Dr. Ming Hu Joins Our Research Team",
-    summary: "We are delighted to welcome Dr. Ming Hu, a renowned expert in Computer Vision and Machine Learning, to our research team. Dr. Hu brings extensive experience in deep learning applications for healthcare.",
-    date: "2023-04-10",
+    title: "🔥 Ming Hu Joins Our Research Team",
+    summary: "We are delighted to welcome Ming Hu, a renowned expert in Computer Vision and Machine Learning, to our research team. Ming brings extensive experience in deep learning applications for healthcare.",
+    date: "10 March 2025",
     imageUrl: "/placeholder.svg",
     featured: true,
     hot: true
