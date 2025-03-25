@@ -24,7 +24,7 @@ const newsItems = [
     title: "🔥 Ming Hu Joins Our Research Team",
     summary: "We are delighted to welcome Ming Hu, a renowned expert in Computer Vision and Machine Learning, to our research team. Ming brings extensive experience in deep learning applications for healthcare.",
     date: "10 March 2025",
-    imageUrl: "/placeholder.svg",
+    imageUrl: "/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png",
     featured: true,
     hot: true
   },
@@ -195,3 +195,4 @@ const News = () => {
 };
 
 export default News;
+
