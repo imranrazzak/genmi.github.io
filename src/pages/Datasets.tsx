@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -36,6 +35,72 @@ const Datasets = () => {
             <p className="text-muted-foreground text-lg">
               Explore our comprehensive collection of medical datasets that power AI research and innovation in healthcare.
             </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Dataset - OphNet-3D */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Featured Dataset"
+            title="OphNet-3D"
+          />
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+          >
+            <div className="absolute inset-0 opacity-10">
+              <img 
+                src="/lovable-uploads/1938174f-8d3c-49db-a7c9-e70ba045d4a8.png" 
+                alt="OphNet-3D Dataset Background" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="relative z-10">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">OphNet-3D Dataset</h3>
+                  <p className="text-blue-600 font-medium">RGB-D Dynamic 3D Reconstruction for Ophthalmic Surgery</p>
+                </div>
+                <a
+                  href="https://arxiv.org/abs/2505.17677"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-blue-600 text-white px-6 py-2 rounded-full font-medium hover:bg-blue-700 transition-colors inline-flex items-center gap-2"
+                >
+                  View Paper
+                  <ExternalLink className="w-4 h-4" />
+                </a>
+              </div>
+              
+              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+                OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses.
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-blue-600">41</div>
+                  <div className="text-sm text-gray-600">Sequences</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-blue-600">40</div>
+                  <div className="text-sm text-gray-600">Surgeons</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-blue-600">7.1M</div>
+                  <div className="text-sm text-gray-600">Frames</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-blue-600">12</div>
+                  <div className="text-sm text-gray-600">Surgical Phases</div>
+                </div>
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>
