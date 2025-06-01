@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -81,9 +80,9 @@ const ProjectCard: React.FC<ProjectProps> = ({
 const Projects = () => {
   const projects = [
     {
-      title: "Early Breast Cancer Diagnosis with AI-Enhanced Mammography",
+      title: "Early Breast Cancer Diagnosis with Multiomics",
       category: "Cancer Detection",
-      description: "Developing advanced deep learning algorithms for early detection of breast cancer through AI-enhanced mammography analysis. Our system combines convolutional neural networks with radiomics features to identify subtle patterns and abnormalities that may be missed by traditional screening methods, enabling earlier intervention and improved patient outcomes.",
+      description: "Developing advanced deep learning algorithms for early detection of breast cancer through AI-enhanced mammography analysis integrated with multiomics data. Our system combines convolutional neural networks with radiomics features and genomic, proteomic, and metabolomic data to identify subtle patterns and abnormalities that may be missed by traditional screening methods, enabling earlier intervention and improved patient outcomes through personalized risk assessment.",
       image: "https://images.unsplash.com/photo-1559757175-7cb036e0159e?auto=format&fit=crop&q=80",
       icon: <Stethoscope className="h-5 w-5" />,
       status: "Active" as const,
@@ -142,7 +141,7 @@ const Projects = () => {
               Our Research
             </span>
             <h1 className="text-4xl md:text-5xl font-display font-medium leading-tight mb-6">
-              Pioneering Projects in <span className="text-gradient">Medical Imaging</span>
+              Pioneering Projects in <span className="text-gradient">Health</span>
             </h1>
             <p className="text-muted-foreground text-lg mb-8">
               Explore our innovative research projects applying advanced AI techniques to medical imaging for improved diagnostics and patient care.
