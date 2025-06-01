@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -12,7 +13,8 @@ import {
   LineChart,
   ArrowRight,
   ExternalLink,
-  MessageSquare
+  MessageSquare,
+  Shield
 } from 'lucide-react';
 
 const Datasets = () => {
@@ -159,6 +161,67 @@ const Datasets = () => {
                 <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
                   <div className="text-2xl font-bold text-green-600">6</div>
                   <div className="text-sm text-gray-600">Models Improved</div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Dataset - MMHealth */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Featured Dataset"
+            title="MMHealth"
+          />
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+          >
+            <div className="relative z-10">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">MMHealth Dataset</h3>
+                  <p className="text-orange-600 font-medium">Multimodal Multi-Task Dataset for Benchmarking Health Misinformation</p>
+                </div>
+                <div className="flex items-center gap-2">
+                  <a
+                    href="https://arxiv.org/pdf/2505.18685"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-orange-600 text-white px-6 py-2 rounded-full font-medium hover:bg-orange-700 transition-colors inline-flex items-center gap-2"
+                  >
+                    View Paper
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
+              </div>
+              
+              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+                We present MMHealth, a large scale multimodal misinformation dataset in the health domain consisting of 34,746 news articles encompassing both textual and visual information. MM-Health includes human-generated multimodal information (5,776 articles) and AI-generated multimodal information (28,880 articles) from various SOTA generative AI models. Additionally, we benchmarked our dataset against three tasks—reliability checks, originality checks, and fine-grained AI detection—demonstrating that existing SOTA models struggle to accurately distinguish the reliability and origin of information. Our dataset aims to support the development of misinformation detection across various health scenarios, facilitating the detection of human and machine-generated content at multimodal levels.
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-600">34,746</div>
+                  <div className="text-sm text-gray-600">News Articles</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-600">5,776</div>
+                  <div className="text-sm text-gray-600">Human Articles</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-600">28,880</div>
+                  <div className="text-sm text-gray-600">AI Articles</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-orange-600">3</div>
+                  <div className="text-sm text-gray-600">Benchmark Tasks</div>
                 </div>
               </div>
             </div>
