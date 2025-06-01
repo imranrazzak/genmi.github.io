@@ -20,7 +20,8 @@ import {
   Shield,
   Heart,
   Tv,
-  Eye
+  Eye,
+  Scan
 } from 'lucide-react';
 
 const Datasets = () => {
@@ -106,6 +107,72 @@ const Datasets = () => {
             
             <div className="flex items-center gap-4">
               <button className="inline-flex items-center px-6 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors">
+                <FileText className="w-4 h-4 mr-2" />
+                Coming Soon
+              </button>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Dataset - MSWAL */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Featured Dataset"
+            title="MSWAL"
+          />
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-white rounded-2xl border border-gray-200 p-8 mb-16 overflow-hidden"
+          >
+            <div className="mb-6">
+              <img 
+                src="/lovable-uploads/2ce0e1cf-ea35-484b-b626-b6a40f10fa4a.png" 
+                alt="MSWAL Dataset - Whole Abdominal Lesions Segmentation" 
+                className="w-full h-64 object-cover rounded-lg"
+              />
+            </div>
+            
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">Whole Abdominal Lesions Segmentation (MSWAL)</h3>
+                <p className="text-orange-600 font-medium">First 3D Multi-class Segmentation of the Whole Abdominal Lesions Dataset</p>
+              </div>
+              <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
+                <Scan className="w-5 h-5 text-orange-600" />
+              </div>
+            </div>
+            
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              We introduce MSWAL, the first 3D Multi-class Segmentation of the Whole Abdominal Lesions dataset, which broadens the coverage of various common lesion types, such as gallstones, kidney stones, liver tumors, kidney tumors, pancreatic cancer, liver cysts, and kidney cysts. With CT scans collected from 694 patients (191,417 slices) of different genders across various scanning phases, MSWAL demonstrates strong robustness and generalizability. The transfer learning experiment from MSWAL to two public datasets, LiTS and KiTS, effectively demonstrates consistent improvements, with Dice Similarity Coefficient (DSC) increase of 3.00% for liver tumors and 0.89% for kidney tumors, demonstrating that the comprehensive annotations and diverse lesion types in MSWAL facilitate effective learning across different domains and data distributions. Furthermore, we propose Inception nnU-Net, a novel segmentation framework that effectively integrates an Inception module with the nnU-Net architecture to extract information from different receptive fields, achieving significant enhancement in both voxel-level DSC and region-level F1 compared to the cutting-edge public algorithms on MSWAL.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+              <div className="bg-orange-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-orange-600">694</div>
+                <div className="text-sm text-gray-600">Patients</div>
+              </div>
+              <div className="bg-orange-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-orange-600">191,417</div>
+                <div className="text-sm text-gray-600">CT Slices</div>
+              </div>
+              <div className="bg-orange-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-orange-600">7</div>
+                <div className="text-sm text-gray-600">Lesion Types</div>
+              </div>
+              <div className="bg-orange-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-orange-600">3.00%</div>
+                <div className="text-sm text-gray-600">DSC Improvement</div>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <button className="inline-flex items-center px-6 py-3 bg-orange-600 text-white rounded-lg hover:bg-orange-700 transition-colors">
                 <FileText className="w-4 h-4 mr-2" />
                 Coming Soon
               </button>
