@@ -182,7 +182,16 @@ const Datasets = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
             className="bg-gradient-to-r from-orange-50 to-red-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+            style={{
+              backgroundImage: `url('/lovable-uploads/f97827e1-8222-4671-aa75-364351277825.png')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat'
+            }}
           >
+            {/* Overlay for better text readability */}
+            <div className="absolute inset-0 bg-gradient-to-r from-orange-50/90 to-red-50/90 backdrop-blur-[2px]"></div>
+            
             <div className="relative z-10">
               <div className="flex items-start justify-between mb-6">
                 <div>
