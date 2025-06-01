@@ -95,6 +95,46 @@ const Team = () => {
         linkedin: "https://linkedin.com",
         github: "https://github.com"
       }
+    },
+    {
+      name: "Andinath Dukre",
+      role: "Research Associate",
+      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500",
+      bio: "Developing innovative machine learning approaches for biomedical data analysis and computational biology applications.",
+      links: {
+        email: "andinath.dukre@genmi-research.org",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Ankan Deria",
+      role: "Research Associate",
+      image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=500",
+      bio: "Specializing in deep learning architectures for medical image processing and automated diagnostic systems.",
+      links: {
+        email: "ankan.deria@genmi-research.org",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Haochen Xue",
+      role: "Research Associate",
+      image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching advanced neural network models for genomic sequence analysis and precision medicine applications.",
+      links: {
+        email: "haochen.xue@genmi-research.org",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Hufai Lu",
+      role: "Research Associate",
+      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
+      bio: "Focusing on multimodal AI systems for healthcare applications and cross-domain knowledge transfer in medical AI.",
+      links: {
+        email: "hufai.lu@genmi-research.org",
+        linkedin: "https://linkedin.com"
+      }
     }
   ];
 
@@ -142,7 +182,7 @@ const Team = () => {
     {
       name: "Ghadir Alasawi",
       role: "PhD Student, UNSW",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
+      image: "https://images.unsplash.com/photo-1580489734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
       bio: "Focusing on AI-driven approaches for early disease detection through multimodal biomedical data analysis.",
       links: {
         email: "g.alasawi@unsw.edu.au",
