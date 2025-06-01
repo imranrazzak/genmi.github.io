@@ -190,7 +190,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <FeaturedCard title="Ophthalmic Surgery" description="Introducing OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons with fine-grained annotations for bimanual hand pose estimation and hand-instrument interaction reconstruction." imageUrl="/lovable-uploads/1e8ee05f-9f3b-4b1f-a0ff-1cd2984292fd.png" link="https://arxiv.org/pdf/2505.17677" index={0} />
-            <FeaturedCard title="MedSynthImager" description="Generating synthetic medical images to enhance diagnostic model training with limited real-world data." imageUrl="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80" link="/projects/medsynthimager" index={1} />
+            <FeaturedCard title="Hallucinations in MLLMs" description="We propose to intervene in the propagation process by tackling outlier tokens to enhance in-context inference. With this goal, we present FarSight, a versatile plug-and-play decoding strategy to reduce attention interference from outlier tokens merely by optimizing the causal mask." imageUrl="/lovable-uploads/7032ae34-31d4-4c50-ad10-b23e26adcf69.png" link="/projects/hallucinations-mllms" index={1} />
             <FeaturedCard title="PathoDiffusion" description="Using diffusion models to enhance pathology images and highlight abnormalities." imageUrl="https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&q=80" link="/projects/pathodiffusion" index={2} />
           </div>
         </div>
