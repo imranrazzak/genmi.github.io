@@ -10,10 +10,10 @@ const News = () => {
   const newsItems = [
     {
       id: '1',
-      title: 'New Research on Federated Learning in Healthcare',
-      summary: 'Our latest paper on privacy-preserving federated learning for medical data analysis has been accepted at a top-tier conference.',
-      date: '2024-01-15',
-      imageUrl: '/lovable-uploads/2d853ee5-6a95-428b-969e-da913c38d778.png',
+      title: 'Ankan Deria Joins the GENMI Lab Team',
+      summary: 'We are excited to welcome Ankan Deria as a new Research Associate, bringing expertise in deep learning architectures for medical image processing and automated diagnostic systems.',
+      date: '2024-01-20',
+      imageUrl: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80',
       featured: true,
       hot: true
     },
