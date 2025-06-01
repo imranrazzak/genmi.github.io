@@ -1,4 +1,5 @@
 
+
 export const facultyMembers = [
   {
     name: "Imran Razzak",
@@ -92,7 +93,7 @@ export const gradStudents = [
     name: "Zoey Yang",
     role: "PhD Student, MBZUAI",
     image: "/lovable-uploads/c9b6564c-333a-415c-be46-00fc7353a16b.png",
-    bio: "PhD student at MBZUAI working on MLMM (Machine Learning for Medical Modalities), focusing on computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
+    bio: "PhD student at MBZUAI working on multimodal large language models, focusing on computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
     links: {
       email: "zoey.yang@genmi-research.org",
       linkedin: "https://linkedin.com",
