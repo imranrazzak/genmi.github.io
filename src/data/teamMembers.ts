@@ -1,5 +1,3 @@
-
-
 export const facultyMembers = [
   {
     name: "Imran Razzak",
@@ -98,6 +96,16 @@ export const gradStudents = [
       email: "zoey.yang@genmi-research.org",
       linkedin: "https://linkedin.com",
       github: "https://github.com"
+    }
+  },
+  {
+    name: "Yousef Khalil",
+    role: "Master's Student, MBZUAI",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
+    bio: "Master's student at MBZUAI specializing in Natural Language Processing, working on Large Language Model Evaluation to develop better assessment methods for LLM performance and capabilities.",
+    links: {
+      email: "yousef.khalil@mbzuai.ac.ae",
+      linkedin: "https://linkedin.com"
     }
   },
   {
