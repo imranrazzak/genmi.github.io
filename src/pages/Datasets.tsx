@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -19,7 +20,8 @@ import {
   MessageSquare,
   Shield,
   Heart,
-  Tv
+  Tv,
+  Eye
 } from 'lucide-react';
 
 const Datasets = () => {
@@ -43,6 +45,73 @@ const Datasets = () => {
             <p className="text-muted-foreground text-lg">
               Explore our diverse collection of datasets, designed to drive innovation and discovery in multimodal AI research.
             </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Dataset - OphNet-3D */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Featured Dataset"
+            title="OphNet-3D"
+          />
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="relative bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-8 mb-16 overflow-hidden"
+            style={{
+              backgroundImage: 'url(/lovable-uploads/cdfeb34f-618a-41c9-896c-13ae6ed3c4ff.png)',
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              backgroundBlendMode: 'overlay'
+            }}
+          >
+            <div className="absolute inset-0 bg-cyan-500/10"></div>
+            <div className="relative z-10">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">OphNet-3D Dataset</h3>
+                  <p className="text-cyan-600 font-medium">First Extensive RGB-D Dynamic 3D Reconstruction Dataset for Ophthalmic Surgery</p>
+                </div>
+                <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
+                  <Eye className="w-5 h-5 text-cyan-600" />
+                </div>
+              </div>
+              
+              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+                In this work, we introduce OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses. To scalably produce high-fidelity labels, we design a multi-stage automatic annotation pipeline that integrates multi-view data observation, data-driven motion prior with cross-view geometric consistency and biomechanical constraints, along with a combination of collision-aware interaction constraints for instrument interactions. Building upon OphNet-3D, we establish two challenging benchmarks-bimanual hand pose estimation and hand-instrument interaction reconstruction-and propose two dedicated architectures: H-Net for dual-hand mesh recovery and OH-Net for joint reconstruction of two-hand-two-instrument interactions.
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-cyan-600">41</div>
+                  <div className="text-sm text-gray-600">Sequences</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-cyan-600">40</div>
+                  <div className="text-sm text-gray-600">Surgeons</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-cyan-600">7.1M</div>
+                  <div className="text-sm text-gray-600">Frames</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-cyan-600">12</div>
+                  <div className="text-sm text-gray-600">Surgical Phases</div>
+                </div>
+              </div>
+              
+              <div className="flex items-center gap-4">
+                <button className="inline-flex items-center px-6 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors">
+                  <FileText className="w-4 h-4 mr-2" />
+                  Coming Soon
+                </button>
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>
