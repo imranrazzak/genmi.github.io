@@ -12,6 +12,38 @@ const Publications = () => {
         
         <div className="grid grid-cols-1 gap-6 mt-12">
           <PublicationCard 
+            title="Mmrc: A large-scale benchmark for understanding multimodal large language model in real-world conversation"
+            authors={["Haochen Xue", "Feilong Tang", "Ming Hu", "Yexin Liu", "Qidong Huang", "Yulong Li", "Chengzhi Liu", "Zhongxing Xu", "Chong Zhang", "Chun-Mei Feng", "Yutong Xie", "Imran Razzak", "Zongyuan Ge", "Jionglong Su", "Junjun He", "Yu Qiao"]}
+            journal="ACL"
+            year={2025}
+            abstract="This paper presents MMRC, a comprehensive large-scale benchmark designed to evaluate multimodal large language models in real-world conversational scenarios, addressing the gap between laboratory testing and practical deployment."
+          />
+
+          <PublicationCard 
+            title="Robust Multimodal Learning for Ophthalmic Disease Grading via Disentangled Representation"
+            authors={["Xinkun Wang", "Yifang Wang", "Senwei Liang", "Feilong Tang", "Chengzhi Liu", "Ming Hu", "Chao Hu", "Junjun He", "Zongyuan Ge", "Imran Razzak"]}
+            journal="MICCAI"
+            year={2024}
+            abstract="We propose a novel approach for ophthalmic disease grading using disentangled representation learning, achieving robust performance across different imaging modalities and clinical conditions."
+          />
+
+          <PublicationCard 
+            title="Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding"
+            authors={["Feilong Tang", "Chengzhi Liu", "Zhongxing Xu", "Ming Hu", "Zelin Peng", "Zhiwei Yang", "Jionglong Su", "Minquan Lin", "Yifan Peng", "Xuelian Cheng", "Imran Razzak", "Zongyuan Ge"]}
+            journal="CVPR (Oral)"
+            year={2025}
+            abstract="This research introduces attention causal decoding to address hallucination issues in multimodal large language models, significantly improving the reliability and accuracy of generated content."
+          />
+
+          <PublicationCard 
+            title="Effectiveness of Privacy-preserving Algorithms in LLMs: A Benchmark and Empirical Analysis"
+            authors={["Jinglin Sun", "Basem Suleiman", "Imdad Ullah", "Imran Razzak"]}
+            journal="ACM WWW"
+            year={2024}
+            abstract="We present a comprehensive benchmark and empirical analysis of privacy-preserving algorithms in large language models, evaluating their effectiveness across various metrics and use cases."
+          />
+
+          <PublicationCard 
             title="Generative Adversarial Networks for Synthetic Medical Imaging Data"
             authors={["Zhang, J.", "Smith, A.", "Johnson, B.", "Williams, C."]}
             journal="Nature Machine Intelligence"
