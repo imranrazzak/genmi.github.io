@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -14,7 +13,8 @@ import {
   ArrowRight,
   ExternalLink,
   MessageSquare,
-  Shield
+  Shield,
+  Heart
 } from 'lucide-react';
 
 const Datasets = () => {
@@ -231,6 +231,59 @@ const Datasets = () => {
                 <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
                   <div className="text-2xl font-bold text-orange-600">3</div>
                   <div className="text-sm text-gray-600">Benchmark Tasks</div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Dataset - MERCI */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Featured Dataset"
+            title="MERCI"
+          />
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+          >
+            <div className="relative z-10">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">MERCI Dataset</h3>
+                  <p className="text-purple-600 font-medium">A Multimodal Dataset for Personalised and Emotionally-Aware Dialogues</p>
+                </div>
+                <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                  <Heart className="w-5 h-5 text-purple-600" />
+                </div>
+              </div>
+              
+              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+                We introduce MERCI (Multimodal dataset for Emotionally-aware peRsonalised Conversational Interactions), a dataset derived from user-robot dialogues involving thirty participants who completed user profile questionnaires covering ten personal topics (e.g., hobbies, music). A conversational system called PERCY then engaged with each participant in open-domain conversations, leveraging GPT-4, real-time facial-expression and sentiment analysis to generate contextually appropriate, empathetic responses. MERCI contains 1860 utterances, equating to about 12.5 hours of aligned audio, three-view video, transcripts with timestamps, emotion labels, and sentiment scores. This dataset serves as a reproducible test-bed for tasks such as emotion-grounded response generation, multimodal affect recognition, and personalised policy learning.
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-purple-600">30</div>
+                  <div className="text-sm text-gray-600">Participants</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-purple-600">1,860</div>
+                  <div className="text-sm text-gray-600">Utterances</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-purple-600">12.5</div>
+                  <div className="text-sm text-gray-600">Hours</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-purple-600">10</div>
+                  <div className="text-sm text-gray-600">Personal Topics</div>
                 </div>
               </div>
             </div>
