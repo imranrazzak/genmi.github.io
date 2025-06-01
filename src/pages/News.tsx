@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -12,7 +11,7 @@ const News = () => {
       id: '1',
       title: 'Ankan Deria Joins the GENMI Lab Team',
       summary: 'We are excited to welcome Ankan Deria as a new Research Associate, bringing expertise in deep learning architectures for medical image processing and automated diagnostic systems.',
-      date: '2024-01-20',
+      date: '2025-06-01',
       imageUrl: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80',
       featured: true,
       hot: true
@@ -20,21 +19,21 @@ const News = () => {
     {
       id: '2',
       title: 'GENMI Lab Wins Best Paper Award',
-      summary: 'Our work on multimodal medical AI received recognition at the International Conference on Medical Imaging.',
-      date: '2024-01-10',
+      summary: 'Our work on OphNet-3D Dataset has been recognized! OphNet-3D is the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses.',
+      date: '2025-06-01',
       imageUrl: '/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png'
     },
     {
       id: '3',
-      title: 'New Collaboration with Leading Medical Centers',
-      summary: 'We are excited to announce partnerships with several renowned hospitals to advance medical AI research.',
-      date: '2024-01-05'
+      title: 'New Collaboration with UNSW and Macquarie University, Australia',
+      summary: 'Dr. Visit to UNSW and Macquarie University, Australia, and given talk on Precision Medicine, strengthening our international research partnerships and advancing collaborative research in medical AI.',
+      date: '2025-06-01'
     },
     {
       id: '4',
-      title: 'PhD Student Receives Prestigious Fellowship',
-      summary: 'Congratulations to our PhD student for receiving a national research fellowship for AI in healthcare.',
-      date: '2023-12-20'
+      title: 'CVPR Oral Presentation - PhD Student Receives Prestigious Recognition',
+      summary: 'Our PhD student presents "FarSight" at CVPR: "We argue that adequate contextual information can be extracted directly from the token interaction process. Inspired by causal inference in the decoding strategy, we propose to leverage causal masks to establish information propagation between multimodal tokens. We present FarSight, a versatile plug-and-play decoding strategy to reduce attention interference from outlier tokens."',
+      date: '2025-06-01'
     },
     {
       id: '5',
