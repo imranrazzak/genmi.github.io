@@ -39,17 +39,17 @@ const newsItems = [
   },
   {
     id: "news-4",
-    title: "Workshop on Computer Vision Applications in Medicine",
-    summary: "We successfully hosted a workshop on computer vision applications in medicine, with over 200 participants from academia and industry. The event featured keynote speakers from leading research institutions and healthcare organizations.",
-    date: "2023-02-15",
+    title: "New Publication in Nature Digital Medicine",
+    summary: "Our team's groundbreaking work on 'A Cross Population Study of Retinal Aging Biomarkers with Longitudinal Pre-training and Label Distribution Learning' has been published in Nature Digital Medicine.",
+    date: "22 May 2025",
     imageUrl: "/placeholder.svg",
     featured: false,
     hot: false
   },
   {
     id: "news-5",
-    title: "New Collaboration with National Hospital",
-    summary: "We're proud to announce a new collaboration with the National Hospital to implement our AI diagnostic tools in clinical settings. This partnership aims to improve early detection of various conditions through advanced image analysis.",
+    title: "ACL Oral: A Cross Population Study of Retinal Aging Biomarkers with Longitudinal Pre-training and Label Distribution Learning",
+    summary: "We're proud to announce that our research on retinal aging biomarkers has been accepted as an oral presentation at ACL. This work demonstrates the effectiveness of longitudinal pre-training and label distribution learning in cross-population studies.",
     date: "2023-01-20",
     imageUrl: "/placeholder.svg",
     featured: false,
@@ -195,4 +195,3 @@ const News = () => {
 };
 
 export default News;
-

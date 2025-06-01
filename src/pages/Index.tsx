@@ -207,8 +207,8 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <NewsCard id="1" title="GenMI Receives $2.5M Grant for Medical Imaging AI Research" summary="Our research group has been awarded a significant grant to advance our work in AI-enhanced medical imaging technologies." date="2023-05-15" imageUrl="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80" featured={true} index={0} />
-            <NewsCard id="2" title="New Publication in Nature Biotechnology" summary="Our team's groundbreaking work on genomic sequence prediction using transformer models has been published in a leading journal." date="2023-04-02" index={1} />
-            <NewsCard id="3" title="Collaboration with University Medical Center" summary="GenMI has partnered with University Medical Center to implement AI tools for radiology diagnostics." date="2023-03-18" index={2} />
+            <NewsCard id="2" title="New Publication in Nature Digital Medicine" summary="Our team's groundbreaking work on 'A Cross Population Study of Retinal Aging Biomarkers with Longitudinal Pre-training and Label Distribution Learning' has been published in Nature Digital Medicine." date="22 May 2025" index={1} />
+            <NewsCard id="3" title="ACL Oral: A Cross Population Study of Retinal Aging Biomarkers with Longitudinal Pre-training and Label Distribution Learning" summary="We're proud to announce that our research on retinal aging biomarkers has been accepted as an oral presentation at ACL. This work demonstrates the effectiveness of longitudinal pre-training and label distribution learning in cross-population studies." date="2023-03-18" index={2} />
           </div>
         </div>
       </section>
