@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -62,55 +61,54 @@ const Datasets = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative bg-gradient-to-r from-cyan-50 to-blue-50 rounded-2xl p-8 mb-16 overflow-hidden"
-            style={{
-              backgroundImage: 'url(/lovable-uploads/cdfeb34f-618a-41c9-896c-13ae6ed3c4ff.png)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundBlendMode: 'overlay'
-            }}
+            className="bg-white rounded-2xl border border-gray-200 p-8 mb-16 overflow-hidden"
           >
-            <div className="absolute inset-0 bg-cyan-500/10"></div>
-            <div className="relative z-10">
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">OphNet-3D Dataset</h3>
-                  <p className="text-cyan-600 font-medium">First Extensive RGB-D Dynamic 3D Reconstruction Dataset for Ophthalmic Surgery</p>
-                </div>
-                <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                  <Eye className="w-5 h-5 text-cyan-600" />
-                </div>
+            <div className="mb-6">
+              <img 
+                src="/lovable-uploads/cdfeb34f-618a-41c9-896c-13ae6ed3c4ff.png" 
+                alt="OphNet-3D Dataset" 
+                className="w-full h-64 object-cover rounded-lg"
+              />
+            </div>
+            
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">OphNet-3D Dataset</h3>
+                <p className="text-cyan-600 font-medium">First Extensive RGB-D Dynamic 3D Reconstruction Dataset for Ophthalmic Surgery</p>
               </div>
-              
-              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                In this work, we introduce OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses. To scalably produce high-fidelity labels, we design a multi-stage automatic annotation pipeline that integrates multi-view data observation, data-driven motion prior with cross-view geometric consistency and biomechanical constraints, along with a combination of collision-aware interaction constraints for instrument interactions. Building upon OphNet-3D, we establish two challenging benchmarks-bimanual hand pose estimation and hand-instrument interaction reconstruction-and propose two dedicated architectures: H-Net for dual-hand mesh recovery and OH-Net for joint reconstruction of two-hand-two-instrument interactions.
-              </p>
-              
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-cyan-600">41</div>
-                  <div className="text-sm text-gray-600">Sequences</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-cyan-600">40</div>
-                  <div className="text-sm text-gray-600">Surgeons</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-cyan-600">7.1M</div>
-                  <div className="text-sm text-gray-600">Frames</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-cyan-600">12</div>
-                  <div className="text-sm text-gray-600">Surgical Phases</div>
-                </div>
+              <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
+                <Eye className="w-5 h-5 text-cyan-600" />
               </div>
-              
-              <div className="flex items-center gap-4">
-                <button className="inline-flex items-center px-6 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors">
-                  <FileText className="w-4 h-4 mr-2" />
-                  Coming Soon
-                </button>
+            </div>
+            
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              In this work, we introduce OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses. To scalably produce high-fidelity labels, we design a multi-stage automatic annotation pipeline that integrates multi-view data observation, data-driven motion prior with cross-view geometric consistency and biomechanical constraints, along with a combination of collision-aware interaction constraints for instrument interactions. Building upon OphNet-3D, we establish two challenging benchmarks-bimanual hand pose estimation and hand-instrument interaction reconstruction-and propose two dedicated architectures: H-Net for dual-hand mesh recovery and OH-Net for joint reconstruction of two-hand-two-instrument interactions.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+              <div className="bg-cyan-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-cyan-600">41</div>
+                <div className="text-sm text-gray-600">Sequences</div>
               </div>
+              <div className="bg-cyan-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-cyan-600">40</div>
+                <div className="text-sm text-gray-600">Surgeons</div>
+              </div>
+              <div className="bg-cyan-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-cyan-600">7.1M</div>
+                <div className="text-sm text-gray-600">Frames</div>
+              </div>
+              <div className="bg-cyan-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-cyan-600">12</div>
+                <div className="text-sm text-gray-600">Surgical Phases</div>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <button className="inline-flex items-center px-6 py-3 bg-cyan-600 text-white rounded-lg hover:bg-cyan-700 transition-colors">
+                <FileText className="w-4 h-4 mr-2" />
+                Coming Soon
+              </button>
             </div>
           </motion.div>
         </div>
@@ -129,50 +127,48 @@ const Datasets = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+            className="bg-white rounded-2xl border border-gray-200 p-8 mb-16"
           >
-            <div className="relative z-10">
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">MMRC Dataset</h3>
-                  <p className="text-blue-600 font-medium">A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation</p>
-                </div>
-                <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                  <MessageSquare className="w-5 h-5 text-blue-600" />
-                </div>
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">MMRC Dataset</h3>
+                <p className="text-blue-600 font-medium">A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation</p>
               </div>
-              
-              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                This paper presents MMRC, a comprehensive large-scale benchmark designed to evaluate multimodal large language models in real-world conversational scenarios, addressing the gap between laboratory testing and practical deployment.
-              </p>
-              
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-blue-600">23</div>
-                  <div className="text-sm text-gray-600">Participants</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-blue-600">166K</div>
-                  <div className="text-sm text-gray-600">QA-Pairs</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-blue-600">500K</div>
-                  <div className="text-sm text-gray-600">Judgments</div>
-                </div>
+              <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
+                <MessageSquare className="w-5 h-5 text-blue-600" />
               </div>
-              
-              <div className="flex items-center gap-4">
-                <a 
-                  href="https://arxiv.org/pdf/2410.22648" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
-                >
-                  <FileText className="w-4 h-4 mr-2" />
-                  Read Paper
-                  <ExternalLink className="w-4 h-4 ml-2" />
-                </a>
+            </div>
+            
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              This paper presents MMRC, a comprehensive large-scale benchmark designed to evaluate multimodal large language models in real-world conversational scenarios, addressing the gap between laboratory testing and practical deployment.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-blue-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-blue-600">23</div>
+                <div className="text-sm text-gray-600">Participants</div>
               </div>
+              <div className="bg-blue-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-blue-600">166K</div>
+                <div className="text-sm text-gray-600">QA-Pairs</div>
+              </div>
+              <div className="bg-blue-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-blue-600">500K</div>
+                <div className="text-sm text-gray-600">Judgments</div>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <a 
+                href="https://arxiv.org/pdf/2410.22648" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                <FileText className="w-4 h-4 mr-2" />
+                Read Paper
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
             </div>
           </motion.div>
         </div>
@@ -191,61 +187,60 @@ const Datasets = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative bg-gradient-to-r from-emerald-50 to-teal-50 rounded-2xl p-8 mb-16 overflow-hidden"
-            style={{
-              backgroundImage: 'url(/lovable-uploads/f97827e1-8222-4671-aa75-364351277825.png)',
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              backgroundBlendMode: 'overlay'
-            }}
+            className="bg-white rounded-2xl border border-gray-200 p-8 mb-16"
           >
-            <div className="absolute inset-0 bg-emerald-500/10"></div>
-            <div className="relative z-10">
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">MMHealth Dataset</h3>
-                  <p className="text-emerald-600 font-medium">Multimodal Multi-Task Dataset for Benchmarking Health Misinformation</p>
-                </div>
-                <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
-                  <Shield className="w-5 h-5 text-emerald-600" />
-                </div>
+            <div className="mb-6">
+              <img 
+                src="/lovable-uploads/f97827e1-8222-4671-aa75-364351277825.png" 
+                alt="MMHealth Dataset" 
+                className="w-full h-64 object-cover rounded-lg"
+              />
+            </div>
+            
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">MMHealth Dataset</h3>
+                <p className="text-emerald-600 font-medium">Multimodal Multi-Task Dataset for Benchmarking Health Misinformation</p>
               </div>
-              
-              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                We present MMHealth, a large scale multimodal misinformation dataset in the health domain consisting of 34,746 news article encompassing both textual and visual information. MM-Health includes human-generated multimodal information (5,776 articles) and AI-generated multimodal information (28,880 articles) from various SOTA generative AI models. Additionally, We benchmarked our dataset against three tasks—reliability checks, originality checks, and fine-grained AI detection—demonstrating that existing SOTA models struggle to accurately distinguish the reliability and origin of information. Our dataset aims to support the development of misinformation detection across various health scenarios, facilitating the detection of human and machine-generated content at multimodal levels.
-              </p>
-              
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-emerald-600">34,746</div>
-                  <div className="text-sm text-gray-600">News Articles</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-emerald-600">5,776</div>
-                  <div className="text-sm text-gray-600">Human-Generated</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-emerald-600">28,880</div>
-                  <div className="text-sm text-gray-600">AI-Generated</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-emerald-600">3</div>
-                  <div className="text-sm text-gray-600">Benchmark Tasks</div>
-                </div>
+              <div className="w-10 h-10 rounded-full bg-emerald-100 flex items-center justify-center">
+                <Shield className="w-5 h-5 text-emerald-600" />
               </div>
-              
-              <div className="flex items-center gap-4">
-                <a 
-                  href="https://arxiv.org/pdf/2505.18685" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors"
-                >
-                  <FileText className="w-4 h-4 mr-2" />
-                  Read Paper
-                  <ExternalLink className="w-4 h-4 ml-2" />
-                </a>
+            </div>
+            
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              We present MMHealth, a large scale multimodal misinformation dataset in the health domain consisting of 34,746 news article encompassing both textual and visual information. MM-Health includes human-generated multimodal information (5,776 articles) and AI-generated multimodal information (28,880 articles) from various SOTA generative AI models. Additionally, We benchmarked our dataset against three tasks—reliability checks, originality checks, and fine-grained AI detection—demonstrating that existing SOTA models struggle to accurately distinguish the reliability and origin of information. Our dataset aims to support the development of misinformation detection across various health scenarios, facilitating the detection of human and machine-generated content at multimodal levels.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+              <div className="bg-emerald-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-emerald-600">34,746</div>
+                <div className="text-sm text-gray-600">News Articles</div>
               </div>
+              <div className="bg-emerald-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-emerald-600">5,776</div>
+                <div className="text-sm text-gray-600">Human-Generated</div>
+              </div>
+              <div className="bg-emerald-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-emerald-600">28,880</div>
+                <div className="text-sm text-gray-600">AI-Generated</div>
+              </div>
+              <div className="bg-emerald-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-emerald-600">3</div>
+                <div className="text-sm text-gray-600">Benchmark Tasks</div>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <a 
+                href="https://arxiv.org/pdf/2505.18685" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-emerald-600 text-white rounded-lg hover:bg-emerald-700 transition-colors"
+              >
+                <FileText className="w-4 h-4 mr-2" />
+                Read Paper
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
             </div>
           </motion.div>
         </div>
@@ -264,40 +259,38 @@ const Datasets = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+            className="bg-white rounded-2xl border border-gray-200 p-8 mb-16"
           >
-            <div className="relative z-10">
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">MERCI Dataset</h3>
-                  <p className="text-purple-600 font-medium">A Multimodal Dataset for Personalised and Emotionally-Aware Dialogues</p>
-                </div>
-                <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-purple-600" />
-                </div>
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">MERCI Dataset</h3>
+                <p className="text-purple-600 font-medium">A Multimodal Dataset for Personalised and Emotionally-Aware Dialogues</p>
               </div>
-              
-              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                We introduce MERCI (Multimodal dataset for Emotionally-aware peRsonalised Conversational Interactions), a dataset derived from user-robot dialogues involving thirty participants who completed user profile questionnaires covering ten personal topics (e.g., hobbies, music). A conversational system called PERCY then engaged with each participant in open-domain conversations, leveraging GPT-4, real-time facial-expression and sentiment analysis to generate contextually appropriate, empathetic responses. MERCI contains 1860 utterances, equating to about 12.5 hours of aligned audio, three-view video, transcripts with timestamps, emotion labels, and sentiment scores. This dataset serves as a reproducible test-bed for tasks such as emotion-grounded response generation, multimodal affect recognition, and personalised policy learning.
-              </p>
-              
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-purple-600">30</div>
-                  <div className="text-sm text-gray-600">Participants</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-purple-600">1,860</div>
-                  <div className="text-sm text-gray-600">Utterances</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-purple-600">12.5</div>
-                  <div className="text-sm text-gray-600">Hours</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-purple-600">10</div>
-                  <div className="text-sm text-gray-600">Personal Topics</div>
-                </div>
+              <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
+                <Heart className="w-5 h-5 text-purple-600" />
+              </div>
+            </div>
+            
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              We introduce MERCI (Multimodal dataset for Emotionally-aware peRsonalised Conversational Interactions), a dataset derived from user-robot dialogues involving thirty participants who completed user profile questionnaires covering ten personal topics (e.g., hobbies, music). A conversational system called PERCY then engaged with each participant in open-domain conversations, leveraging GPT-4, real-time facial-expression and sentiment analysis to generate contextually appropriate, empathetic responses. MERCI contains 1860 utterances, equating to about 12.5 hours of aligned audio, three-view video, transcripts with timestamps, emotion labels, and sentiment scores. This dataset serves as a reproducible test-bed for tasks such as emotion-grounded response generation, multimodal affect recognition, and personalised policy learning.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+              <div className="bg-purple-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-purple-600">30</div>
+                <div className="text-sm text-gray-600">Participants</div>
+              </div>
+              <div className="bg-purple-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-purple-600">1,860</div>
+                <div className="text-sm text-gray-600">Utterances</div>
+              </div>
+              <div className="bg-purple-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-purple-600">12.5</div>
+                <div className="text-sm text-gray-600">Hours</div>
+              </div>
+              <div className="bg-purple-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-purple-600">10</div>
+                <div className="text-sm text-gray-600">Personal Topics</div>
               </div>
             </div>
           </motion.div>
@@ -317,50 +310,48 @@ const Datasets = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+            className="bg-white rounded-2xl border border-gray-200 p-8 mb-16"
           >
-            <div className="relative z-10">
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">SimpsonsVQA Dataset</h3>
-                  <p className="text-yellow-600 font-medium">Enhancing Inquiry-Based Learning with a Tailored Dataset</p>
-                </div>
-                <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center">
-                  <Tv className="w-5 h-5 text-yellow-600" />
-                </div>
+            <div className="flex items-start justify-between mb-6">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">SimpsonsVQA Dataset</h3>
+                <p className="text-yellow-600 font-medium">Enhancing Inquiry-Based Learning with a Tailored Dataset</p>
               </div>
-              
-              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
-                In this paper, we present "SimpsonsVQA", a novel dataset for VQA derived from The Simpsons TV show, designed to promote inquiry-based learning. Our dataset is specifically designed to address not only the traditional VQA task but also to identify irrelevant questions related to images, as well as the reverse scenario where a user provides an answer to a question that the system must evaluate (e.g., as correct, incorrect, or ambiguous). It aims to cater to various visual applications, harnessing the visual content of "The Simpsons" to create engaging and informative interactive systems. SimpsonsVQA contains approximately 23K images, 166K QA pairs, and 500K judgments.
-              </p>
-              
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-yellow-600">23K</div>
-                  <div className="text-sm text-gray-600">Images</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-yellow-600">166K</div>
-                  <div className="text-sm text-gray-600">QA Pairs</div>
-                </div>
-                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
-                  <div className="text-2xl font-bold text-yellow-600">500K</div>
-                  <div className="text-sm text-gray-600">Judgments</div>
-                </div>
+              <div className="w-10 h-10 rounded-full bg-yellow-100 flex items-center justify-center">
+                <Tv className="w-5 h-5 text-yellow-600" />
               </div>
-              
-              <div className="flex items-center gap-4">
-                <a 
-                  href="https://arxiv.org/pdf/2410.22648" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors"
-                >
-                  <FileText className="w-4 h-4 mr-2" />
-                  Read Paper
-                  <ExternalLink className="w-4 h-4 ml-2" />
-                </a>
+            </div>
+            
+            <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+              In this paper, we present "SimpsonsVQA", a novel dataset for VQA derived from The Simpsons TV show, designed to promote inquiry-based learning. Our dataset is specifically designed to address not only the traditional VQA task but also to identify irrelevant questions related to images, as well as the reverse scenario where a user provides an answer to a question that the system must evaluate (e.g., as correct, incorrect, or ambiguous). It aims to cater to various visual applications, harnessing the visual content of "The Simpsons" to create engaging and informative interactive systems. SimpsonsVQA contains approximately 23K images, 166K QA pairs, and 500K judgments.
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
+              <div className="bg-yellow-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-yellow-600">23K</div>
+                <div className="text-sm text-gray-600">Images</div>
               </div>
+              <div className="bg-yellow-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-yellow-600">166K</div>
+                <div className="text-sm text-gray-600">QA Pairs</div>
+              </div>
+              <div className="bg-yellow-50 p-4 rounded-lg text-center">
+                <div className="text-2xl font-bold text-yellow-600">500K</div>
+                <div className="text-sm text-gray-600">Judgments</div>
+              </div>
+            </div>
+            
+            <div className="flex items-center gap-4">
+              <a 
+                href="https://arxiv.org/pdf/2410.22648" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center px-6 py-3 bg-yellow-600 text-white rounded-lg hover:bg-yellow-700 transition-colors"
+              >
+                <FileText className="w-4 h-4 mr-2" />
+                Read Paper
+                <ExternalLink className="w-4 h-4 ml-2" />
+              </a>
             </div>
           </motion.div>
         </div>
