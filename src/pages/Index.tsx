@@ -149,7 +149,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Microscope className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Early Disease Detection</h3>
+              <h3 className="text-xl font-medium mb-3">Early Diagnosis and Prognosis</h3>
               <p className="text-muted-foreground">
                 Building advanced AI systems for early detection and diagnosis of diseases using both genomic and imaging data.
               </p>
@@ -189,7 +189,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <FeaturedCard title="GenomeGPT" description="A generative AI model for predicting gene expression patterns and genetic variations." imageUrl="https://images.unsplash.com/photo-1542992015-3b760b0b5c19?auto=format&fit=crop&q=80" link="/projects/genome-gpt" index={0} />
+            <FeaturedCard title="Ophthalmic Surgery" description="Introducing OphNet-3D, the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons with fine-grained annotations for bimanual hand pose estimation and hand-instrument interaction reconstruction." imageUrl="/lovable-uploads/1e8ee05f-9f3b-4b1f-a0ff-1cd2984292fd.png" link="https://arxiv.org/pdf/2505.17677" index={0} />
             <FeaturedCard title="MedSynthImager" description="Generating synthetic medical images to enhance diagnostic model training with limited real-world data." imageUrl="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&q=80" link="/projects/medsynthimager" index={1} />
             <FeaturedCard title="PathoDiffusion" description="Using diffusion models to enhance pathology images and highlight abnormalities." imageUrl="https://images.unsplash.com/photo-1582719471384-894fbb16e074?auto=format&fit=crop&q=80" link="/projects/pathodiffusion" index={2} />
           </div>
