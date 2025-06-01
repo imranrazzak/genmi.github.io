@@ -1,4 +1,3 @@
-
 export const facultyMembers = [
   {
     name: "Imran Razzak",
@@ -42,26 +41,6 @@ export const postdocs = [
     bio: "Expertise in Robotics, Optimization, Control Theory, Machine Learning, and Computer Vision, developing intelligent systems for automation and real-world applications.",
     links: {
       email: "aisha.rahman@genmi-research.org",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Tony Alex",
-    role: "Research Associate",
-    image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
-    bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
-    links: {
-      email: "alex.winters@genmi-research.org",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Jianghao Wu",
-    role: "Research Associate",
-    image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
-    bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
-    links: {
-      email: "maya.patel@genmi-research.org",
       linkedin: "https://linkedin.com"
     }
   },
@@ -352,6 +331,24 @@ export const gradStudents = [
 ];
 
 export const pastMembers = [
+  {
+    name: "Tony Alex",
+    role: "Former Research Associate (2023-2024)",
+    image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
+    bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
+    links: {
+      github: "https://github.com"
+    }
+  },
+  {
+    name: "Jianghao Wu",
+    role: "Former Research Associate (2023-2024)",
+    image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
+    bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
+    links: {
+      linkedin: "https://linkedin.com"
+    }
+  },
   {
     name: "Dr. Sarah Williams",
     role: "Former Research Associate (2020-2023)",
