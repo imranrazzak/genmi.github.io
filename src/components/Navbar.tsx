@@ -11,6 +11,7 @@ const navItems = [
   { name: 'Team', path: '/team' },
   { name: 'Projects', path: '/projects' },
   { name: 'Publications', path: '/publications' },
+  { name: 'Datasets', path: '/datasets' },
   { name: 'News', path: '/news' },
   { name: 'Activities', path: '/activities' },
   { name: 'About Us', path: '/about' },

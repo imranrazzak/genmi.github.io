@@ -1,0 +1,234 @@
+
+import React from 'react';
+import Layout from '@/components/Layout';
+import SectionTitle from '@/components/SectionTitle';
+import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+import { 
+  Image as ImageIcon, 
+  Dna, 
+  FileText,
+  Eye,
+  HardDrive,
+  LineChart,
+  ArrowRight,
+  ExternalLink
+} from 'lucide-react';
+
+const Datasets = () => {
+  return (
+    <Layout>
+      {/* Hero Section */}
+      <section className="pt-20 pb-16 px-6">
+        <div className="container mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="max-w-3xl mx-auto text-center"
+          >
+            <span className="inline-block bg-genmi-50 text-genmi-600 px-4 py-1.5 rounded-full text-sm font-medium mb-6">
+              Medical Datasets
+            </span>
+            <h1 className="text-4xl md:text-5xl font-display font-medium leading-tight mb-6">
+              Research Datasets & Resources
+            </h1>
+            <p className="text-muted-foreground text-lg">
+              Explore our comprehensive collection of medical datasets that power AI research and innovation in healthcare.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Datasets Overview */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Available Resources"
+            title="Medical Datasets Collection"
+          />
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+            {/* Medical Imaging Datasets */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.1 }}
+              className="bg-white p-6 rounded-xl shadow-sm border border-border"
+            >
+              <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center mb-4">
+                <ImageIcon className="w-5 h-5 text-blue-600" />
+              </div>
+              <h3 className="text-lg font-medium mb-2">Medical Imaging Datasets</h3>
+              <p className="text-muted-foreground text-sm mb-3">
+                Curated collections of MRI, CT, X-ray, and histopathology images for AI research.
+              </p>
+              <div className="text-xs text-genmi-600 bg-genmi-50 px-2 py-1 rounded">Multi-modal</div>
+            </motion.div>
+
+            {/* Genomics Data */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.2 }}
+              className="bg-white p-6 rounded-xl shadow-sm border border-border"
+            >
+              <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center mb-4">
+                <Dna className="w-5 h-5 text-green-600" />
+              </div>
+              <h3 className="text-lg font-medium mb-2">Genomics & Omics</h3>
+              <p className="text-muted-foreground text-sm mb-3">
+                Large-scale genomic, transcriptomic, and proteomic datasets for precision medicine research.
+              </p>
+              <div className="text-xs text-genmi-600 bg-genmi-50 px-2 py-1 rounded">High-throughput</div>
+            </motion.div>
+
+            {/* Clinical Records */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.3 }}
+              className="bg-white p-6 rounded-xl shadow-sm border border-border"
+            >
+              <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center mb-4">
+                <FileText className="w-5 h-5 text-purple-600" />
+              </div>
+              <h3 className="text-lg font-medium mb-2">Clinical Records</h3>
+              <p className="text-muted-foreground text-sm mb-3">
+                Anonymized electronic health records and clinical trial data for healthcare AI development.
+              </p>
+              <div className="text-xs text-genmi-600 bg-genmi-50 px-2 py-1 rounded">Privacy-preserved</div>
+            </motion.div>
+
+            {/* Retinal Images */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.4 }}
+              className="bg-white p-6 rounded-xl shadow-sm border border-border"
+            >
+              <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center mb-4">
+                <Eye className="w-5 h-5 text-orange-600" />
+              </div>
+              <h3 className="text-lg font-medium mb-2">Retinal Disease Dataset</h3>
+              <p className="text-muted-foreground text-sm mb-3">
+                Comprehensive fundus images and OCT scans for early retinal disease detection research.
+              </p>
+              <div className="text-xs text-genmi-600 bg-genmi-50 px-2 py-1 rounded">Ophthalmology</div>
+            </motion.div>
+
+            {/* Federated Learning Data */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.5 }}
+              className="bg-white p-6 rounded-xl shadow-sm border border-border"
+            >
+              <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center mb-4">
+                <HardDrive className="w-5 h-5 text-red-600" />
+              </div>
+              <h3 className="text-lg font-medium mb-2">Federated Health Data</h3>
+              <p className="text-muted-foreground text-sm mb-3">
+                Distributed healthcare datasets for federated learning and privacy-preserving AI research.
+              </p>
+              <div className="text-xs text-genmi-600 bg-genmi-50 px-2 py-1 rounded">Distributed</div>
+            </motion.div>
+
+            {/* Knowledge Graphs */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.6 }}
+              className="bg-white p-6 rounded-xl shadow-sm border border-border"
+            >
+              <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center mb-4">
+                <LineChart className="w-5 h-5 text-indigo-600" />
+              </div>
+              <h3 className="text-lg font-medium mb-2">Medical Knowledge Graphs</h3>
+              <p className="text-muted-foreground text-sm mb-3">
+                Structured biomedical knowledge bases for LLM integration and reasoning applications.
+              </p>
+              <div className="text-xs text-genmi-600 bg-genmi-50 px-2 py-1 rounded">Structured</div>
+            </motion.div>
+          </div>
+
+          {/* Access Information */}
+          <div className="bg-genmi-50/50 p-8 rounded-2xl mb-12">
+            <h3 className="text-xl font-medium mb-4">Dataset Access & Collaboration</h3>
+            <p className="text-muted-foreground mb-6">
+              Our datasets are made available to the research community through secure, privacy-preserving platforms. 
+              We actively collaborate with healthcare institutions and research organizations to expand our data resources 
+              while maintaining the highest standards of patient privacy and data security.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <div className="bg-white px-4 py-2 rounded-lg border">
+                <span className="text-sm font-medium">HIPAA Compliant</span>
+              </div>
+              <div className="bg-white px-4 py-2 rounded-lg border">
+                <span className="text-sm font-medium">IRB Approved</span>
+              </div>
+              <div className="bg-white px-4 py-2 rounded-lg border">
+                <span className="text-sm font-medium">Open Source Tools</span>
+              </div>
+              <div className="bg-white px-4 py-2 rounded-lg border">
+                <span className="text-sm font-medium">Collaborative Access</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Link to About Page */}
+          <div className="text-center">
+            <Link
+              to="/about#datasets"
+              className="inline-flex items-center gap-2 bg-genmi-600 text-white rounded-full px-6 py-3 font-medium hover:bg-genmi-700 transition-colors"
+            >
+              View Complete Dataset Information
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-20 px-6">
+        <div className="container mx-auto">
+          <div className="bg-white border border-border rounded-3xl p-10 md:p-16 text-center max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <h2 className="text-3xl md:text-4xl font-display font-medium mb-6">
+                Need Access to Our Datasets?
+              </h2>
+              <p className="text-muted-foreground text-lg mb-8 max-w-2xl mx-auto">
+                Contact our research team to discuss collaboration opportunities and dataset access for your research projects.
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Link
+                  to="/about"
+                  className="bg-genmi-600 text-white rounded-full px-8 py-3 font-medium hover:bg-genmi-700 transition-colors inline-flex items-center gap-2"
+                >
+                  Learn More About Us
+                  <ExternalLink className="w-4 h-4" />
+                </Link>
+                <button className="border border-genmi-600 text-genmi-600 rounded-full px-8 py-3 font-medium hover:bg-genmi-50 transition-colors">
+                  Request Dataset Access
+                </button>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  );
+};
+
+export default Datasets;
