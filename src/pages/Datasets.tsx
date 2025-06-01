@@ -11,7 +11,8 @@ import {
   HardDrive,
   LineChart,
   ArrowRight,
-  ExternalLink
+  ExternalLink,
+  MessageSquare
 } from 'lucide-react';
 
 const Datasets = () => {
@@ -98,6 +99,66 @@ const Datasets = () => {
                 <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
                   <div className="text-2xl font-bold text-blue-600">12</div>
                   <div className="text-sm text-gray-600">Surgical Phases</div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Featured Dataset - MMRC */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Featured Dataset"
+            title="MMRC"
+          />
+          
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-2xl p-8 mb-16 relative overflow-hidden"
+          >
+            <div className="absolute inset-0 opacity-15">
+              <img 
+                src="/lovable-uploads/46aac854-7992-4390-b660-552f4ff5f8e9.png" 
+                alt="MMRC Dataset Background" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="relative z-10">
+              <div className="flex items-start justify-between mb-6">
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">MMRC Dataset</h3>
+                  <p className="text-green-600 font-medium">A Large-Scale Benchmark for LLM in Real-World Conversation</p>
+                </div>
+                <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
+                  <MessageSquare className="w-5 h-5 text-green-600" />
+                </div>
+              </div>
+              
+              <p className="text-gray-700 text-lg mb-6 leading-relaxed">
+                With data collected from real-world scenarios, MMRC comprises 5,120 conversations and 28,720 corresponding manually labeled questions, posing a significant challenge to existing MLLMs. Evaluations on 20 MLLMs in MMRC indicate an accuracy drop during open-ended interactions. We identify four common failure patterns: long-term memory degradation, inadequacies in updating factual knowledge, accumulated assumption of error propagation, and reluctance to "say no." To mitigate these issues, we propose a simple yet effective NOTE-TAKING strategy, which can record key information from the conversation and remind the model during its responses, enhancing conversational capabilities. Experiments across six MLLMs demonstrate significant performance improvements.
+              </p>
+              
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-green-600">5,120</div>
+                  <div className="text-sm text-gray-600">Conversations</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-green-600">28,720</div>
+                  <div className="text-sm text-gray-600">Questions</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-green-600">20</div>
+                  <div className="text-sm text-gray-600">MLLMs Evaluated</div>
+                </div>
+                <div className="bg-white/80 backdrop-blur-sm p-4 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-green-600">6</div>
+                  <div className="text-sm text-gray-600">Models Improved</div>
                 </div>
               </div>
             </div>
