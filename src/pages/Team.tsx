@@ -348,6 +348,16 @@ const Team = () => {
         email: "a.goyal@unsw.edu.au",
         linkedin: "https://linkedin.com"
       }
+    },
+    {
+      name: "Xiwei Liu",
+      role: "PhD Student",
+      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching machine learning applications for medical data analysis and developing novel approaches for healthcare AI.",
+      links: {
+        email: "xiwei.liu@genmi-research.org",
+        github: "https://github.com"
+      }
     }
   ];
 
