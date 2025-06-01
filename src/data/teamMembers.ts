@@ -45,17 +45,6 @@ export const postdocs = [
     }
   },
   {
-    name: "Zoey Yang",
-    role: "Research Associate",
-    image: "/lovable-uploads/c9b6564c-333a-415c-be46-00fc7353a16b.png",
-    bio: "Leading research in computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
-    links: {
-      email: "zoey.yang@genmi-research.org",
-      linkedin: "https://linkedin.com",
-      github: "https://github.com"
-    }
-  },
-  {
     name: "Andinath Dukre",
     role: "Research Associate",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500",
@@ -98,6 +87,17 @@ export const postdocs = [
 ];
 
 export const gradStudents = [
+  {
+    name: "Zoey Yang",
+    role: "PhD Student",
+    image: "/lovable-uploads/c9b6564c-333a-415c-be46-00fc7353a16b.png",
+    bio: "Leading research in computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
+    links: {
+      email: "zoey.yang@genmi-research.org",
+      linkedin: "https://linkedin.com",
+      github: "https://github.com"
+    }
+  },
   {
     name: "Carlos Rodriguez",
     role: "PhD Student",
