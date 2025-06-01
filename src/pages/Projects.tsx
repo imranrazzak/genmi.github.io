@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -83,7 +84,7 @@ const Projects = () => {
       title: "Early Breast Cancer Diagnosis with Multiomics",
       category: "Cancer Detection",
       description: "Developing advanced deep learning algorithms for early detection of breast cancer through AI-enhanced mammography analysis integrated with multiomics data. Our system combines convolutional neural networks with radiomics features and genomic, proteomic, and metabolomic data to identify subtle patterns and abnormalities that may be missed by traditional screening methods, enabling earlier intervention and improved patient outcomes through personalized risk assessment.",
-      image: "https://images.unsplash.com/photo-1559757175-7cb036e0159e?auto=format&fit=crop&q=80",
+      image: "/lovable-uploads/2d0c4d57-2ccd-4d0d-819d-70723389c1d0.png",
       icon: <Stethoscope className="h-5 w-5" />,
       status: "Active" as const,
       slug: "breast-cancer-diagnosis"
