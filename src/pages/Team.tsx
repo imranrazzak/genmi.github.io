@@ -163,7 +163,7 @@ const Team = () => {
       name: "Ubaid Azam",
       role: "PhD Student, Southampton University, UK",
       image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=500",
-      bio: "Researching novel applications of deep learning for medical image analysis and diagnostic support systems.",
+      bio: "Working on Federated Learning in Health, developing privacy-preserving machine learning approaches for healthcare data.",
       links: {
         email: "u.azam@soton.ac.uk",
         linkedin: "https://linkedin.com"
@@ -173,39 +173,19 @@ const Team = () => {
       name: "Inamullah Khan",
       role: "PhD Student, Southampton University, UK",
       image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=500",
-      bio: "Developing advanced machine learning models for biomedical signal processing and health monitoring systems.",
+      bio: "Focusing on Early Prognosis on Retinal Disease, developing advanced machine learning models for early detection and diagnosis.",
       links: {
         email: "i.khan@soton.ac.uk",
         github: "https://github.com"
       }
     },
     {
-      name: "Ghadir Alasawi",
+      name: "Syed Javed",
       role: "PhD Student, UNSW",
-      image: "https://images.unsplash.com/photo-1580489734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
-      bio: "Focusing on AI-driven approaches for early disease detection through multimodal biomedical data analysis.",
+      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500",
+      bio: "Specializing in Medical Imaging, exploring advanced computer vision techniques for medical image analysis and diagnostic support systems.",
       links: {
-        email: "g.alasawi@unsw.edu.au",
-        linkedin: "https://linkedin.com"
-      }
-    },
-    {
-      name: "Ruyi Zhang",
-      role: "PhD Student, UNSW",
-      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=500",
-      bio: "Investigating machine learning applications for genomic data interpretation and personalized treatment recommendations.",
-      links: {
-        email: "r.zhang@unsw.edu.au",
-        github: "https://github.com"
-      }
-    },
-    {
-      name: "Arthur Chen",
-      role: "PhD Student, UNSW",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=500",
-      bio: "Researching generative AI models for synthetic medical data generation with privacy preservation guarantees.",
-      links: {
-        email: "a.chen@unsw.edu.au",
+        email: "s.javed@unsw.edu.au",
         linkedin: "https://linkedin.com"
       }
     },
@@ -213,7 +193,7 @@ const Team = () => {
       name: "Ali Almutari",
       role: "PhD Student, UNSW",
       image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=500",
-      bio: "Working on explainable AI frameworks for healthcare applications to improve clinical adoption and trust.",
+      bio: "Working on Few Label Learning, developing machine learning approaches that can work effectively with limited labeled data in healthcare applications.",
       links: {
         email: "a.almutari@unsw.edu.au",
         github: "https://github.com"
@@ -223,9 +203,39 @@ const Team = () => {
       name: "Abdulrahman",
       role: "PhD Student, UNSW",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
-      bio: "Developing reinforcement learning approaches for adaptive clinical decision support in complex disease management.",
+      bio: "Focusing on Few Labels Learning, developing reinforcement learning approaches for adaptive clinical decision support with limited labeled data.",
       links: {
         email: "abdulrahman@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Ruyi Zhang",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching KG + LLM, investigating machine learning applications combining Knowledge Graphs with Large Language Models for genomic data interpretation.",
+      links: {
+        email: "r.zhang@unsw.edu.au",
+        github: "https://github.com"
+      }
+    },
+    {
+      name: "Ghadir Alasawi",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1580489734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
+      bio: "Working on LLM + RAG, focusing on AI-driven approaches combining Large Language Models with Retrieval-Augmented Generation for early disease detection.",
+      links: {
+        email: "g.alasawi@unsw.edu.au",
+        linkedin: "https://linkedin.com"
+      }
+    },
+    {
+      name: "Arthur Chen",
+      role: "PhD Student, UNSW",
+      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=500",
+      bio: "Researching generative AI models for synthetic medical data generation with privacy preservation guarantees.",
+      links: {
+        email: "a.chen@unsw.edu.au",
         linkedin: "https://linkedin.com"
       }
     },
