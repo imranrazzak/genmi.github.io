@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import { motion } from 'framer-motion';
-import { ArrowUpRight, Brain, HeartPulse, Watch, Clock } from 'lucide-react';
+import { ArrowUpRight, Brain, HeartPulse, Watch, Clock, Stethoscope } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -80,6 +80,15 @@ const ProjectCard: React.FC<ProjectProps> = ({
 
 const Projects = () => {
   const projects = [
+    {
+      title: "Early Breast Cancer Diagnosis with AI-Enhanced Mammography",
+      category: "Cancer Detection",
+      description: "Developing advanced deep learning algorithms for early detection of breast cancer through AI-enhanced mammography analysis. Our system combines convolutional neural networks with radiomics features to identify subtle patterns and abnormalities that may be missed by traditional screening methods, enabling earlier intervention and improved patient outcomes.",
+      image: "https://images.unsplash.com/photo-1559757175-7cb036e0159e?auto=format&fit=crop&q=80",
+      icon: <Stethoscope className="h-5 w-5" />,
+      status: "Active" as const,
+      slug: "breast-cancer-diagnosis"
+    },
     {
       title: "Advanced Medical Image Segmentation",
       category: "Image Segmentation",
