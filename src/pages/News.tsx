@@ -1,195 +1,106 @@
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { Flame, Search, Calendar } from 'lucide-react';
-import { Separator } from "@/components/ui/separator";
+
+import React from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import NewsCard from '@/components/NewsCard';
-import { Input } from "@/components/ui/input";
-import { Button } from "@/components/ui/button";
-
-// Sample news data
-const newsItems = [
-  {
-    id: "news-1",
-    title: "🔥 1 Paper Accepted in CVPR 2025",
-    summary: "We're excited to announce that our research on 'Seeing Far and Clearly: Mitigating Hallucinations in MLLMs with Attention Causal Decoding' has been accepted for presentation at CVPR 2025, one of the premier computer vision conferences worldwide.",
-    date: "10 March 2025",
-    imageUrl: "/placeholder.svg",
-    featured: true,
-    hot: true
-  },
-  {
-    id: "news-2",
-    title: "🔥 Ming Hu Joins Our Research Team",
-    summary: "We are delighted to welcome Ming Hu, a renowned expert in Computer Vision and Machine Learning, to our research team. Ming brings extensive experience in deep learning applications for healthcare.",
-    date: "10 March 2025",
-    imageUrl: "/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png",
-    featured: true,
-    hot: true
-  },
-  {
-    id: "news-3",
-    title: "Research Grant Awarded for AI in Healthcare Project",
-    summary: "Our team has been awarded a significant grant to advance our work on AI applications in healthcare diagnostics. This funding will support our ongoing efforts to develop innovative solutions for medical image analysis.",
-    date: "2023-03-22",
-    imageUrl: "/placeholder.svg",
-    featured: false,
-    hot: false
-  },
-  {
-    id: "news-4",
-    title: "New Publication in Nature Digital Medicine",
-    summary: "Our team's groundbreaking work on 'A Cross Population Study of Retinal Aging Biomarkers with Longitudinal Pre-training and Label Distribution Learning' has been published in Nature Digital Medicine.",
-    date: "22 May 2025",
-    imageUrl: "/placeholder.svg",
-    featured: false,
-    hot: false
-  },
-  {
-    id: "news-5",
-    title: "ACL Oral: A Cross Population Study of Retinal Aging Biomarkers with Longitudinal Pre-training and Label Distribution Learning",
-    summary: "We're proud to announce that our research on retinal aging biomarkers has been accepted as an oral presentation at ACL. This work demonstrates the effectiveness of longitudinal pre-training and label distribution learning in cross-population studies.",
-    date: "2023-01-20",
-    imageUrl: "/placeholder.svg",
-    featured: false,
-    hot: false
-  },
-  {
-    id: "news-6",
-    title: "Open Source Release of Medical Image Dataset",
-    summary: "To foster research in medical image analysis, we've released a comprehensive dataset of anonymized medical images with expert annotations. This resource is now available to the research community under an open license.",
-    date: "2022-12-05",
-    imageUrl: "/placeholder.svg",
-    featured: false,
-    hot: false
-  }
-];
+import AcceptedPapersCard from '@/components/AcceptedPapersCard';
+import { motion } from 'framer-motion';
 
 const News = () => {
-  const [searchQuery, setSearchQuery] = useState("");
-  
-  // Filter news items based on search query
-  const filteredNews = searchQuery 
-    ? newsItems.filter(news => 
-        news.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
-        news.summary.toLowerCase().includes(searchQuery.toLowerCase())
-      )
-    : newsItems;
-  
-  // Separate hot news and regular news
-  const hotNews = filteredNews.filter(news => news.hot);
-  const regularNews = filteredNews.filter(news => !news.hot);
+  const newsItems = [
+    {
+      id: '1',
+      title: 'New Research on Federated Learning in Healthcare',
+      summary: 'Our latest paper on privacy-preserving federated learning for medical data analysis has been accepted at a top-tier conference.',
+      date: '2024-01-15',
+      imageUrl: '/lovable-uploads/2d853ee5-6a95-428b-969e-da913c38d778.png',
+      featured: true,
+      hot: true
+    },
+    {
+      id: '2',
+      title: 'GENMI Lab Wins Best Paper Award',
+      summary: 'Our work on multimodal medical AI received recognition at the International Conference on Medical Imaging.',
+      date: '2024-01-10',
+      imageUrl: '/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png'
+    },
+    {
+      id: '3',
+      title: 'New Collaboration with Leading Medical Centers',
+      summary: 'We are excited to announce partnerships with several renowned hospitals to advance medical AI research.',
+      date: '2024-01-05'
+    },
+    {
+      id: '4',
+      title: 'PhD Student Receives Prestigious Fellowship',
+      summary: 'Congratulations to our PhD student for receiving a national research fellowship for AI in healthcare.',
+      date: '2023-12-20'
+    },
+    {
+      id: '5',
+      title: 'Launch of Open-Source Medical AI Toolkit',
+      summary: 'We have released our comprehensive toolkit for medical AI research to the open-source community.',
+      date: '2023-12-15',
+      imageUrl: '/lovable-uploads/5c7eec45-80b9-49fe-b7f0-404d67dddf6d.png'
+    },
+    {
+      id: '6',
+      title: 'Workshop on Ethical AI in Medicine',
+      summary: 'Join us for our upcoming workshop discussing the ethical implications of AI in medical practice.',
+      date: '2023-12-10'
+    }
+  ];
 
   return (
     <Layout>
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.5 }}
-        className="container py-12 px-4 sm:px-6 lg:px-8"
-      >
-        <SectionTitle
-          subtext="Stay Updated"
-          title="Latest News & Announcements"
-        />
+      {/* Hero Section */}
+      <section className="pt-20 pb-16 px-6">
+        <div className="container mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="max-w-3xl mx-auto text-center"
+          >
+            <span className="inline-block bg-genmi-50 text-genmi-600 px-4 py-1.5 rounded-full text-sm font-medium mb-6">
+              Latest Updates
+            </span>
+            <h1 className="text-4xl md:text-5xl font-display font-medium leading-tight mb-6">
+              News & Updates
+            </h1>
+            <p className="text-muted-foreground text-lg">
+              Stay updated with the latest developments, research breakthroughs, and achievements from the GENMI Lab.
+            </p>
+          </motion.div>
+        </div>
+      </section>
 
-        {/* Search Bar */}
-        <div className="relative max-w-md mx-auto mb-12">
-          <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" size={18} />
-          <Input
-            type="text"
-            placeholder="Search news..."
-            className="pl-10"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+      {/* Accepted Papers Section */}
+      <section className="py-16 px-6">
+        <div className="container mx-auto">
+          <AcceptedPapersCard />
+        </div>
+      </section>
+
+      {/* News Grid */}
+      <section className="pb-20 px-6">
+        <div className="container mx-auto">
+          <SectionTitle
+            subtext="Latest News"
+            title="Recent Updates"
           />
-        </div>
-
-        {/* Hot News Section */}
-        {hotNews.length > 0 && (
-          <div className="mb-12">
-            <div className="flex items-center gap-2 mb-6">
-              <Flame className="text-red-500" size={24} />
-              <h2 className="text-2xl font-medium">Hot News</h2>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {hotNews.map((news, index) => (
-                <NewsCard
-                  key={news.id}
-                  id={news.id}
-                  title={news.title}
-                  summary={news.summary}
-                  date={news.date}
-                  imageUrl={news.imageUrl}
-                  index={index}
-                  featured={news.featured}
-                  hot={news.hot}
-                />
-              ))}
-            </div>
-          </div>
-        )}
-
-        {/* Featured Workshop Section */}
-        <div className="mb-12">
-          <div className="bg-genmi-50 p-6 rounded-xl border border-genmi-100">
-            <div className="flex items-center gap-2 mb-4">
-              <Calendar className="text-genmi-600" size={24} />
-              <h2 className="text-2xl font-medium">Featured Workshop</h2>
-            </div>
-            
-            <div className="flex flex-col md:flex-row gap-6">
-              <div className="md:w-1/3">
-                <img 
-                  src="/lovable-uploads/a9877056-877c-4ef0-8fd9-f2c4dd92d4a3.png" 
-                  alt="ACM Multimedia 2025" 
-                  className="rounded-lg w-full"
-                />
-              </div>
-              <div className="md:w-2/3">
-                <h3 className="text-xl font-medium mb-2">The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25)</h3>
-                <p className="text-muted-foreground mb-4">
-                  Now we are calling for papers for The 2nd International Workshop on Multimedia Computing for Health and Medicine (MCHM'25) at ACM Multimedia 2025 (CORE A*). We are happy to see another group of colleagues bid the 2nd workshop successfully, Chris Wei Zhou.
-                </p>
-                <p className="text-muted-foreground mb-4">
-                  We welcome submissions relevant to health and medicine topics using multimedia computing.
-                </p>
-                <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
-                  <Calendar className="w-4 h-4" />
-                  <span>16 March 2025</span>
-                  <span className="mx-2">|</span>
-                  <span>Dublin, Ireland</span>
-                </div>
-                <Button variant="default" className="bg-genmi-600 hover:bg-genmi-700">
-                  Submit Your Paper
-                </Button>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Separator */}
-        <Separator className="my-12" />
-
-        {/* Regular News Section */}
-        <div className="mb-8">
-          <h2 className="text-2xl font-medium mb-6">All News</h2>
+          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {regularNews.map((news, index) => (
+            {newsItems.map((item, index) => (
               <NewsCard
-                key={news.id}
-                id={news.id}
-                title={news.title}
-                summary={news.summary}
-                date={news.date}
-                imageUrl={news.imageUrl}
+                key={item.id}
+                {...item}
                 index={index}
               />
             ))}
           </div>
         </div>
-      </motion.div>
+      </section>
     </Layout>
   );
 };
