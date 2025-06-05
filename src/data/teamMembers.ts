@@ -163,24 +163,34 @@ export const allTeamMembers = [
       linkedin: "https://linkedin.com"
     }
   },
+  {
+    name: "Yifan Lu",
+    role: "PhD Student, MBZUAI",
+    image: "/lovable-uploads/b1e86ca7-5d35-4750-b848-d847528e24ad.png",
+    bio: "PhD student at MBZUAI working on advanced machine learning approaches for medical applications and healthcare AI systems.",
+    links: {
+      email: "yifan.lu@mbzuai.ac.ae",
+      linkedin: "https://linkedin.com"
+    }
+  },
   // PhD Students at Other Universities
   {
     name: "Ubaid Azam",
-    role: "PhD Student, Surrey University, UK",
-    image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=500",
+    role: "PhD Student, Southampton University, UK",
+    image: "/lovable-uploads/bea13dd4-83d8-40fc-a9bc-4e895a15e2c3.png",
     bio: "Working on Federated Learning in Health, developing privacy-preserving machine learning approaches for healthcare data.",
     links: {
-      email: "u.azam@surrey.ac.uk",
+      email: "u.azam@soton.ac.uk",
       linkedin: "https://linkedin.com"
     }
   },
   {
     name: "Inamullah Khan",
-    role: "PhD Student, Surrey University, UK",
-    image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=500",
+    role: "PhD Student, Southampton University, UK",
+    image: "/lovable-uploads/c089ac1d-6b81-4f94-bfa3-329707b75900.png",
     bio: "Focusing on Early Prognosis on Retinal Disease, developing advanced machine learning models for early detection and diagnosis.",
     links: {
-      email: "i.khan@surrey.ac.uk",
+      email: "i.khan@soton.ac.uk",
       github: "https://github.com"
     }
   },
@@ -188,7 +198,7 @@ export const allTeamMembers = [
     name: "Shen Lingzhi",
     role: "PhD Student, Southampton University, UK",
     image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?auto=format&fit=crop&q=80&w=500",
-    bio: "Investigating reinforcement learning techniques for personalized treatment recommendations.",
+    bio: "Working on Culturally Self-Aware Language Models, investigating cultural awareness and adaptation in AI systems for diverse healthcare contexts.",
     links: {
       email: "s.lingzhi@soton.ac.uk",
       linkedin: "https://linkedin.com"
@@ -197,7 +207,7 @@ export const allTeamMembers = [
   {
     name: "Syed Javed",
     role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/1f0b14be-11e5-426a-b984-f339809c49aa.png",
     bio: "Specializing in Medical Imaging, exploring advanced computer vision techniques for medical image analysis and diagnostic support systems.",
     links: {
       email: "s.javed@unsw.edu.au",
@@ -237,7 +247,7 @@ export const allTeamMembers = [
   {
     name: "Ghadir Alasawi",
     role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1580489734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/8240c8e6-41d5-4a05-b0d4-e76f4980f59d.png",
     bio: "Working on LLM + RAG, focusing on AI-driven approaches combining Large Language Models with Retrieval-Augmented Generation for early disease detection.",
     links: {
       email: "g.alasawi@unsw.edu.au",
@@ -248,7 +258,7 @@ export const allTeamMembers = [
     name: "Arthur Chen",
     role: "PhD Student, UNSW",
     image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=500",
-    bio: "Researching generative AI models for synthetic medical data generation with privacy preservation guarantees.",
+    bio: "Working on Agentic AI in Health, developing autonomous AI agents for healthcare applications and clinical decision support systems.",
     links: {
       email: "a.chen@unsw.edu.au",
       linkedin: "https://linkedin.com"
@@ -258,29 +268,9 @@ export const allTeamMembers = [
     name: "Abdulsalam",
     role: "PhD Student, UNSW",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
-    bio: "Researching federated learning approaches for privacy-preserving medical data analysis across institutions.",
+    bio: "Researching Arabic Dialects in health care policy, developing NLP approaches for understanding healthcare communications in various Arabic dialects.",
     links: {
       email: "abdulsalam@unsw.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Sajid Javed",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500",
-    bio: "Exploring advanced computer vision techniques for medical imaging analysis and diagnostic support systems.",
-    links: {
-      email: "s.javed@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Dawn Lin",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1619946794135-5bc917a27793?auto=format&fit=crop&q=80&w=500",
-    bio: "Investigating natural language processing approaches for biomedical literature analysis and knowledge extraction.",
-    links: {
-      email: "d.lin@unsw.edu.au",
       github: "https://github.com"
     }
   },
@@ -288,26 +278,26 @@ export const allTeamMembers = [
     name: "Abdulrahman Alotaibi",
     role: "PhD Student, UNSW",
     image: "https://images.unsplash.com/photo-1584999734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
-    bio: "Researching deep learning algorithms for medical image segmentation and disease classification.",
+    bio: "Working on Drone Safety in mission critical applications, developing AI systems for ensuring safe drone operations in healthcare and emergency response scenarios.",
     links: {
       email: "a.alotaibi@unsw.edu.au",
       linkedin: "https://linkedin.com"
     }
   },
   {
-    name: "Karthin Bhat",
+    name: "Ujan Deb",
     role: "PhD Student, UNSW",
     image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&q=80&w=500",
-    bio: "Focusing on natural language processing for medical text analysis and automated diagnosis assistance.",
+    bio: "Working on LLM Evaluation, developing comprehensive evaluation frameworks and metrics for assessing Large Language Model performance in healthcare applications.",
     links: {
-      email: "k.bhat@unsw.edu.au",
+      email: "u.deb@unsw.edu.au",
       github: "https://github.com"
     }
   },
   {
     name: "Ngoc Nguyen",
     role: "PhD Student, Deakin University",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/a0c3e89d-1684-4ffc-abd7-c5bce5d55eb5.png",
     bio: "Exploring the intersection of computer vision and healthcare for automated diagnostic systems.",
     links: {
       email: "ngoc.nguyen@deakin.edu.au",
@@ -335,16 +325,6 @@ export const allTeamMembers = [
     }
   },
   {
-    name: "Qian Shenyang",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?auto=format&fit=crop&q=80&w=500",
-    bio: "Specializing in medical image segmentation using deep learning approaches for improved diagnostic accuracy.",
-    links: {
-      email: "q.shenyang@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
     name: "AbdulRehman Alalwai",
     role: "PhD Student, UNSW",
     image: "https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&q=80&w=500",
@@ -355,32 +335,12 @@ export const allTeamMembers = [
     }
   },
   {
-    name: "Anmol Goyal",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?auto=format&fit=crop&q=80&w=500",
-    bio: "Developing advanced machine learning models for biomedical data analysis and personalized treatment planning.",
+    name: "Niranjana Arun Menon",
+    role: "Undergraduate",
+    image: "https://images.unsplash.com/photo-1580489734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
+    bio: "Advancing bioinformatics with large language models, exploring applications of LLMs in computational biology and genomic data analysis.",
     links: {
-      email: "a.goyal@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Carlos Rodriguez",
-    role: "PhD Student",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500",
-    bio: "Developing reinforcement learning algorithms for adaptive treatment planning in personalized medicine.",
-    links: {
-      email: "carlos.rodriguez@genmi-research.org",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Lisa Chang",
-    role: "Master's Student",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=500",
-    bio: "Working on federated learning approaches for collaborative AI model training across healthcare institutions.",
-    links: {
-      email: "lisa.chang@genmi-research.org",
+      email: "niranjana.menon@genmi-research.org",
       linkedin: "https://linkedin.com"
     }
   }
