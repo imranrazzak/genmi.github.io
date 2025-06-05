@@ -1,5 +1,5 @@
-
-export const facultyMembers = [
+export const allTeamMembers = [
+  // Research Team Leader
   {
     name: "Imran Razzak",
     role: "Associate Professor",
@@ -11,10 +11,8 @@ export const facultyMembers = [
       linkedin: "https://linkedin.com",
       github: "https://github.com"
     }
-  }
-];
-
-export const postdocs = [
+  },
+  // Research Associates
   {
     name: "Feilong Tang",
     role: "Research Associate",
@@ -97,8 +95,8 @@ export const postdocs = [
   {
     name: "Xiwei Liu",
     role: "Research Associate",
-    image: "/lovable-uploads/a581cd6b-2155-4c99-bc53-7e2b3634b989.png",
-    bio: "Researching machine learning applications for medical data analysis and developing novel approaches for healthcare AI.",
+    image: "/lovable-uploads/f6da36a9-b0f7-401d-abdb-0344e1e121fc.png",
+    bio: "Researching missing modalities in medical data analysis and developing novel approaches for handling incomplete multimodal healthcare datasets.",
     links: {
       email: "xiwei.liu@genmi-research.org",
       github: "https://github.com"
@@ -142,10 +140,8 @@ export const postdocs = [
       email: "yichen.li@genmi-research.org",
       github: "https://github.com"
     }
-  }
-];
-
-export const gradStudents = [
+  },
+  // PhD and Master's Students at MBZUAI
   {
     name: "Zoey Yang",
     role: "PhD Student, MBZUAI",
@@ -167,26 +163,7 @@ export const gradStudents = [
       linkedin: "https://linkedin.com"
     }
   },
-  {
-    name: "Carlos Rodriguez",
-    role: "PhD Student",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500",
-    bio: "Developing reinforcement learning algorithms for adaptive treatment planning in personalized medicine.",
-    links: {
-      email: "carlos.rodriguez@genmi-research.org",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Lisa Chang",
-    role: "Master's Student",
-    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=500",
-    bio: "Working on federated learning approaches for collaborative AI model training across healthcare institutions.",
-    links: {
-      email: "lisa.chang@genmi-research.org",
-      linkedin: "https://linkedin.com"
-    }
-  },
+  // PhD Students at Other Universities
   {
     name: "Ubaid Azam",
     role: "PhD Student, Surrey University, UK",
@@ -205,6 +182,16 @@ export const gradStudents = [
     links: {
       email: "i.khan@surrey.ac.uk",
       github: "https://github.com"
+    }
+  },
+  {
+    name: "Shen Lingzhi",
+    role: "PhD Student, Southampton University, UK",
+    image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?auto=format&fit=crop&q=80&w=500",
+    bio: "Investigating reinforcement learning techniques for personalized treatment recommendations.",
+    links: {
+      email: "s.lingzhi@soton.ac.uk",
+      linkedin: "https://linkedin.com"
     }
   },
   {
@@ -338,16 +325,6 @@ export const gradStudents = [
     }
   },
   {
-    name: "Shen Lingzhi",
-    role: "PhD Student, Southampton University, UK",
-    image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?auto=format&fit=crop&q=80&w=500",
-    bio: "Investigating reinforcement learning techniques for personalized treatment recommendations.",
-    links: {
-      email: "s.lingzhi@soton.ac.uk",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
     name: "Muhammad Umar",
     role: "Master's Student, UNSW",
     image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=500",
@@ -386,7 +363,31 @@ export const gradStudents = [
       email: "a.goyal@unsw.edu.au",
       linkedin: "https://linkedin.com"
     }
+  },
+  {
+    name: "Carlos Rodriguez",
+    role: "PhD Student",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500",
+    bio: "Developing reinforcement learning algorithms for adaptive treatment planning in personalized medicine.",
+    links: {
+      email: "carlos.rodriguez@genmi-research.org",
+      github: "https://github.com"
+    }
+  },
+  {
+    name: "Lisa Chang",
+    role: "Master's Student",
+    image: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&q=80&w=500",
+    bio: "Working on federated learning approaches for collaborative AI model training across healthcare institutions.",
+    links: {
+      email: "lisa.chang@genmi-research.org",
+      linkedin: "https://linkedin.com"
+    }
   }
 ];
 
+// Keep these for backward compatibility but they're not used anymore
+export const facultyMembers: any[] = [];
+export const postdocs: any[] = [];
+export const gradStudents: any[] = [];
 export const pastMembers: any[] = [];
