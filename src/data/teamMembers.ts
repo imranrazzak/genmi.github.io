@@ -1,3 +1,4 @@
+
 export const facultyMembers = [
   {
     name: "Imran Razzak",
@@ -47,7 +48,7 @@ export const postdocs = [
   {
     name: "Andinath Dukre",
     role: "Research Associate",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/0c8b9ce5-b247-4049-9011-a3843e666b01.png",
     bio: "Developing innovative machine learning approaches for biomedical data analysis and computational biology applications.",
     links: {
       email: "andinath.dukre@genmi-research.org",
@@ -57,7 +58,7 @@ export const postdocs = [
   {
     name: "Ankan Deria",
     role: "Research Associate",
-    image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/8acaff9b-acd2-4702-b415-da87b29c4c93.png",
     bio: "Specializing in deep learning architectures for medical image processing and automated diagnostic systems.",
     links: {
       email: "ankan.deria@genmi-research.org",
@@ -67,7 +68,7 @@ export const postdocs = [
   {
     name: "Haochen Xue",
     role: "Research Associate",
-    image: "https://images.unsplash.com/photo-1564564321837-a57b7070ac4f?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/ca5edfc8-029a-464e-91fb-6df705ecb8d6.png",
     bio: "Researching advanced neural network models for genomic sequence analysis and precision medicine applications.",
     links: {
       email: "haochen.xue@genmi-research.org",
@@ -77,11 +78,69 @@ export const postdocs = [
   {
     name: "Hufai Lu",
     role: "Research Associate",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/53eb3f51-3522-49df-b4af-fcb57518dbde.png",
     bio: "Focusing on multimodal AI systems for healthcare applications and cross-domain knowledge transfer in medical AI.",
     links: {
       email: "hufai.lu@genmi-research.org",
       linkedin: "https://linkedin.com"
+    }
+  },
+  {
+    name: "Tony Alex",
+    role: "Research Associate",
+    image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
+    bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
+    links: {
+      github: "https://github.com"
+    }
+  },
+  {
+    name: "Xiwei Liu",
+    role: "Research Associate",
+    image: "/lovable-uploads/a581cd6b-2155-4c99-bc53-7e2b3634b989.png",
+    bio: "Researching machine learning applications for medical data analysis and developing novel approaches for healthcare AI.",
+    links: {
+      email: "xiwei.liu@genmi-research.org",
+      github: "https://github.com"
+    }
+  },
+  {
+    name: "Jianghao Wu",
+    role: "Research Associate",
+    image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
+    bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
+    links: {
+      linkedin: "https://linkedin.com"
+    }
+  },
+  {
+    name: "Haolin Yang",
+    role: "Research Associate",
+    image: "/lovable-uploads/2fd99510-6589-4a80-a5bd-c162611bbc44.png",
+    bio: "Working on Medical Foundation Models, developing large-scale AI systems for comprehensive healthcare applications and medical data understanding.",
+    links: {
+      email: "haolin.yang@genmi-research.org",
+      github: "https://github.com"
+    }
+  },
+  {
+    name: "Xinlin Zhuang",
+    role: "Research Associate",
+    image: "/lovable-uploads/192cea21-54b9-4099-8deb-a0736cae7d84.png",
+    bio: "Specializing in Multimodal Medical Report Generation, developing AI systems that can generate comprehensive medical reports from various data modalities.",
+    links: {
+      email: "xinlin.zhuang@genmi-research.org",
+      linkedin: "https://linkedin.com"
+    }
+  },
+  {
+    name: "Yichen Li",
+    role: "Research Associate",
+    image: "/lovable-uploads/367ca12d-50a9-4f41-bd4a-9ae340f1d3b6.png",
+    bio: "Focusing on Federated Learning in Medical applications, developing privacy-preserving machine learning approaches for collaborative healthcare AI.",
+    links: {
+      email: "yichen.li@genmi-research.org",
+      github: "https://github.com"
     }
   }
 ];
@@ -327,65 +386,7 @@ export const gradStudents = [
       email: "a.goyal@unsw.edu.au",
       linkedin: "https://linkedin.com"
     }
-  },
-  {
-    name: "Xiwei Liu",
-    role: "PhD Student",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?auto=format&fit=crop&q=80&w=500",
-    bio: "Researching machine learning applications for medical data analysis and developing novel approaches for healthcare AI.",
-    links: {
-      email: "xiwei.liu@genmi-research.org",
-      github: "https://github.com"
-    }
   }
 ];
 
-export const pastMembers = [
-  {
-    name: "Tony Alex",
-    role: "Former Research Associate (2023-2024)",
-    image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
-    bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
-    links: {
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Jianghao Wu",
-    role: "Former Research Associate (2023-2024)",
-    image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
-    bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
-    links: {
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Dr. Sarah Williams",
-    role: "Former Research Associate (2020-2023)",
-    image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&q=80&w=300",
-    bio: "Contributed to pioneering work in medical image analysis using generative models. Now at Stanford University.",
-    links: {
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Dr. Michael Chen",
-    role: "Former Postdoctoral Fellow (2019-2022)",
-    image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=300",
-    bio: "Led computational genomics projects focused on variant calling algorithms. Currently at Broad Institute.",
-    links: {
-      website: "https://example.com",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Dr. Emily Johnson",
-    role: "Former PhD Student (2018-2023)",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=300",
-    bio: "Dissertation on deep learning methods for multimodal medical data fusion. Now at Google Health.",
-    links: {
-      github: "https://github.com",
-      linkedin: "https://linkedin.com"
-    }
-  }
-];
+export const pastMembers: any[] = [];

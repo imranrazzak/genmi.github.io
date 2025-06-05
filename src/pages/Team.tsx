@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Layout from '@/components/Layout';
 import TeamMemberModal from '@/components/TeamMemberModal';
@@ -27,14 +26,14 @@ const Team = () => {
 
       <TeamSection
         subtext="Leadership"
-        title="Faculty Members"
+        title="Research Team"
         members={facultyMembers}
         onMemberClick={openMemberDetail}
       />
 
       <TeamSection
         subtext="Researchers"
-        title="Research Team"
+        title="Research Associates"
         members={postdocs}
         onMemberClick={openMemberDetail}
         backgroundColor="bg-genmi-50/50"

@@ -20,6 +20,10 @@ interface PastMembersSectionProps {
 }
 
 const PastMembersSection: React.FC<PastMembersSectionProps> = ({ members }) => {
+  if (!members || members.length === 0) {
+    return null;
+  }
+
   return (
     <section className="py-16 px-6 bg-genmi-50/30">
       <div className="container mx-auto">
