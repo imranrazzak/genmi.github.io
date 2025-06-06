@@ -197,7 +197,7 @@ export const allTeamMembers = [
   {
     name: "Shen Lingzhi",
     role: "PhD Student, Southampton University, UK",
-    image: "https://images.unsplash.com/photo-1601412436009-d964bd02edbc?auto=format&fit=crop&q=80&w=500",
+    image: "",
     bio: "Working on Culturally Self-Aware Language Models, investigating cultural awareness and adaptation in AI systems for diverse healthcare contexts.",
     links: {
       email: "s.lingzhi@soton.ac.uk",
