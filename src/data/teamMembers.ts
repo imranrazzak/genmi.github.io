@@ -247,7 +247,7 @@ export const allTeamMembers = [
   {
     name: "Ghadir Alasawi",
     role: "PhD Student, UNSW",
-    image: "/lovable-uploads/8240c8e6-41d5-4a05-b0d4-e76f4980f59d.png",
+    image: "/lovable-uploads/0e90731f-ebaf-401d-9824-4c1edfa688ed.png",
     bio: "Working on LLM + RAG, focusing on AI-driven approaches combining Large Language Models with Retrieval-Augmented Generation for early disease detection.",
     links: {
       email: "g.alasawi@unsw.edu.au",
@@ -297,7 +297,7 @@ export const allTeamMembers = [
   {
     name: "Ngoc Nguyen",
     role: "PhD Student, Deakin University",
-    image: "/lovable-uploads/a0c3e89d-1684-4ffc-abd7-c5bce5d55eb5.png",
+    image: "/lovable-uploads/1da2a42e-d1b0-45a1-9bcf-dd8a6a228315.png",
     bio: "Exploring the intersection of computer vision and healthcare for automated diagnostic systems.",
     links: {
       email: "ngoc.nguyen@deakin.edu.au",
