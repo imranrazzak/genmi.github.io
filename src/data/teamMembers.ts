@@ -337,7 +337,7 @@ export const allTeamMembers = [
   {
     name: "Niranjana Arun Menon",
     role: "Undergraduate",
-    image: "https://images.unsplash.com/photo-1580489734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/8240c8e6-41d5-4a05-b0d4-e76f4980f59d.png",
     bio: "Advancing bioinformatics with large language models, exploring applications of LLMs in computational biology and genomic data analysis.",
     links: {
       email: "niranjana.menon@genmi-research.org",
