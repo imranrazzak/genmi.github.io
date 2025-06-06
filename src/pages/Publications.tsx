@@ -82,33 +82,6 @@ const Publications = () => {
             year={2024}
             abstract="We present a comprehensive benchmark and empirical analysis of privacy-preserving algorithms in large language models, evaluating their effectiveness across various metrics and use cases."
           />
-
-          <PublicationCard 
-            title="Generative Adversarial Networks for Synthetic Medical Imaging Data"
-            authors={["Zhang, J.", "Smith, A.", "Johnson, B.", "Williams, C."]}
-            journal="Nature Machine Intelligence"
-            year={2023}
-            doi="10.1038/s42256-023-00001-x"
-            abstract="This paper introduces a novel approach to generating synthetic medical imaging data using advanced GANs, addressing privacy concerns while maintaining clinical relevance."
-          />
-          
-          <PublicationCard 
-            title="Transformer-Based Models for Genomic Sequence Prediction"
-            authors={["Brown, D.", "Miller, E.", "Davis, F.", "Wilson, G."]}
-            journal="Bioinformatics"
-            year={2022}
-            doi="10.1093/bioinformatics/btac123"
-            abstract="We present a transformer architecture optimized for genomic sequence analysis, demonstrating superior performance in predicting gene expression patterns."
-          />
-          
-          <PublicationCard 
-            title="Multi-modal Integration of Imaging and Genomic Data for Cancer Diagnosis"
-            authors={["Anderson, R.", "Thompson, K.", "Lee, S.", "Garcia, M."]}
-            journal="Journal of Medical AI"
-            year={2022}
-            doi="10.1016/j.medai.2022.04.005"
-            abstract="This research demonstrates how combining medical imaging with genomic data through deep learning can significantly improve cancer diagnosis accuracy."
-          />
           
           <PublicationCard 
             title="Explainable AI in Radiology: Ensuring Transparency in Clinical Decision Support"
