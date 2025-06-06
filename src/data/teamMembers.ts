@@ -1,4 +1,3 @@
-
 export const allTeamMembers = [
   // Research Team Leader
   {
@@ -318,7 +317,7 @@ export const allTeamMembers = [
   {
     name: "Muhammad Umar",
     role: "Master's Student, UNSW",
-    image: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/4dcc7c0f-dd02-4262-9782-e3ea2c58ce98.png",
     bio: "Working on machine learning approaches for medical time-series data analysis and prediction.",
     links: {
       email: "m.umar@unsw.edu.au",
