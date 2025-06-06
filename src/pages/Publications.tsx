@@ -82,24 +82,6 @@ const Publications = () => {
             year={2024}
             abstract="We present a comprehensive benchmark and empirical analysis of privacy-preserving algorithms in large language models, evaluating their effectiveness across various metrics and use cases."
           />
-          
-          <PublicationCard 
-            title="Explainable AI in Radiology: Ensuring Transparency in Clinical Decision Support"
-            authors={["Martinez, L.", "Chen, H.", "Patel, N.", "Robinson, T."]}
-            journal="Radiology: Artificial Intelligence"
-            year={2021}
-            doi="10.1148/ryai.2021200024"
-            abstract="We propose a framework for making AI-based radiology analysis more transparent and interpretable for clinical practitioners."
-          />
-          
-          <PublicationCard 
-            title="Diffusion Models for Enhanced Pathology Image Analysis"
-            authors={["Taylor, S.", "White, J.", "Harris, P.", "King, R."]}
-            journal="Medical Image Analysis"
-            year={2021}
-            doi="10.1016/j.media.2021.07.012"
-            abstract="This paper introduces novel diffusion models that enhance pathology images and highlight cellular abnormalities with unprecedented precision."
-          />
         </div>
       </div>
     </Layout>
