@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
@@ -36,8 +37,8 @@ const News = () => {
     },
     {
       id: '2',
-      title: 'GENMI Lab Wins Best Paper Award',
-      summary: 'Our work on OphNet-3D Dataset has been recognized! OphNet-3D is the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses.',
+      title: 'GENMI Releases First OphNet-3D Dataset',
+      summary: 'OphNet-3D is the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses.',
       date: '2025-06-01',
       imageUrl: '/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png'
     },
@@ -55,10 +56,10 @@ const News = () => {
     },
     {
       id: '5',
-      title: 'Launch of Open-Source Medical AI Toolkit',
-      summary: 'We have released our comprehensive toolkit for medical AI research to the open-source community.',
-      date: '2023-12-15',
-      imageUrl: '/lovable-uploads/5c7eec45-80b9-49fe-b7f0-404d67dddf6d.png'
+      title: 'Launch of Open-Source Medical AI Toolkit and Ankan Joins GENMI',
+      summary: 'We have released our comprehensive toolkit for medical AI research to the open-source community. Additionally, we are excited to welcome Ankan to our team as a new Research Associate, bringing expertise in deep learning architectures for medical image processing.',
+      date: '2025-06-01',
+      imageUrl: '/lovable-uploads/38a4d370-3c23-44c1-af29-0a402d185442.png'
     },
     {
       id: '6',
