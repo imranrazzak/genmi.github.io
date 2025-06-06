@@ -1,3 +1,4 @@
+
 export const allTeamMembers = [
   // Research Team Leader
   {
@@ -166,7 +167,7 @@ export const allTeamMembers = [
   {
     name: "Yifan Lu",
     role: "PhD Student, MBZUAI",
-    image: "/lovable-uploads/b1e86ca7-5d35-4750-b848-d847528e24ad.png",
+    image: "/lovable-uploads/e3b389d9-9da2-4425-b36e-e1498d074cc4.png",
     bio: "PhD student at MBZUAI working on advanced machine learning approaches for medical applications and healthcare AI systems.",
     links: {
       email: "yifan.lu@mbzuai.ac.ae",
@@ -187,7 +188,7 @@ export const allTeamMembers = [
   {
     name: "Inamullah Khan",
     role: "PhD Student, Southampton University, UK",
-    image: "/lovable-uploads/c089ac1d-6b81-4f94-bfa3-329707b75900.png",
+    image: "/lovable-uploads/b1e86ca7-5d35-4750-b848-d847528e24ad.png",
     bio: "Focusing on Early Prognosis on Retinal Disease, developing advanced machine learning models for early detection and diagnosis.",
     links: {
       email: "i.khan@soton.ac.uk",
@@ -207,7 +208,7 @@ export const allTeamMembers = [
   {
     name: "Syed Javed",
     role: "PhD Student, UNSW",
-    image: "/lovable-uploads/1f0b14be-11e5-426a-b984-f339809c49aa.png",
+    image: "/lovable-uploads/c089ac1d-6b81-4f94-bfa3-329707b75900.png",
     bio: "Specializing in Medical Imaging, exploring advanced computer vision techniques for medical image analysis and diagnostic support systems.",
     links: {
       email: "s.javed@unsw.edu.au",
@@ -287,7 +288,7 @@ export const allTeamMembers = [
   {
     name: "Ujan Deb",
     role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?auto=format&fit=crop&q=80&w=500",
+    image: "/lovable-uploads/1f0b14be-11e5-426a-b984-f339809c49aa.png",
     bio: "Working on LLM Evaluation, developing comprehensive evaluation frameworks and metrics for assessing Large Language Model performance in healthcare applications.",
     links: {
       email: "u.deb@unsw.edu.au",
