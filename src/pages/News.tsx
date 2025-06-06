@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import NewsCard from '@/components/NewsCard';
@@ -6,13 +6,31 @@ import AcceptedPapersCard from '@/components/AcceptedPapersCard';
 import { motion } from 'framer-motion';
 
 const News = () => {
+  // Image rotation for the featured news item
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const rotatingImages = [
+    '/lovable-uploads/53eb3f51-3522-49df-b4af-fcb57518dbde.png', // Hufai Lu
+    '/lovable-uploads/192cea21-54b9-4099-8deb-a0736cae7d84.png', // Xinlin Zhuang
+    '/lovable-uploads/367ca12d-50a9-4f41-bd4a-9ae340f1d3b6.png'  // Yichen Li
+  ];
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImageIndex((prevIndex) => 
+        (prevIndex + 1) % rotatingImages.length
+      );
+    }, 2000); // Change image every 2 seconds
+
+    return () => clearInterval(interval);
+  }, [rotatingImages.length]);
+
   const newsItems = [
     {
       id: '1',
-      title: 'Ankan Deria Joins the GENMI Lab Team',
-      summary: 'We are excited to welcome Ankan Deria as a new Research Associate, bringing expertise in deep learning architectures for medical image processing and automated diagnostic systems.',
-      date: '2025-06-01',
-      imageUrl: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80',
+      title: 'Hufai Lu, Xinlin Zhuang, and Yichen Li Join the GENMI Lab Team',
+      summary: 'We are excited to welcome three new talented Research Associates to our team: Hufai Lu specializing in multimodal AI systems for healthcare, Xinlin Zhuang focusing on multimodal medical report generation, and Yichen Li working on federated learning in medical applications.',
+      date: '2025-07-01',
+      imageUrl: rotatingImages[currentImageIndex],
       featured: true,
       hot: true
     },
