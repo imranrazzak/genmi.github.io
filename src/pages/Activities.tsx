@@ -11,48 +11,6 @@ const activities = [
     title: "Team Lunch",
     description: "Monthly team lunch where we discuss research progress and celebrate achievements.",
     imageUrl: "/lovable-uploads/f776e046-1db7-4e00-9319-82f135d32753.png"
-  },
-  {
-    id: "activity-2",
-    title: "Research Workshop",
-    description: "Interactive workshop session focusing on computer vision research methodologies.",
-    imageUrl: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
-  },
-  {
-    id: "activity-3",
-    title: "Conference Presentation",
-    description: "Team members presenting our latest research at CVPR 2023.",
-    imageUrl: "/placeholder.svg"
-  },
-  {
-    id: "activity-4",
-    title: "Lab Open House",
-    description: "Annual open house where we showcase our research to the public and industry partners.",
-    imageUrl: "/placeholder.svg"
-  },
-  {
-    id: "activity-5",
-    title: "Hackathon",
-    description: "Weekend hackathon focused on innovative healthcare applications using computer vision.",
-    imageUrl: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=1200&q=80"
-  },
-  {
-    id: "activity-6",
-    title: "Guest Lecture Series",
-    description: "Distinguished researchers share insights and latest developments in AI and computer vision.",
-    imageUrl: "/placeholder.svg"
-  },
-  {
-    id: "activity-7",
-    title: "Student Mentoring",
-    description: "Team members guiding undergraduate students on research projects.",
-    imageUrl: "/placeholder.svg"
-  },
-  {
-    id: "activity-8",
-    title: "Industry Collaboration Meeting",
-    description: "Meeting with industry partners to discuss research applications and collaboration opportunities.",
-    imageUrl: "/placeholder.svg"
   }
 ];
 
