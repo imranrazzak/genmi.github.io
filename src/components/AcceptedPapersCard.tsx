@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Award, Calendar, ExternalLink } from 'lucide-react';
@@ -14,8 +13,8 @@ const AcceptedPapersCard = () => {
       borderColor: "border-blue-200"
     },
     {
-      venue: "MICCAI Early Accept",
-      count: 1,
+      venue: "MICCAI",
+      count: 2,
       description: "Medical Image Computing and Computer Assisted Intervention",
       color: "bg-green-100 text-green-700",
       borderColor: "border-green-200"
