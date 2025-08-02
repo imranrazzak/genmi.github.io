@@ -28,12 +28,19 @@ const News = () => {
   const newsItems = [
     {
       id: '1',
+      title: 'Many Congratulations to Xinlin Zhuang and Yulong Li!',
+      summary: 'Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab.',
+      date: '2025-08-01',
+      featured: true,
+      hot: true
+    },
+    {
+      id: '2',
       title: 'Hufai Lu, Xinlin Zhuang, and Yichen Li Join the GENMI Lab Team',
       summary: 'We are excited to welcome three new talented Research Associates to our team: Hufai Lu specializing in multimodal AI systems for healthcare, Xinlin Zhuang focusing on multimodal medical report generation, and Yichen Li working on federated learning in medical applications.',
       date: '2025-07-01',
       imageUrl: rotatingImages[currentImageIndex],
-      featured: true,
-      hot: true
+      featured: true
     },
     {
       id: '2',
