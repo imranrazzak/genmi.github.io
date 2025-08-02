@@ -13,6 +13,13 @@ const AcceptedPapersCard = () => {
       borderColor: "border-blue-200"
     },
     {
+      venue: "ACM MM",
+      count: 1,
+      description: "ACM International Conference on Multimedia",
+      color: "bg-orange-100 text-orange-700",
+      borderColor: "border-orange-200"
+    },
+    {
       venue: "MICCAI",
       count: 2,
       description: "Medical Image Computing and Computer Assisted Intervention",
@@ -57,7 +64,7 @@ const AcceptedPapersCard = () => {
             We're excited to announce our recent paper acceptances at top-tier venues in AI, medical imaging, and digital health.
           </p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {acceptedPapers.map((paper, index) => (
               <motion.div
                 key={paper.venue}
