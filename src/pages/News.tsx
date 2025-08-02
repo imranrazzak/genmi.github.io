@@ -59,7 +59,7 @@ const News = () => {
     {
       id: '3',
       title: 'New Collaboration with UNSW and Macquarie University, Australia',
-      summary: 'Dr. Visit to UNSW and Macquarie University, Australia, and given talk on Precision Medicine, strengthening our international research partnerships and advancing collaborative research in medical AI.',
+      summary: 'Imran Visit to UNSW and Macquarie University, Australia, and given talk on Precision Medicine, strengthening our international research partnerships and advancing collaborative research in medical AI.',
       date: '2025-06-01'
     },
     {
