@@ -35,6 +35,13 @@ const News = () => {
       hot: true
     },
     {
+      id: '1.5',
+      title: 'Welcome to Our New PhD and Master Students!',
+      summary: 'We warmly welcome our incoming PhD and Master students who are joining the GENMI Lab family. We wish you an exciting and successful research journey ahead. Your fresh perspectives and dedication will undoubtedly contribute to our mission of advancing medical AI and precision medicine.',
+      date: '2025-08-01',
+      featured: true
+    },
+    {
       id: '2',
       title: 'Hufai Lu, Xinlin Zhuang, and Yichen Li Join the GENMI Lab Team',
       summary: 'We are excited to welcome three new talented Research Associates to our team: Hufai Lu specializing in multimodal AI systems for healthcare, Xinlin Zhuang focusing on multimodal medical report generation, and Yichen Li working on federated learning in medical applications.',
