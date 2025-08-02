@@ -39,6 +39,7 @@ const News = () => {
       title: 'Welcome to Our New PhD and Master Students!',
       summary: 'We warmly welcome our incoming PhD and Master students who are joining the GENMI Lab family. We wish you an exciting and successful research journey ahead. Your fresh perspectives and dedication will undoubtedly contribute to our mission of advancing medical AI and precision medicine.',
       date: '2025-08-01',
+      imageUrl: '/src/assets/phd-welcome.jpg',
       featured: true
     },
     {
