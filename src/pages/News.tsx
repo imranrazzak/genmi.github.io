@@ -31,6 +31,7 @@ const News = () => {
       title: 'Many Congratulations to Xinlin Zhuang and Yulong Li!',
       summary: 'Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab.',
       date: '2025-08-01',
+      imageUrl: '/src/assets/academic-celebration.jpg',
       featured: true,
       hot: true
     },
