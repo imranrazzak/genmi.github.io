@@ -13,9 +13,9 @@ const AcceptedPapersCard = () => {
       borderColor: "border-blue-200"
     },
     {
-      venue: "ACM MM",
-      count: 1,
-      description: "ACM International Conference on Multimedia",
+      venue: "ACM MM and CIKM",
+      count: "1+1",
+      description: "ACM Multimedia and Conference on Information and Knowledge Management",
       color: "bg-orange-100 text-orange-700",
       borderColor: "border-orange-200"
     },
