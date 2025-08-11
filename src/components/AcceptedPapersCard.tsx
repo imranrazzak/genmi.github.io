@@ -27,9 +27,9 @@ const AcceptedPapersCard = () => {
       borderColor: "border-green-200"
     },
     {
-      venue: "Nature Digital Medicine",
-      count: 1,
-      description: "Nature Digital Medicine Journal",
+      venue: "Nature Digital Medicine + Medical Image Analysis",
+      count: "1+1",
+      description: "Nature Digital Medicine and Medical Image Analysis Journals",
       color: "bg-purple-100 text-purple-700",
       borderColor: "border-purple-200"
     }
