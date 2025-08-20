@@ -471,11 +471,11 @@ const Datasets = () => {
             >
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-medium">Genomic Sequence Dataset</h3>
+                  <h3 className="text-xl font-medium">Multiomics Biomarker Discovery</h3>
                   <BarChart3 className="w-5 h-5 text-gray-500" />
                 </div>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Extensive genomic data for bioinformatics and AI applications.
+                  Advanced ML and deep learning models leveraging large omics data for biomarker discovery, multi-omics integration, and drug repositioning.
                 </p>
                 <div className="flex items-center justify-between text-sm">
                   <div className="flex items-center text-muted-foreground">

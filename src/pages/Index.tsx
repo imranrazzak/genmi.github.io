@@ -138,9 +138,9 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               <div className="bg-genmi-100 text-genmi-600 w-12 h-12 rounded-xl flex items-center justify-center mb-6">
                 <Dna className="w-6 h-6" />
               </div>
-              <h3 className="text-xl font-medium mb-3">Genomic Sequence Analysis</h3>
+              <h3 className="text-xl font-medium mb-3">Multiomics Biomarker Discovery</h3>
               <p className="text-muted-foreground">
-                Developing AI models that segment and analyze medical images to identify anatomical structures and anomalies with high precision.
+                Developing advanced ML and deep learning models that leverage large omics data for biomarker discovery, multi-omics integration, and biomedical predictions.
               </p>
             </motion.div>
 
