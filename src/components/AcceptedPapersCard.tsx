@@ -32,13 +32,6 @@ const AcceptedPapersCard = () => {
       description: "Medical Image Computing and Computer Assisted Intervention",
       color: "bg-green-100 text-green-700",
       borderColor: "border-green-200"
-    },
-    {
-      venue: "Nature Digital Medicine + Medical Image Analysis",
-      count: "1+1",
-      description: "Nature Digital Medicine and Medical Image Analysis Journals",
-      color: "bg-purple-100 text-purple-700",
-      borderColor: "border-purple-200"
     }
   ];
 
