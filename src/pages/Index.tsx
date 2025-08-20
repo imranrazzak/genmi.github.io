@@ -206,9 +206,17 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <NewsCard id="1" title="Many Congratulations to Xinlin Zhuang and Yulong Li!" summary="Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab." date="2025-08-01" featured={true} hot={true} index={0} />
-            <NewsCard id="1.5" title="Welcome to Our New PhD and Master Students!" summary="We warmly welcome our incoming PhD and Master students who are joining the GENMI Lab family. We wish you an exciting and successful research journey ahead. Your fresh perspectives and dedication will undoubtedly contribute to our mission of advancing medical AI and precision medicine." date="2025-08-01" featured={true} index={1} />
-            <NewsCard id="2" title="OphNet-3D Dataset Released - First Extensive RGB-D Dynamic 3D Reconstruction Dataset for Ophthalmic Surgery" summary="OphNet-3D is the first extensive RGB-D dynamic 3D reconstruction dataset for ophthalmic surgery, comprising 41 sequences from 40 surgeons and totaling 7.1 million frames, with fine-grained annotations of 12 surgical phases, 10 instrument categories, dense MANO hand meshes, and full 6-DoF instrument poses." date="2023-05-15" imageUrl="/lovable-uploads/c787d3ab-3850-4562-a843-ff91940ce691.png" index={2} />
+            <NewsCard 
+              id="0" 
+              title="2 Papers Accepted at EMNLP 2025!" 
+              summary="Exciting news! Two of our research papers have been accepted at EMNLP 2025: 'A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making' and contributions to Nature Digital Medicine + Medical Image Analysis. These achievements advance AI applications in healthcare decision-making and medical research." 
+              date="2025-08-20" 
+              featured={true} 
+              hot={true} 
+              index={0} 
+            />
+            <NewsCard id="1" title="Many Congratulations to Xinlin Zhuang and Yulong Li!" summary="Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab." date="2025-08-01" featured={true} hot={true} index={1} />
+            <NewsCard id="1.5" title="Welcome to Our New PhD and Master Students!" summary="We warmly welcome our incoming PhD and Master students who are joining the GENMI Lab family. We wish you an exciting and successful research journey ahead. Your fresh perspectives and dedication will undoubtedly contribute to our mission of advancing medical AI and precision medicine." date="2025-08-01" featured={true} index={2} />
           </div>
         </div>
       </section>
