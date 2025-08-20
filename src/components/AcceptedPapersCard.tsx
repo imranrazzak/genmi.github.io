@@ -6,6 +6,13 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const AcceptedPapersCard = () => {
   const acceptedPapers = [
     {
+      venue: "EMNLP",
+      count: 2,
+      description: "Conference on Empirical Methods in Natural Language Processing",
+      color: "bg-red-100 text-red-700",
+      borderColor: "border-red-200"
+    },
+    {
       venue: "ACL + IEEE SMC",
       count: "1+1",
       description: "Association for Computational Linguistics and IEEE Systems, Man, and Cybernetics",

@@ -28,7 +28,7 @@ const News = () => {
   const newsItems = [
     {
       id: '0',
-      title: 'Two Papers Accepted at EMNLP 2025!',
+      title: '2 Papers Accepted at EMNLP 2025!',
       summary: 'Exciting news! Two of our research papers have been accepted at EMNLP 2025: "A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making" and "From Generation to Detection: A Multimodal Multi-Task Dataset for Benchmarking Health Misinformation". These contributions advance AI applications in healthcare and misinformation detection.',
       date: '2025-08-20',
       featured: true,
