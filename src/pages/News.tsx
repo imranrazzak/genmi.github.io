@@ -27,6 +27,14 @@ const News = () => {
 
   const newsItems = [
     {
+      id: '0',
+      title: 'Two Papers Accepted at EMNLP 2025!',
+      summary: 'Exciting news! Two of our research papers have been accepted at EMNLP 2025: "A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making" and "From Generation to Detection: A Multimodal Multi-Task Dataset for Benchmarking Health Misinformation". These contributions advance AI applications in healthcare and misinformation detection.',
+      date: '2025-08-20',
+      featured: true,
+      hot: true
+    },
+    {
       id: '1',
       title: 'Many Congratulations to Xinlin Zhuang and Yulong Li!',
       summary: 'Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab.',
