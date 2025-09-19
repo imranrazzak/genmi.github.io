@@ -207,15 +207,24 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <NewsCard 
+              id="neurips-2025" 
+              title="6 Papers Accepted at NeurIPS 2025!" 
+              summary="Outstanding achievement! Six of our research papers have been accepted at NeurIPS 2025. Congratulations to Yulong, Feilong, Ankan, Xiwei, Haolin, Ming, and Lingzhi for their amazing effort and dedication. This remarkable success showcases the exceptional research quality and collaborative spirit of our team." 
+              date="2025-09-15" 
+              featured={true} 
+              hot={true} 
+              index={0} 
+            />
+            <NewsCard 
               id="0" 
               title="2 Papers Accepted at EMNLP 2025!" 
               summary="Exciting news! Two of our research papers have been accepted at EMNLP 2025: 'A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making' and contributions to Nature Digital Medicine + Medical Image Analysis. These achievements advance AI applications in healthcare decision-making and medical research." 
               date="2025-08-20" 
               featured={true} 
               hot={true} 
-              index={0} 
+              index={1} 
             />
-            <NewsCard id="1" title="Many Congratulations to Xinlin Zhuang and Yulong Li!" summary="Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab." date="2025-08-01" featured={true} hot={true} index={1} />
+            <NewsCard id="1" title="Many Congratulations to Xinlin Zhuang and Yulong Li!" summary="Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab." date="2025-08-01" featured={true} hot={true} index={2} />
             <NewsCard id="1.5" title="Welcome to Our New PhD and Master Students!" summary="We warmly welcome our incoming PhD and Master students who are joining the GENMI Lab family. We wish you an exciting and successful research journey ahead. Your fresh perspectives and dedication will undoubtedly contribute to our mission of advancing medical AI and precision medicine." date="2025-08-01" featured={true} index={2} />
           </div>
         </div>
