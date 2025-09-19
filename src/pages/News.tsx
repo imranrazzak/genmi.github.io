@@ -27,6 +27,14 @@ const News = () => {
 
   const newsItems = [
     {
+      id: 'neurips-2025',
+      title: '6 Papers Accepted at NeurIPS 2025!',
+      summary: 'Outstanding achievement! Six of our research papers have been accepted at NeurIPS 2025. Congratulations to Yulong, Feilong, Ankan, Xiwei, Haolin, Ming, and Lingzhi for their amazing effort and dedication. This remarkable success showcases the exceptional research quality and collaborative spirit of our team, advancing the frontiers of AI and machine learning research.',
+      date: '2025-09-15',
+      featured: true,
+      hot: true
+    },
+    {
       id: '0',
       title: '2 Papers Accepted at EMNLP 2025!',
       summary: 'Exciting news! Two of our research papers have been accepted at EMNLP 2025: "A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making" and "From Generation to Detection: A Multimodal Multi-Task Dataset for Benchmarking Health Misinformation". These contributions advance AI applications in healthcare and misinformation detection.',
