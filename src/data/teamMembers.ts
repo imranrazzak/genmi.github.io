@@ -132,6 +132,15 @@ export const allTeamMembers = [
     }
   },
   {
+    name: "Abhijit Das",
+    role: "Research Engineer",
+    image: "",
+    bio: "Research Engineer building and deploying AI systems for healthcare and medical applications.",
+    links: {
+      email: "abhijit.das@genmi-research.org"
+    }
+  },
+  {
     name: "Yichen Li",
     role: "Research Associate",
     image: "/lovable-uploads/367ca12d-50a9-4f41-bd4a-9ae340f1d3b6.png",
