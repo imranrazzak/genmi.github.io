@@ -12,141 +12,53 @@ export const allTeamMembers = [
       github: "https://github.com"
     }
   },
-  // Research Associates
+  // Research Associates / Engineers
   {
-    name: "Feilong Tang",
-    role: "Research Associate",
-    image: "/lovable-uploads/2d853ee5-6a95-428b-969e-da913c38d778.png",
-    bio: "Specializing in generative models for medical data and multimodal vision-language models.",
+    name: "Abhijit Das",
+    role: "Research Engineer",
+    image: "",
+    bio: "Research Engineer building and deploying AI systems for healthcare and multiomics applications.",
     links: {
-      email: "james.wilson@genmi-research.org",
-      github: "https://github.com"
+      email: "abhijit.das@genmi-research.org"
     }
   },
   {
-    name: "Yulong Lu",
-    role: "Research Associate",
-    image: "/lovable-uploads/95a23e84-b459-4fbb-bbe4-11e1d34b9cee.png",
-    bio: "Specializing in multiomics for genetic variation and biomarker discovery, integrating genomics, transcriptomics, and proteomics to uncover disease mechanisms and therapeutic targets.",
-    links: {
-      email: "aisha.rahman@genmi-research.org",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Ming Xu",
-    role: "Research Associate",
-    image: "/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png",
-    bio: "Expertise in Robotics, Optimization, Control Theory, Machine Learning, and Computer Vision, developing intelligent systems for automation and real-world applications.",
-    links: {
-      email: "aisha.rahman@genmi-research.org",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Andinath Dukre",
+    name: "Adinath Dukre",
     role: "Research Associate",
     image: "/lovable-uploads/0c8b9ce5-b247-4049-9011-a3843e666b01.png",
     bio: "Developing innovative machine learning approaches for biomedical data analysis and computational biology applications.",
     links: {
-      email: "andinath.dukre@genmi-research.org",
+      email: "adinath.dukre@genmi-research.org",
       github: "https://github.com"
     }
   },
   {
-    name: "Ankan Deria",
+    name: "Yulong Li",
     role: "Research Associate",
-    image: "/lovable-uploads/8acaff9b-acd2-4702-b415-da87b29c4c93.png",
-    bio: "Specializing in deep learning architectures for medical image processing and automated diagnostic systems.",
+    image: "/lovable-uploads/95a23e84-b459-4fbb-bbe4-11e1d34b9cee.png",
+    bio: "Specializing in multiomics for genetic variation and biomarker discovery, integrating diverse molecular data to uncover disease mechanisms and therapeutic targets.",
     links: {
-      email: "ankan.deria@genmi-research.org",
+      email: "yulong.li@genmi-research.org",
       linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Haochen Xue",
-    role: "Research Associate",
-    image: "/lovable-uploads/ca5edfc8-029a-464e-91fb-6df705ecb8d6.png",
-    bio: "Researching advanced neural network models for genomic sequence analysis and precision medicine applications.",
-    links: {
-      email: "haochen.xue@genmi-research.org",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Hufai Lu",
-    role: "Research Associate",
-    image: "/lovable-uploads/53eb3f51-3522-49df-b4af-fcb57518dbde.png",
-    bio: "Focusing on multimodal AI systems for healthcare applications and cross-domain knowledge transfer in medical AI.",
-    links: {
-      email: "hufai.lu@genmi-research.org",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Tony Alex",
-    role: "Research Associate",
-    image: "/lovable-uploads/ca9335a4-d06f-478f-a96b-1ed2f9106875.png",
-    bio: "Expertise in Deep Learning, Audio Processing, and Computer Vision, developing AI models for perception, recognition, and signal analysis in real-world applications.",
-    links: {
-      github: "https://github.com"
     }
   },
   {
     name: "Xiwei Liu",
     role: "Research Associate",
     image: "/lovable-uploads/f6da36a9-b0f7-401d-abdb-0344e1e121fc.png",
-    bio: "Researching missing modalities in medical data analysis and developing novel approaches for handling incomplete multimodal healthcare datasets.",
+    bio: "Researching missing modalities in health data analysis and developing novel approaches for handling incomplete multimodal healthcare datasets.",
     links: {
       email: "xiwei.liu@genmi-research.org",
       github: "https://github.com"
     }
   },
   {
-    name: "Jianghao Wu",
-    role: "Research Associate",
-    image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
-    bio: "Focusing on multi-modal learning approaches combining genomic data with medical imaging for disease prediction.",
-    links: {
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
     name: "Haolin Yang",
     role: "Research Associate",
     image: "/lovable-uploads/2fd99510-6589-4a80-a5bd-c162611bbc44.png",
-    bio: "Working on Medical Foundation Models, developing large-scale AI systems for comprehensive healthcare applications and medical data understanding.",
+    bio: "Working on Health Foundation Models, developing large-scale AI systems for comprehensive healthcare applications and data understanding.",
     links: {
       email: "haolin.yang@genmi-research.org",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Xinlin Zhuang",
-    role: "Research Associate",
-    image: "/lovable-uploads/192cea21-54b9-4099-8deb-a0736cae7d84.png",
-    bio: "Specializing in Multimodal Medical Report Generation, developing AI systems that can generate comprehensive medical reports from various data modalities.",
-    links: {
-      email: "xinlin.zhuang@genmi-research.org",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Abhijit Das",
-    role: "Research Engineer",
-    image: "",
-    bio: "Research Engineer building and deploying AI systems for healthcare and medical applications.",
-    links: {
-      email: "abhijit.das@genmi-research.org"
-    }
-  },
-  {
-    name: "Yichen Li",
-    role: "Research Associate",
-    image: "/lovable-uploads/367ca12d-50a9-4f41-bd4a-9ae340f1d3b6.png",
-    bio: "Focusing on Federated Learning in Medical applications, developing privacy-preserving machine learning approaches for collaborative healthcare AI.",
-    links: {
-      email: "yichen.li@genmi-research.org",
       github: "https://github.com"
     }
   },
@@ -155,11 +67,21 @@ export const allTeamMembers = [
     name: "Zoey Yang",
     role: "PhD Student, MBZUAI",
     image: "/lovable-uploads/c9b6564c-333a-415c-be46-00fc7353a16b.png",
-    bio: "PhD student at MBZUAI working on multimodal large language models, focusing on computational pathology using deep learning to analyze histopathology images for early cancer detection and treatment guidance.",
+    bio: "PhD student at MBZUAI working on multimodal large language models, focusing on computational pathology using deep learning for early cancer detection and treatment guidance.",
     links: {
-      email: "zoey.yang@genmi-research.org",
+      email: "zoey.yang@mbzuai.ac.ae",
       linkedin: "https://linkedin.com",
       github: "https://github.com"
+    }
+  },
+  {
+    name: "Yifan Lu",
+    role: "PhD Student, MBZUAI",
+    image: "/lovable-uploads/e3b389d9-9da2-4425-b36e-e1498d074cc4.png",
+    bio: "PhD student at MBZUAI working on advanced machine learning approaches for health applications and multiomics AI systems.",
+    links: {
+      email: "yifan.lu@mbzuai.ac.ae",
+      linkedin: "https://linkedin.com"
     }
   },
   {
@@ -172,191 +94,62 @@ export const allTeamMembers = [
       linkedin: "https://linkedin.com"
     }
   },
+  // Visiting Students
   {
-    name: "Yifan Lu",
-    role: "PhD Student, MBZUAI",
-    image: "/lovable-uploads/e3b389d9-9da2-4425-b36e-e1498d074cc4.png",
-    bio: "PhD student at MBZUAI working on advanced machine learning approaches for medical applications and healthcare AI systems.",
-    links: {
-      email: "yifan.lu@mbzuai.ac.ae",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  // PhD Students at Other Universities
-  {
-    name: "Ubaid Azam",
-    role: "PhD Student, Southampton University, UK",
-    image: "/lovable-uploads/bea13dd4-83d8-40fc-a9bc-4e895a15e2c3.png",
-    bio: "Working on Federated Learning in Health, developing privacy-preserving machine learning approaches for healthcare data.",
-    links: {
-      email: "u.azam@soton.ac.uk",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Inamullah Khan",
-    role: "PhD Student, Southampton University, UK",
-    image: "/lovable-uploads/b1e86ca7-5d35-4750-b848-d847528e24ad.png",
-    bio: "Focusing on Early Prognosis on Retinal Disease, developing advanced machine learning models for early detection and diagnosis.",
-    links: {
-      email: "i.khan@soton.ac.uk",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Shen Lingzhi",
-    role: "PhD Student, Southampton University, UK",
+    name: "Ebad Shabbir",
+    role: "Visiting Student",
     image: "",
-    bio: "Working on Culturally Self-Aware Language Models, investigating cultural awareness and adaptation in AI systems for diverse healthcare contexts.",
-    links: {
-      email: "s.lingzhi@soton.ac.uk",
-      linkedin: "https://linkedin.com"
-    }
+    bio: "Visiting student contributing to research at the intersection of machine learning and health applications.",
+    links: {}
   },
   {
-    name: "Syed Javed",
-    role: "PhD Student, UNSW",
-    image: "/lovable-uploads/c089ac1d-6b81-4f94-bfa3-329707b75900.png",
-    bio: "Specializing in Medical Imaging, exploring advanced computer vision techniques for medical image analysis and diagnostic support systems.",
-    links: {
-      email: "s.javed@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Ali Almutari",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=500",
-    bio: "Working on Few Label Learning, developing machine learning approaches that can work effectively with limited labeled data in healthcare applications.",
-    links: {
-      email: "a.almutari@unsw.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Abdulrahman",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
-    bio: "Focusing on Few Labels Learning, developing reinforcement learning approaches for adaptive clinical decision support with limited labeled data.",
-    links: {
-      email: "abdulrahman@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Ruyi Zhang",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=500",
-    bio: "Researching KG + LLM, investigating machine learning applications combining Knowledge Graphs with Large Language Models for genomic data interpretation.",
-    links: {
-      email: "r.zhang@unsw.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Ghadir Alasawi",
-    role: "PhD Student, UNSW",
-    image: "/lovable-uploads/0e90731f-ebaf-401d-9824-4c1edfa688ed.png",
-    bio: "Working on LLM + RAG, focusing on AI-driven approaches combining Large Language Models with Retrieval-Augmented Generation for early disease detection.",
-    links: {
-      email: "g.alasawi@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Arthur Chen",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=500",
-    bio: "Working on Agentic AI in Health, developing autonomous AI agents for healthcare applications and clinical decision support systems.",
-    links: {
-      email: "a.chen@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Abdulsalam",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=500",
-    bio: "Researching Arabic Dialects in health care policy, developing NLP approaches for understanding healthcare communications in various Arabic dialects.",
-    links: {
-      email: "abdulsalam@unsw.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Abdulrahman Alotaibi",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1584999734482-0361aecad844?auto=format&fit=crop&q=80&w=500",
-    bio: "Working on Drone Safety in mission critical applications, developing AI systems for ensuring safe drone operations in healthcare and emergency response scenarios.",
-    links: {
-      email: "a.alotaibi@unsw.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Ujan Deb",
-    role: "PhD Student, UNSW",
-    image: "/lovable-uploads/1f0b14be-11e5-426a-b984-f339809c49aa.png",
-    bio: "Working on LLM Evaluation, developing comprehensive evaluation frameworks and metrics for assessing Large Language Model performance in healthcare applications.",
-    links: {
-      email: "u.deb@unsw.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Ngoc Nguyen",
-    role: "PhD Student, Deakin University",
-    image: "/lovable-uploads/1da2a42e-d1b0-45a1-9bcf-dd8a6a228315.png",
-    bio: "Exploring the intersection of computer vision and healthcare for automated diagnostic systems.",
-    links: {
-      email: "ngoc.nguyen@deakin.edu.au",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Abdullah Alsubhani",
-    role: "PhD Student, UTS",
-    image: "https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&q=80&w=500",
-    bio: "Developing novel approaches for multimodal learning in healthcare applications.",
-    links: {
-      email: "abdullah.alsubhani@uts.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Muhammad Umar",
-    role: "Master's Student, UNSW",
-    image: "/lovable-uploads/4dcc7c0f-dd02-4262-9782-e3ea2c58ce98.png",
-    bio: "Working on machine learning approaches for medical time-series data analysis and prediction.",
-    links: {
-      email: "m.umar@unsw.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "AbdulRehman Alalwai",
-    role: "PhD Student, UNSW",
-    image: "https://images.unsplash.com/photo-1557862921-37829c790f19?auto=format&fit=crop&q=80&w=500",
-    bio: "Researching explainable AI systems for healthcare to improve clinical decision support interpretability.",
-    links: {
-      email: "a.alalwai@unsw.edu.au",
-      github: "https://github.com"
-    }
-  },
-  {
-    name: "Niranjana Arun Menon",
-    role: "Undergraduate",
-    image: "/lovable-uploads/8240c8e6-41d5-4a05-b0d4-e76f4980f59d.png",
-    bio: "Advancing bioinformatics with large language models, exploring applications of LLMs in computational biology and genomic data analysis.",
-    links: {
-      email: "niranjana.menon@genmi-research.org",
-      linkedin: "https://linkedin.com"
-    }
+    name: "Rafiq Ali",
+    role: "Visiting Student",
+    image: "",
+    bio: "Visiting student contributing to research on multiomics biomarker discovery and AI for health.",
+    links: {}
   }
 ];
 
-// Keep these for backward compatibility but they're not used anymore
+export const pastMembers = [
+  {
+    name: "Feilong Tang",
+    role: "Former Research Associate",
+    image: "/lovable-uploads/2d853ee5-6a95-428b-969e-da913c38d778.png",
+    bio: "Previously specialized in generative models for health data and multimodal vision-language models.",
+    links: {}
+  },
+  {
+    name: "Ming Hu",
+    role: "Former Research Associate",
+    image: "/lovable-uploads/44846551-8156-4efd-9864-274a1280112a.png",
+    bio: "Previously worked on Robotics, Optimization, Control Theory, Machine Learning, and Computer Vision.",
+    links: {}
+  },
+  {
+    name: "Hufai Lu",
+    role: "Former Research Associate",
+    image: "/lovable-uploads/53eb3f51-3522-49df-b4af-fcb57518dbde.png",
+    bio: "Previously focused on multimodal AI systems for healthcare applications and cross-domain knowledge transfer.",
+    links: {}
+  },
+  {
+    name: "Jianghao Wu",
+    role: "Former Research Associate",
+    image: "/lovable-uploads/507a8e64-b537-4c89-944a-400fc754b8a9.png",
+    bio: "Previously worked on multi-modal learning approaches combining multiomics data with health imaging for disease prediction.",
+    links: {}
+  },
+  {
+    name: "Syed Javed",
+    role: "Former PhD Student, UNSW",
+    image: "/lovable-uploads/c089ac1d-6b81-4f94-bfa3-329707b75900.png",
+    bio: "Previously worked on health imaging, exploring advanced computer vision techniques for diagnostic support systems.",
+    links: {}
+  }
+];
+
+// Backward compatibility
 export const facultyMembers: any[] = [];
 export const postdocs: any[] = [];
 export const gradStudents: any[] = [];
-export const pastMembers: any[] = [];
