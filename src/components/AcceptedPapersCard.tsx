@@ -6,6 +6,13 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const AcceptedPapersCard = () => {
   const acceptedPapers = [
     {
+      venue: "Nature Comm",
+      count: 1,
+      description: "Nature Communications — Population-scale characterization of the oral microbiome and associations with metabolic health",
+      color: "bg-amber-100 text-amber-700",
+      borderColor: "border-amber-200"
+    },
+    {
       venue: "CVPR",
       count: 4,
       description: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (incl. 1 Oral)",
