@@ -216,24 +216,32 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               index={0}
             />
             <NewsCard
-              id="neurips-2025"
-              title="6 Papers Accepted at NeurIPS 2025!"
-              summary="Outstanding achievement! Six of our research papers have been accepted at NeurIPS 2025. Congratulations to Yulong, Feilong, Ankan, Xiwei, Haolin, Ming, and Lingzhi for their amazing effort and dedication. This remarkable success showcases the exceptional research quality and collaborative spirit of our team."
-              date="2025-09-15"
+              id="nature-comm-2026"
+              title="Paper Accepted in Nature Communications!"
+              summary="We are excited to announce that our paper Population-scale characterization of the oral microbiome and associations with metabolic health has been accepted in Nature Communications! This milestone advances our vision for multiomics-driven precision health."
+              date="2026-05-15"
               featured={true}
               hot={true}
               index={1}
             />
             <NewsCard
-              id="0"
-              title="2 Papers Accepted at EMNLP 2025!"
-              summary="Exciting news! Two of our research papers have been accepted at EMNLP 2025: 'A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making' and contributions to Nature Digital Medicine + Medical Image Analysis. These achievements advance AI applications in healthcare decision-making and medical research."
-              date="2025-08-20"
+              id="cvpr-2026"
+              title="4 Papers Accepted at CVPR 2026!"
+              summary="Exciting news! GenMI Lab will present four papers at CVPR 2026, tackling key challenges in trustworthy, efficient, and clinically grounded medical AI including LATA (Oral), MedMO, CHIPS, and efficient medical reasoning with minimal fine-tuning data."
+              date="2026-01-04"
               featured={true}
               hot={true}
               index={2}
             />
-            <NewsCard id="1" title="Many Congratulations to Xinlin Zhuang and Yulong Li!" summary="Many congratulations to Xinlin Zhuang for receiving ACL best theme paper and Yulong Li for ACM MM dataset track. Their exceptional research contributions continue to advance our field and bring recognition to the GENMI Lab." date="2025-08-01" featured={true} hot={true} index={3} />
+            <NewsCard
+              id="medmo-next"
+              title="MedMO-Next Released!"
+              summary="We are excited to announce the release of MedMO-Next — the next iteration of our multimodal medical foundation model, pushing further in grounding, understanding, and reasoning over medical images across diverse healthcare domains."
+              date="2026-01-10"
+              featured={true}
+              hot={true}
+              index={3}
+            />
           </div>
         </div>
       </section>
