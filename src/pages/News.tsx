@@ -37,7 +37,7 @@ const News = () => {
     {
       id: 'nature-comm-2026',
       title: 'Paper Accepted in Nature Communications!',
-      summary: 'We are delighted to share that our paper "Population-scale characterization of the oral microbiome and associations with metabolic health" has been accepted in Nature Communications. This study leverages population-scale data to characterize the oral microbiome and uncover its associations with metabolic health, offering new insights into how oral microbial signatures relate to systemic health outcomes. Huge congratulations to the entire team and our collaborators for this milestone in advancing microbiome research and precision health.',
+      summary: 'We are excited to announce that our paper "Population-scale characterization of the oral microbiome and associations with metabolic health" has been accepted in Nature Communications! This work harnesses population-scale data to systematically characterize the oral microbiome and reveals compelling associations with metabolic health, bridging oral microbial ecology with systemic disease understanding. A huge congratulations to the entire team and our wonderful collaborators — this milestone advances our vision for multiomics-driven precision health.',
       date: '2026-05-15',
       hot: true
     },
