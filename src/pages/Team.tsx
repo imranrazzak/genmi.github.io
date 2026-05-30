@@ -5,7 +5,7 @@ import TeamMemberModal from '@/components/TeamMemberModal';
 import TeamHero from '@/components/TeamHero';
 import TeamSection from '@/components/TeamSection';
 import JoinTeamSection from '@/components/JoinTeamSection';
-import { allTeamMembers } from '@/data/teamMembers';
+import { allTeamMembers, pastMembers } from '@/data/teamMembers';
 
 const Team = () => {
   const [selectedMember, setSelectedMember] = useState<any>(null);
@@ -29,6 +29,14 @@ const Team = () => {
         title="GenMI Research Team"
         members={allTeamMembers}
         onMemberClick={openMemberDetail}
+      />
+
+      <TeamSection
+        subtext="Alumni"
+        title="Past Members"
+        members={pastMembers}
+        onMemberClick={openMemberDetail}
+        backgroundColor="bg-muted/30"
       />
 
       <JoinTeamSection />
