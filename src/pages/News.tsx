@@ -27,6 +27,14 @@ const News = () => {
 
   const newsItems = [
     {
+      id: 'miccai-2026',
+      title: '3 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!',
+      summary: 'We are thrilled to announce that three of our research papers received early acceptance at MICCAI 2026! In addition, the GenMI Lab is proudly organizing three workshops at the conference, bringing together leading researchers in medical image computing and AI. We look forward to seeing you at MICCAI 2026 — come say hello and learn about our latest work in trustworthy medical AI, medical vision-language models, uncertainty estimation, and safe deployment of foundation models in healthcare.',
+      date: '2026-06-15',
+      featured: true,
+      hot: true
+    },
+    {
       id: 'nature-comm-2026',
       title: 'Paper Accepted in Nature Communications!',
       summary: 'Our paper titled "Population-scale characterization of the oral microbiome and associations with metabolic health" has been accepted in Nature Communications. This work advances our understanding of the oral microbiome and its links to metabolic health at a population scale.',
