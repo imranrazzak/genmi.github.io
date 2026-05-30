@@ -27,6 +27,13 @@ const News = () => {
 
   const newsItems = [
     {
+      id: 'nature-comm-2026',
+      title: 'Paper Accepted in Nature Communications!',
+      summary: 'Our paper titled "Population-scale characterization of the oral microbiome and associations with metabolic health" has been accepted in Nature Communications. This work advances our understanding of the oral microbiome and its links to metabolic health at a population scale.',
+      date: '2026-05-15',
+      hot: true
+    },
+    {
       id: 'cvpr-2026',
       title: '4 Papers Accepted at CVPR 2026!',
       summary: 'Exciting news! GenMI Lab will present four papers at CVPR 2026, tackling key challenges in trustworthy, efficient, and clinically grounded medical AI: (1) LATA (Oral) — Improving uncertainty estimation and reliability of medical vision-language models under domain shift while preserving conformal guarantees; (2) MedMO — A multimodal medical foundation model that grounds, understands, and reasons over medical images across diverse healthcare domains; (3) CHIPS — An efficient CLIP adaptation framework that intelligently selects the most informative samples, reducing adaptation cost while maintaining strong performance; (4) Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data — Enabling powerful medical reasoning with limited supervision and significantly reduced fine-tuning requirements. Looking forward to engaging with the community at CVPR 2026 in Denver!',
