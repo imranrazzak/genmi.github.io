@@ -6,6 +6,27 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 const AcceptedPapersCard = () => {
   const acceptedPapers = [
     {
+      venue: "CVPR",
+      count: 4,
+      description: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (incl. 1 Oral)",
+      color: "bg-indigo-100 text-indigo-700",
+      borderColor: "border-indigo-200"
+    },
+    {
+      venue: "ICML",
+      count: 3,
+      description: "International Conference on Machine Learning",
+      color: "bg-teal-100 text-teal-700",
+      borderColor: "border-teal-200"
+    },
+    {
+      venue: "ACL",
+      count: 2,
+      description: "Annual Meeting of the Association for Computational Linguistics",
+      color: "bg-pink-100 text-pink-700",
+      borderColor: "border-pink-200"
+    },
+    {
       venue: "NeurIPS",
       count: 6,
       description: "Conference on Neural Information Processing Systems",
