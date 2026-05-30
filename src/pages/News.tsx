@@ -29,7 +29,7 @@ const News = () => {
     {
       id: 'miccai-2026',
       title: '3 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!',
-      summary: 'We are thrilled to announce that three of our research papers received early acceptance at MICCAI 2026! In addition, the GenMI Lab is proudly organizing three workshops at the conference, bringing together leading researchers in medical image computing and AI. We look forward to seeing you at MICCAI 2026 — come say hello and learn about our latest work in trustworthy medical AI, medical vision-language models, uncertainty estimation, and safe deployment of foundation models in healthcare.',
+      summary: 'We are thrilled to announce early acceptance of three research papers at MICCAI 2026, alongside three workshops to be organized by the GenMI Lab. We look forward to seeing you at the conference!',
       date: '2026-05-15',
       featured: true,
       hot: true
