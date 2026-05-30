@@ -27,6 +27,35 @@ const News = () => {
 
   const newsItems = [
     {
+      id: 'cvpr-2026',
+      title: '4 Papers Accepted at CVPR 2026!',
+      summary: 'Exciting news! GenMI Lab will present four papers at CVPR 2026, tackling key challenges in trustworthy, efficient, and clinically grounded medical AI: (1) LATA (Oral) — Improving uncertainty estimation and reliability of medical vision-language models under domain shift while preserving conformal guarantees; (2) MedMO — A multimodal medical foundation model that grounds, understands, and reasons over medical images across diverse healthcare domains; (3) CHIPS — An efficient CLIP adaptation framework that intelligently selects the most informative samples, reducing adaptation cost while maintaining strong performance; (4) Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data — Enabling powerful medical reasoning with limited supervision and significantly reduced fine-tuning requirements. Looking forward to engaging with the community at CVPR 2026 in Denver!',
+      date: '2026-01-15',
+      featured: true,
+      hot: true
+    },
+    {
+      id: 'medmo-next',
+      title: 'MedMO-Next Released!',
+      summary: 'We are excited to announce the release of MedMO-Next — the next iteration of our multimodal medical foundation model. Building on MedMO, this release pushes further in grounding, understanding, and reasoning over medical images across diverse healthcare domains.',
+      date: '2026-01-10',
+      hot: true
+    },
+    {
+      id: 'icml-2026',
+      title: '3 Papers Accepted at ICML 2026!',
+      summary: 'Three of our research papers have been accepted at ICML 2026. Congratulations to the entire team for this fantastic achievement, advancing our work in machine learning and medical AI.',
+      date: '2026-01-08',
+      hot: true
+    },
+    {
+      id: 'acl-2026',
+      title: '2 Papers Accepted at ACL 2026!',
+      summary: 'Two of our papers have been accepted at ACL 2026. Congratulations to the team for these strong contributions to natural language processing and medical language understanding.',
+      date: '2026-01-08',
+      hot: true
+    },
+    {
       id: 'neurips-2025',
       title: '6 Papers Accepted at NeurIPS 2025!',
       summary: 'Outstanding achievement! Six of our research papers have been accepted at NeurIPS 2025. Congratulations to Yulong, Feilong, Ankan, Xiwei, Haolin, Ming, and Lingzhi for their amazing effort and dedication. This remarkable success showcases the exceptional research quality and collaborative spirit of our team, advancing the frontiers of AI and machine learning research.',
