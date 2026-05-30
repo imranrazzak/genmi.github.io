@@ -63,8 +63,8 @@ const AcceptedPapersCard = () => {
     },
     {
       venue: "MICCAI",
-      count: 2,
-      description: "Medical Image Computing and Computer Assisted Intervention",
+      count: 3,
+      description: "Medical Image Computing and Computer Assisted Intervention (Early Accept)",
       color: "bg-green-100 text-green-700",
       borderColor: "border-green-200"
     }
