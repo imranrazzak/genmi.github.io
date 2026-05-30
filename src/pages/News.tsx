@@ -30,14 +30,14 @@ const News = () => {
       id: 'miccai-2026',
       title: '3 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!',
       summary: 'We are thrilled to announce that three of our research papers received early acceptance at MICCAI 2026! In addition, the GenMI Lab is proudly organizing three workshops at the conference, bringing together leading researchers in medical image computing and AI. We look forward to seeing you at MICCAI 2026 — come say hello and learn about our latest work in trustworthy medical AI, medical vision-language models, uncertainty estimation, and safe deployment of foundation models in healthcare.',
-      date: '2026-06-15',
+      date: '2026-05-15',
       featured: true,
       hot: true
     },
     {
       id: 'nature-comm-2026',
       title: 'Paper Accepted in Nature Communications!',
-      summary: 'Our paper titled "Population-scale characterization of the oral microbiome and associations with metabolic health" has been accepted in Nature Communications. This work advances our understanding of the oral microbiome and its links to metabolic health at a population scale.',
+      summary: 'We are delighted to share that our paper "Population-scale characterization of the oral microbiome and associations with metabolic health" has been accepted in Nature Communications. This study leverages population-scale data to characterize the oral microbiome and uncover its associations with metabolic health, offering new insights into how oral microbial signatures relate to systemic health outcomes. Huge congratulations to the entire team and our collaborators for this milestone in advancing microbiome research and precision health.',
       date: '2026-05-15',
       hot: true
     },
@@ -45,7 +45,7 @@ const News = () => {
       id: 'cvpr-2026',
       title: '4 Papers Accepted at CVPR 2026!',
       summary: 'Exciting news! GenMI Lab will present four papers at CVPR 2026, tackling key challenges in trustworthy, efficient, and clinically grounded medical AI: (1) LATA (Oral) — Improving uncertainty estimation and reliability of medical vision-language models under domain shift while preserving conformal guarantees; (2) MedMO — A multimodal medical foundation model that grounds, understands, and reasons over medical images across diverse healthcare domains; (3) CHIPS — An efficient CLIP adaptation framework that intelligently selects the most informative samples, reducing adaptation cost while maintaining strong performance; (4) Towards Efficient Medical Reasoning with Minimal Fine-Tuning Data — Enabling powerful medical reasoning with limited supervision and significantly reduced fine-tuning requirements. Looking forward to engaging with the community at CVPR 2026 in Denver!',
-      date: '2026-01-15',
+      date: '2026-01-04',
       featured: true,
       hot: true
     },
@@ -67,7 +67,7 @@ const News = () => {
       id: 'acl-2026',
       title: '2 Papers Accepted at ACL 2026!',
       summary: 'Two of our papers have been accepted at ACL 2026. Congratulations to the team for these strong contributions to natural language processing and medical language understanding.',
-      date: '2026-01-08',
+      date: '2026-01-04',
       hot: true
     },
     {
