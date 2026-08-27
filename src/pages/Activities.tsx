@@ -4,6 +4,7 @@ import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import teamGatheringAsset from "@/assets/team-gathering-2026.jpg.asset.json";
+import teamLunchWelcomeAsset from "@/assets/team-lunch-welcome-2026.jpg.asset.json";
 
 // Sample activities data
 const activities = [
@@ -15,6 +16,12 @@ const activities = [
   },
   {
     id: "activity-2",
+    title: "Team Lunch",
+    description: "A warm team lunch welcoming our new members Ebad and Rafiq to the GenMI Lab family.",
+    imageUrl: teamLunchWelcomeAsset.url
+  },
+  {
+    id: "activity-3",
     title: "Team Lunch",
     description: "Monthly team lunch where we discuss research progress and celebrate achievements.",
     imageUrl: "/lovable-uploads/f776e046-1db7-4e00-9319-82f135d32753.png"
