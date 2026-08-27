@@ -28,8 +28,8 @@ const News = () => {
   const newsItems = [
     {
       id: 'miccai-2026-9',
-      title: '9 Papers Accepted at MICCAI 2026!',
-      summary: 'We are thrilled to announce that nine GenMI Lab research papers have been accepted at MICCAI 2026. This outstanding result reflects the dedication and collaborative spirit of our team, advancing medical image computing and computer-assisted intervention across multiple fronts. We look forward to sharing our work with the community at the conference!',
+      title: '9 Papers Accepted at MICCAI 2026 & 3 Workshops in September!',
+      summary: 'We are thrilled to announce that nine GenMI Lab research papers have been accepted at MICCAI 2026, alongside three workshops being organized by the GenMI Lab in September. This outstanding result reflects the dedication and collaborative spirit of our team, advancing medical image computing and computer-assisted intervention across multiple fronts. We look forward to sharing our work with the community at the conference!',
       date: '2026-08-27',
       featured: true,
       hot: true
@@ -58,8 +58,8 @@ const News = () => {
     },
     {
       id: 'miccai-2026',
-      title: '3 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!',
-      summary: 'We are thrilled to announce early acceptance of three research papers at MICCAI 2026, alongside three workshops to be organized by the GenMI Lab. We look forward to seeing you at the conference!',
+      title: '3 Papers Accepted at MICCAI 2026 & 3 Workshops in September!',
+      summary: 'We are thrilled to announce early acceptance of three research papers at MICCAI 2026, alongside three workshops being organized by the GenMI Lab in September. We look forward to seeing you at the conference!',
       date: '2026-05-15',
       featured: true,
       hot: true
