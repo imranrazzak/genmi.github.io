@@ -27,6 +27,36 @@ const News = () => {
 
   const newsItems = [
     {
+      id: 'miccai-2026-9',
+      title: '9 Papers Accepted at MICCAI 2026!',
+      summary: 'We are thrilled to announce that nine GenMI Lab research papers have been accepted at MICCAI 2026. This outstanding result reflects the dedication and collaborative spirit of our team, advancing medical image computing and computer-assisted intervention across multiple fronts. We look forward to sharing our work with the community at the conference!',
+      date: '2026-08-27',
+      featured: true,
+      hot: true
+    },
+    {
+      id: 'emnlp-2026',
+      title: '8 Papers Accepted at EMNLP 2026!',
+      summary: 'Exciting news! Eight of our research papers have been accepted at EMNLP 2026, including four main conference papers and four findings papers. These contributions span natural language processing for healthcare, medical decision-making, and clinical language understanding. Congratulations to the entire team for this remarkable achievement!',
+      date: '2026-08-20',
+      featured: true,
+      hot: true
+    },
+    {
+      id: 'ashish-joined',
+      title: 'Ashish Mehta Joins GenMI Lab as Research Engineer',
+      summary: 'We are excited to welcome Ashish Mehta to the GenMI Lab as a Research Engineer. Ashish will be building and deploying AI systems for healthcare and multiomics applications, and we look forward to his contributions to our research mission.',
+      date: '2026-08-26',
+      hot: true
+    },
+    {
+      id: 'ebad-rafiq-joined',
+      title: 'Welcome Ebad Shabbir and Rafiq Ali as Visiting Students',
+      summary: 'We are delighted to welcome Ebad Shabbir and Rafiq Ali to the GenMI Lab as Visiting Students. Ebad will contribute to research at the intersection of machine learning and health applications, while Rafiq will focus on multiomics biomarker discovery and AI for health. We look forward to working with them!',
+      date: '2026-06-01',
+      hot: true
+    },
+    {
       id: 'miccai-2026',
       title: '3 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!',
       summary: 'We are thrilled to announce early acceptance of three research papers at MICCAI 2026, alongside three workshops to be organized by the GenMI Lab. We look forward to seeing you at the conference!',
