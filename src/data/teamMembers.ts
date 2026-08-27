@@ -14,6 +14,16 @@ export const allTeamMembers = [
   },
   // Research Associates / Engineers
   {
+    name: "Yulong Li",
+    role: "Research Associate",
+    image: "/lovable-uploads/95a23e84-b459-4fbb-bbe4-11e1d34b9cee.png",
+    bio: "Specializing in multiomics for genetic variation and biomarker discovery, integrating diverse molecular data to uncover disease mechanisms and therapeutic targets.",
+    links: {
+      email: "yulong.li@genmi-research.org",
+      linkedin: "https://linkedin.com"
+    }
+  },
+  {
     name: "Ashish Mehta",
     role: "Research Engineer",
     image: "",
@@ -40,16 +50,6 @@ export const allTeamMembers = [
     links: {
       email: "adinath.dukre@genmi-research.org",
       github: "https://github.com"
-    }
-  },
-  {
-    name: "Yulong Li",
-    role: "Research Associate",
-    image: "/lovable-uploads/95a23e84-b459-4fbb-bbe4-11e1d34b9cee.png",
-    bio: "Specializing in multiomics for genetic variation and biomarker discovery, integrating diverse molecular data to uncover disease mechanisms and therapeutic targets.",
-    links: {
-      email: "yulong.li@genmi-research.org",
-      linkedin: "https://linkedin.com"
     }
   },
   {
@@ -84,6 +84,15 @@ export const allTeamMembers = [
     }
   },
   {
+    name: "Jianxu Chen",
+    role: "Master in Machine Learning",
+    image: "",
+    bio: "Master's student focusing on machine learning methods for health and multiomics data analysis.",
+    links: {
+      email: "jianxu.chen@genmi-research.org"
+    }
+  },
+  {
     name: "Yousef Khalil",
     role: "Master in NLP",
     image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
@@ -106,6 +115,34 @@ export const allTeamMembers = [
     }
   },
   // Visiting Students
+  {
+    name: "Rong Xia",
+    role: "Visiting PhD Student",
+    image: "",
+    bio: "Visiting PhD student contributing to research on machine learning and health applications.",
+    links: {}
+  },
+  {
+    name: "Xinlin Zhuang",
+    role: "Visiting Student",
+    image: "",
+    bio: "Visiting student contributing to research at the intersection of machine learning and health applications.",
+    links: {}
+  },
+  {
+    name: "Yichen Li",
+    role: "Visiting Student",
+    image: "",
+    bio: "Visiting student contributing to research on multiomics biomarker discovery and AI for health.",
+    links: {}
+  },
+  {
+    name: "Yuxuan Zhang",
+    role: "Visiting Student",
+    image: "",
+    bio: "Visiting student contributing to research on computer vision and health applications.",
+    links: {}
+  },
   {
     name: "Ebad Shabbir",
     role: "Visiting Student",
