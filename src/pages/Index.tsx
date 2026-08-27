@@ -208,8 +208,8 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <NewsCard
               id="miccai-2026"
-              title="3 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!"
-              summary="We are thrilled to announce early acceptance of three research papers at MICCAI 2026, alongside three workshops to be organized by the GenMI Lab. We look forward to seeing you at the conference!"
+              title="9 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!"
+              summary="We are thrilled to announce acceptance of nine research papers at MICCAI 2026, alongside three workshops to be organized by the GenMI Lab. We look forward to seeing you at the conference!"
               date="2026-05-15"
               featured={true}
               hot={true}
