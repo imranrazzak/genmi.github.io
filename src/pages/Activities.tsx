@@ -3,11 +3,18 @@ import { motion } from 'framer-motion';
 import Layout from '@/components/Layout';
 import SectionTitle from '@/components/SectionTitle';
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import teamGatheringAsset from "@/assets/team-gathering-2026.jpg.asset.json";
 
 // Sample activities data
 const activities = [
   {
     id: "activity-1",
+    title: "Team Gathering",
+    description: "Welcoming the new term with team dinners, social lunches, and memorable moments together.",
+    imageUrl: teamGatheringAsset.url
+  },
+  {
+    id: "activity-2",
     title: "Team Lunch",
     description: "Monthly team lunch where we discuss research progress and celebrate achievements.",
     imageUrl: "/lovable-uploads/f776e046-1db7-4e00-9319-82f135d32753.png"
