@@ -42,8 +42,8 @@ const AcceptedPapersCard = () => {
     },
     {
       venue: "EMNLP",
-      count: 2,
-      description: "Conference on Empirical Methods in Natural Language Processing",
+      count: 8,
+      description: "Conference on Empirical Methods in Natural Language Processing (4 main + 4 findings)",
       color: "bg-red-100 text-red-700",
       borderColor: "border-red-200"
     },
@@ -63,8 +63,8 @@ const AcceptedPapersCard = () => {
     },
     {
       venue: "MICCAI",
-      count: 3,
-      description: "Medical Image Computing and Computer Assisted Intervention (Early Accept)",
+      count: 9,
+      description: "Medical Image Computing and Computer Assisted Intervention",
       color: "bg-green-100 text-green-700",
       borderColor: "border-green-200"
     }
