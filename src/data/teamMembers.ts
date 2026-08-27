@@ -14,19 +14,29 @@ export const allTeamMembers = [
   },
   // Research Associates / Engineers
   {
-    name: "Abhijit Das",
+    name: "Ashish Mehta",
     role: "Research Engineer",
     image: "",
     bio: "Research Engineer building and deploying AI systems for healthcare and multiomics applications.",
+    links: {
+      email: "ashish.mehta@genmi-research.org"
+    }
+  },
+  // PhD Students
+  {
+    name: "Abhijit Das",
+    role: "PhD Student in Machine Learning",
+    image: "",
+    bio: "PhD student focusing on machine learning for healthcare and multiomics biomarker discovery.",
     links: {
       email: "abhijit.das@genmi-research.org"
     }
   },
   {
     name: "Adinath Dukre",
-    role: "Research Associate",
+    role: "PhD in Computational Biology",
     image: "/lovable-uploads/0c8b9ce5-b247-4049-9011-a3843e666b01.png",
-    bio: "Developing innovative machine learning approaches for biomedical data analysis and computational biology applications.",
+    bio: "PhD student developing innovative machine learning approaches for biomedical data analysis and computational biology applications.",
     links: {
       email: "adinath.dukre@genmi-research.org",
       github: "https://github.com"
@@ -43,23 +53,44 @@ export const allTeamMembers = [
     }
   },
   {
-    name: "Xiwei Liu",
-    role: "Research Associate",
+    name: "Xiwei Li",
+    role: "PhD Student in Computer Vision",
     image: "/lovable-uploads/f6da36a9-b0f7-401d-abdb-0344e1e121fc.png",
-    bio: "Researching missing modalities in health data analysis and developing novel approaches for handling incomplete multimodal healthcare datasets.",
+    bio: "PhD student researching missing modalities in health data analysis and developing novel approaches for handling incomplete multimodal healthcare datasets.",
     links: {
-      email: "xiwei.liu@genmi-research.org",
+      email: "xiwei.li@genmi-research.org",
       github: "https://github.com"
     }
   },
   {
+    name: "Yifan Lu",
+    role: "PhD in NLP",
+    image: "/lovable-uploads/e3b389d9-9da2-4425-b36e-e1498d074cc4.png",
+    bio: "PhD student working on natural language processing for health applications and clinical language understanding.",
+    links: {
+      email: "yifan.lu@mbzuai.ac.ae",
+      linkedin: "https://linkedin.com"
+    }
+  },
+  // Master's Students
+  {
     name: "Haolin Yang",
-    role: "Research Associate",
+    role: "Master in Computer Vision",
     image: "/lovable-uploads/2fd99510-6589-4a80-a5bd-c162611bbc44.png",
-    bio: "Working on Health Foundation Models, developing large-scale AI systems for comprehensive healthcare applications and data understanding.",
+    bio: "Master's student working on Health Foundation Models, developing large-scale AI systems for comprehensive healthcare applications and data understanding.",
     links: {
       email: "haolin.yang@genmi-research.org",
       github: "https://github.com"
+    }
+  },
+  {
+    name: "Yousef Khalil",
+    role: "Master in NLP",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
+    bio: "Master's student specializing in Natural Language Processing, working on Large Language Model Evaluation to develop better assessment methods for LLM performance and capabilities.",
+    links: {
+      email: "yousef.khalil@mbzuai.ac.ae",
+      linkedin: "https://linkedin.com"
     }
   },
   // PhD and Master's Students at MBZUAI
@@ -72,26 +103,6 @@ export const allTeamMembers = [
       email: "zoey.yang@mbzuai.ac.ae",
       linkedin: "https://linkedin.com",
       github: "https://github.com"
-    }
-  },
-  {
-    name: "Yifan Lu",
-    role: "PhD Student, MBZUAI",
-    image: "/lovable-uploads/e3b389d9-9da2-4425-b36e-e1498d074cc4.png",
-    bio: "PhD student at MBZUAI working on advanced machine learning approaches for health applications and multiomics AI systems.",
-    links: {
-      email: "yifan.lu@mbzuai.ac.ae",
-      linkedin: "https://linkedin.com"
-    }
-  },
-  {
-    name: "Yousef Khalil",
-    role: "Master's Student, MBZUAI",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=500",
-    bio: "Master's student at MBZUAI specializing in Natural Language Processing, working on Large Language Model Evaluation to develop better assessment methods for LLM performance and capabilities.",
-    links: {
-      email: "yousef.khalil@mbzuai.ac.ae",
-      linkedin: "https://linkedin.com"
     }
   },
   // Visiting Students
