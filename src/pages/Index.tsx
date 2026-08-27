@@ -207,13 +207,22 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <NewsCard
+              id="emnlp-2026"
+              title="8 Papers Accepted at EMNLP 2026!"
+              summary="We are thrilled to announce that eight GenMI Lab papers have been accepted at EMNLP 2026, including four main conference papers and four findings papers. This reflects our growing impact at the intersection of AI and health."
+              date="2026-08-20"
+              featured={true}
+              hot={true}
+              index={0}
+            />
+            <NewsCard
               id="miccai-2026"
               title="9 Papers Accepted at MICCAI 2026 & 3 Workshops Organized!"
               summary="We are thrilled to announce acceptance of nine research papers at MICCAI 2026, alongside three workshops to be organized by the GenMI Lab. We look forward to seeing you at the conference!"
               date="2026-05-15"
               featured={true}
               hot={true}
-              index={0}
+              index={1}
             />
             <NewsCard
               id="nature-comm-2026"
@@ -222,7 +231,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               date="2026-05-15"
               featured={true}
               hot={true}
-              index={1}
+              index={2}
             />
             <NewsCard
               id="cvpr-2026"
@@ -231,7 +240,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               date="2026-01-04"
               featured={true}
               hot={true}
-              index={2}
+              index={3}
             />
             <NewsCard
               id="medmo-next"
@@ -240,7 +249,7 @@ Our innovations enhance multimedia patient record systems, advanced computer-ass
               date="2026-01-10"
               featured={true}
               hot={true}
-              index={3}
+              index={4}
             />
           </div>
         </div>
