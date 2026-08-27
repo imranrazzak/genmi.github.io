@@ -194,6 +194,13 @@ export const pastMembers = [
     image: "/lovable-uploads/c089ac1d-6b81-4f94-bfa3-329707b75900.png",
     bio: "Previously worked on health imaging, exploring advanced computer vision techniques for diagnostic support systems.",
     links: {}
+  },
+  {
+    name: "Tony Alex",
+    role: "Former Lab Member",
+    image: "",
+    bio: "Previously contributed to research at the GenMI Lab.",
+    links: {}
   }
 ];
 
